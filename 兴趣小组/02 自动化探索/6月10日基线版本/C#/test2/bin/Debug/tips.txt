@@ -1,0 +1,99 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<body class="winbody">
+<form id="form1" action="" method="post">
+<div class="aspNetHidden">
+<input id="__EVENTTARGET" type="hidden" value="" name="__EVENTTARGET">
+<input id="__EVENTARGUMENT" type="hidden" value="" name="__EVENTARGUMENT">
+<input id="__VIEWSTATE" type="hidden" value="/wEPDwUJODcyMDAzNDQ2D2QWAgIDD2QWAgIDD2QWAmYPZBYCAgcPD2QWAh4FdmFsdWVlZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAgUJaWJ0bkxvZ2luBQtjaGtQYXNzd29yZH1kOhL5/nK2cmvqr/5ya5KJ60EOMlOE8Yh7h8hZxOd1" name="__VIEWSTATE">
+</div>
+<script type="text/javascript">
+<script type="text/javascript" src="/WebResource.axd?d=Hcm9ltISe6WUOyU0gDBx4A2&t=634885140361406250">
+<script type="text/javascript" src="/ScriptResource.axd?d=DS-5k_5qz4IUBwwrhDvpn3SvYzrIIoWlrOKyClgocZG2q9oUVUK7aDEMdSUos1HiSIijhEqyaOW5gBYSRpBFb2TDvusHW3jLvNu5Uwc5G9U1&t=16ab2387">
+<script type="text/javascript">
+<script type="text/javascript" src="/ScriptResource.axd?d=DS-5k_5qz4IUBwwrhDvpn3SvYzrIIoWlrOKyClgocZG2q9oUVUK7aDEMdSUos1Hi6lYCaus5uHOB-R2bWKyThmrGbpdiarekmibZ_YHzzBnFXWa021ivNrQL1VtuYusY0&t=16ab2387">
+<div class="aspNetHidden">
+<input id="__EVENTVALIDATION" type="hidden" value="/wEWCALT95TlBgKUj8fhDAKBo5SvBQKl1ae2BAK1qbSRCwKu9tTtBQLuxZPyBgL93YG8Clid9ImUQ5SKeQZxfgaYMCCbhZin0nhuHAW0JACn3MR4" name="__EVENTVALIDATION">
+</div>
+<script type="text/javascript">
+<div id="UpdatePanel1">
+<table class="adminLoginTable" width="1004" height="620" cellspacing="0" cellpadding="0" border="0" style="margin: auto;">
+<tbody>
+<tr>
+<td valign="top" height="0">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td> </td>
+<td height="120">   </td>
+</tr>
+<tr>
+<td>   </td>
+<td width="500" valign="bottom" height="300" align="left">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td width="13%" height="135">   </td>
+<td width="9%">   </td>
+<td width="24%">   </td>
+<td width="57%">   </td>
+</tr>
+<tr>
+<td height="30">   </td>
+<td class="style1"> 帐号 </td>
+<td>
+<input id="txtAccount" type="text" style="width:100px;" autocomplete="off" tabindex="1" name="txtAccount">
+</td>
+<td align="left" style="padding-left: 10px;" rowspan="2">
+<input id="ibtnLogin" type="image" onclick="return validate();" src="../Images/AdminImages/denglu-v.gif" tabindex="4" name="ibtnLogin">
+</td>
+</tr>
+<tr>
+<td height="30">
+<input id="hdpsw" type="hidden" name="hdpsw">
+</td>
+<td class="style1"> 密码 </td>
+<td>
+<input id="txtPassword" type="password" style="width:100px;" value="" tabindex="2" name="txtPassword">
+</td>
+</tr>
+<tr>
+<td height="30"> </td>
+<td class="style1"> 验证码 </td>
+<td>
+<input id="txtValidate" type="text" style="width:100px;" tabindex="3" name="txtValidate">
+</td>
+<td>
+<img id="imgValidate" onclick="loadCode();" src="../ValidateCode.aspx?time=2013-3-14 17:50:44">
+</td>
+</tr>
+<tr>
+<td height="30">   </td>
+<td style="padding-left: 41px;" colspan="3">
+<span class="style1">
+<input id="chkPassword" type="checkbox" tabindex="4" name="chkPassword">
+<label for="chkPassword">记住密码</label>
+</span>
+<a id="lbtnGtPass" class="style1" href="javascript:__doPostBack('lbtnGtPass','')">忘记密码？</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>   </td>
+<td height="120"> </td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</form>
+</body>
+</html>

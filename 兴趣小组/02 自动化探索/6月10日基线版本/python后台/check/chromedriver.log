@@ -1,0 +1,78 @@
+[0.001][INFO]:      ChromeDriver 26.0.1383.0 D:\Python27\chromedriver.exe
+[0.447][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chromeOptions": {
+      "args": [  ],
+      "binary": "",
+      "extensions": [  ]
+   },
+   "javascriptEnabled": true,
+   "platform": "ANY",
+   "version": ""
+}
+
+[0.447][INFO]:      Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --enable-logging --log-level=1 --ignore-certificate-errors about:blank
+[2.401][INFO]:      Connected to Chrome successfully. Version: 26.0.1410.64
+[2.421][FINE]:      Command received (/session/52c662601550bbfa7a20dfc4acb7053e)
+[2.421][FINE]:      Command finished (/session/52c662601550bbfa7a20dfc4acb7053e) with response {
+   "sessionId": "52c662601550bbfa7a20dfc4acb7053e",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "26.0.1410.64",
+      "webStorageEnabled": true
+   }
+}
+
+[2.432][FINE]:      Command received (/session/52c662601550bbfa7a20dfc4acb7053e/url) with params {
+   "sessionId": "52c662601550bbfa7a20dfc4acb7053e",
+   "url": "http://192.168.93.230:8080/TLTP/#page1001 "
+}
+
+[2.432][FINER]:     Waiting for all views to stop loading...
+[2.433][FINER]:     Done waiting for all views to stop loading
+[4.420][FINER]:     Waiting for all views to stop loading...
+[4.422][FINER]:     Done waiting for all views to stop loading
+[4.422][FINE]:      Command finished (/session/52c662601550bbfa7a20dfc4acb7053e/url) with response {
+   "sessionId": "52c662601550bbfa7a20dfc4acb7053e",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[13.098][FINE]:     Command received (/session/52c662601550bbfa7a20dfc4acb7053e/elements) with params {
+   "sessionId": "52c662601550bbfa7a20dfc4acb7053e",
+   "using": "class name",
+   "value": "btnLook"
+}
+
+[13.098][FINER]:    Waiting for all views to stop loading...
+[13.099][FINER]:    Done waiting for all views to stop loading
+[13.123][FINER]:    Waiting for all views to stop loading...
+[13.123][FINER]:    Done waiting for all views to stop loading
+[13.123][FINE]:     Command finished (/session/52c662601550bbfa7a20dfc4acb7053e/elements) with response {
+   "sessionId": "52c662601550bbfa7a20dfc4acb7053e",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1369971426201"
+   }, {
+      "ELEMENT": ":wdc:1369971426202"
+   }, {
+      "ELEMENT": ":wdc:1369971426203"
+   } ]
+}
+

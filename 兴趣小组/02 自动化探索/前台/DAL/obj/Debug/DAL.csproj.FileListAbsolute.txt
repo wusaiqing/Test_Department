@@ -1,0 +1,6 @@
+D:\自动化测试框架\DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\自动化测试框架\DAL\bin\Debug\DAL.dll
+D:\自动化测试框架\DAL\bin\Debug\DAL.pdb
+D:\自动化测试框架\DAL\bin\Debug\MySql.Data.dll
+D:\自动化测试框架\DAL\obj\Debug\DAL.dll
+D:\自动化测试框架\DAL\obj\Debug\DAL.pdb
