@@ -1,0 +1,22 @@
+[t1]
+FileName2=t1f0.html
+FileName5=t1f1f1.html
+FileName4=t1f1f0.html
+UseFrameIndex=1
+RequestBodyFile=t1_RequestBody.txt
+ContentType=text/html
+URL1=http://localhost/MercuryWebTours/
+URL2=http://localhost/MercuryWebTours/header.html
+URL3=http://localhost/MercuryWebTours/welcome.pl?signOff=true
+ResponseHeaderFile=t1_ResponseHeader.txt
+URL4=http://localhost/MercuryWebTours/nav.pl?in=home
+URL5=http://localhost/MercuryWebTours/home.html
+RequestHeaderFile=t1_RequestHeader.txt
+Total=5
+StepName=Url: MercuryWebTours
+FrameIndex2=0.0
+FrameIndex3=0.1
+FrameIndex4=0.1.0
+FrameIndex5=0.1.1
+FileName1=t1.html
+FileName3=t1f1.html

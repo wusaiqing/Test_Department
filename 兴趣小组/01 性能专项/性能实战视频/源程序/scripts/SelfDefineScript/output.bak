@@ -1,0 +1,28 @@
+Virtual User Script started
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 8.0.0 for WINXP; Web build 4121  	[MsgId: MMSG-27143]
+Run-Time Settings file: "E:\books\SelfDefineScript\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(15): SumFour函数要求四个参数均界于100和9000之间：
+Action.c(16): 第一组数据，不符合参数限制数据项，应返回-1:
+Action.c(19): 1: SumFour(-1,-1,-1,-1)=-1
+Action.c(19): 2: SumFour(0,0,0,0)=-1
+Action.c(19): 3: SumFour(1,1,1,1)=-1
+Action.c(19): 4: SumFour(99,99,99,99)=-1
+Action.c(19): 5: SumFour(9001,9001,9001,9001)=-1
+Action.c(22): 6: SumFour(-1,0,1,99)=-1
+Action.c(24): 第二组数据，符合参数限制数据项，应返回期望值:
+Action.c(27): 1: SumFour(100,100,100,100)=400 期望值为400
+Action.c(27): 2: SumFour(101,101,101,101)=404 期望值为404
+Action.c(27): 3: SumFour(8999,8999,8999,8999)=35996 期望值为35996
+Action.c(27): 4: SumFour(9000,9000,9000,9000)=36000 期望值为36000
+Action.c(30): 5: SumFour(100,101,8999,9000)=18200 期望值为18200
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

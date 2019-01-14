@@ -1,0 +1,21 @@
+Virtual User Script started
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 8.0.0 for WINXP; Web build 4121  	[MsgId: MMSG-27143]
+Run-Time Settings file: "E:\scripts\关联复杂应用举例\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(13): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(20): web_url("index.jsp") was successful, 231 body bytes, 245 header bytes  	[MsgId: MMSG-26386]
+Action.c(32): 有2个符合条件的数据
+Action.c(42): 数据为：hello world.
+Action.c(42): 数据为：hello worldx
+Action.c(47): 合并后的数据为：hello world.hello worldx
+Action.c(52): web_submit_data("resp.jsp") was successful, 54 body bytes, 173 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,9 @@
+HTTP/1.0 200 Ok
+content-type: text/html
+date: Tue, 10 Apr 2007 14:21:38 GMT
+expires: Mon, 09 Apr 2007 14:21:38 GMT
+set-cookie: MTUserInfo=username&Johnx&hash&56&lastName&Tomas%0A&address1&Peking&address2&100084&firstName&John; path=/
+Content-Length: 2090
+Connection: Keep-Alive
+Keep-Alive: timeout=30, max=25
+

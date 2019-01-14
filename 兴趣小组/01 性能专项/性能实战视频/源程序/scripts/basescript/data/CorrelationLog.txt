@@ -1,0 +1,54 @@
+Debug Message:
+	Correlation engine instance created; using configuration Default
+
+Debug Message:
+	Rules could not be applied to http://www.cnblogs.com/tester2test
+
+Debug Message:
+	TaskID=2  URL=http://www.cnblogs.com/tester2test
+
+Debug Message:
+	TaskID=2  URL=http://www.cnblogs.com/tester2test
+
+Debug Message:
+	TaskID=2  URL=http://www.cnblogs.com/tester2test
+
+Debug Message:
+	TaskID=2  URL=http://www.cnblogs.com/tester2test
+
+Debug Message:
+	TaskID=2  URL=http://www.cnblogs.com/tester2test
+
+Debug Message:
+	TaskID=2  URL=http://www.cnblogs.com/tester2test
+
+Debug Message:
+	TaskID=2  URL=http://www.cnblogs.com/tester2test
+
+Debug Message:
+	TaskID=2  URL=http://www.cnblogs.com/tester2test
+
+Debug Message:
+	TaskID=2  URL=http://www.cnblogs.com/tester2test
+
+Debug Message:
+	TaskID=2  URL=http://www.cnblogs.com/tester2test
+
+Debug Message:
+	TaskID=2  URL=http://www.cnblogs.com/tester2test
+
+Debug Message:
+	TaskID=2  URL=http://www.cnblogs.com/tester2test
+
+Debug Message:
+	TaskID=2  URL=http://www.cnblogs.com/tester2test
+
+Debug Message:
+	TaskID=2  URL=http://www.cnblogs.com/tester2test
+
+Debug Message:
+	TaskID=2  URL=http://www.cnblogs.com/tester2test
+
+Debug Message:
+	TaskID=2  URL=http://www.cnblogs.com/tester2test
+

@@ -1,0 +1,99 @@
+[T4]
+Indent=1
+EventType=StartAction
+Type=HTML
+NodeName=Action Summary
+IconIndex=2
+Status=Passed
+Iteration=1000
+BottomFile=Act2\Summary_Test2.html
+TopFile=
+[T5]
+Indent=1
+EventType=General
+Type=HTMLSNSH
+NodeName=Url: MercuryWebTours
+IconIndex=4
+Status=Passed
+Iteration=1000
+BottomFile=Iteration1\t1.inf
+TopFile=Act2\Iteration0\st001.html
+[T6]
+Indent=0
+EventType=General
+Type=HTMLSNSH
+NodeName=Submit Form: login.pl
+IconIndex=5
+Status=Passed
+Iteration=1000
+BottomFile=Iteration1\t2.inf
+TopFile=Act2\Iteration0\st002.html
+[T7]
+Indent=0
+EventType=General
+Type=HTMLSNSH
+NodeName=Submit Form: login.pl_2
+IconIndex=5
+Status=Passed
+Iteration=1000
+BottomFile=Iteration1\t3.inf
+TopFile=Act2\Iteration0\st003.html
+[T8]
+Indent=0
+EventType=General
+Type=HTML
+NodeName=Find: ¼ì²éµã
+IconIndex=6
+Status=Done
+Iteration=1000
+BottomFile=Act2\Iteration0\st004.html
+[T1]
+Indent=0
+EventType=StartRepLog
+Type=HTML
+NodeName=Test  Summary
+IconIndex=1
+Status=Passed
+Iteration=0
+BottomFile=Act0\Summary_Test0.html
+TopFile=
+[T2]
+Indent=1
+EventType=StartAction
+Type=HTML
+NodeName=vuser_init Summary
+IconIndex=2
+Status=Done
+Iteration=0
+BottomFile=Act1\Summary_Test1.html
+TopFile=
+[T3]
+Indent=0
+EventType=StartIteration
+Type=HTML
+NodeName= Iteration 1 (Row 0)
+IconIndex=3
+Status=Passed
+Iteration=1001
+BottomFile=Act0\Iteration1\detailed0.html
+TopFile=
+[T9]
+Indent=-2
+EventType=StartAction
+Type=HTML
+NodeName=vuser_end Summary
+IconIndex=2
+Status=Done
+Iteration=1000
+BottomFile=Act3\Summary_Test3.html
+TopFile=
+[General]
+Product=Vugen
+Version=6.0
+ImageFile=
+Total=9
+AdditionalInfoFile=AdditionalInfo.ini
+Title=
+OSVersion=0
+TestLocation=
+TestOnHost=FATHER

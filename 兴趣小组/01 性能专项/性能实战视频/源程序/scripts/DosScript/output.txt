@@ -1,0 +1,14 @@
+Virtual User Script started
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 8.0.0 for WINXP; Web build 4121  	[MsgId: MMSG-27143]
+Run-Time Settings file: "C:\Documents and Settings\admin\Local Settings\Temp\noname1\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

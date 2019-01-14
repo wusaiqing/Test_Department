@@ -1,0 +1,8 @@
+[t2]
+FileName1=t2.htm
+URL1=http://localhost:8083/mytest/resp.jsp
+Total=1
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=t2_RequestBody.txt
+ResponseHeaderFile=t2_ResponseHeader.txt
+ContentType=text/html

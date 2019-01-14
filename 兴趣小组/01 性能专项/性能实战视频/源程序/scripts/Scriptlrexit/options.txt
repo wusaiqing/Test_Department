@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\Book\第二版\Scripts\Scriptlrexit
+-IC:\Program Files\HP\LoadRunner\include
+-ed:\book\第二版\scripts\scriptlrexit\\logfile.log
+d:\book\第二版\scripts\scriptlrexit\\combined_Scriptlrexit.c
+d:\book\第二版\scripts\scriptlrexit\\pre_cci.c

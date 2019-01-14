@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD><TITLE>Flight Selections</TITLE>
+</HEAD><BODY BGCOLOR="white"><img src=/MercuryWebTours/images/splash_findflight.gif width=395 height=90>
+<blockquote>
+<FORM METHOD="POST" ACTION="reservations.pl" ENCTYPE="application/x-www-form-urlencoded" ONSUBMIT="" NAME="DestForm">
+<INPUT TYPE="hidden" NAME="advanceDiscount" VALUE="0"><TABLE CELLSPACING="5" BORDER="0"><TR><TD ALIGN="left">Departure City :</TD> <TD><SELECT NAME="depart">
+<OPTION SELECTED VALUE="Denver">Denver
+<OPTION  VALUE="Frankfurt">Frankfurt
+<OPTION  VALUE="London">London
+<OPTION  VALUE="Los Angeles">Los Angeles
+<OPTION  VALUE="Paris">Paris
+<OPTION  VALUE="Portland">Portland
+<OPTION  VALUE="San Francisco">San Francisco
+<OPTION  VALUE="Seattle">Seattle
+<OPTION  VALUE="Sydney">Sydney
+<OPTION  VALUE="Zurich">Zurich
+</SELECT>
+</TD> <TD ALIGN="left">Departure Date :</TD> <TD><INPUT TYPE="text" NAME="departDate" VALUE="04/11/2007" SIZE=10 MAXLENGTH=10> 
+<!-- Departure Date Applet -->
+<APPLET CODE="FormDateUpdate.class" MAYSCRIPT Width=26 Height=28 BORDER=0>
+   <PARAM NAME=CalenderTitle  VALUE="Select Departure Date">
+   <PARAM NAME=HtmlFormIndex  VALUE=0>
+   <PARAM NAME=HtmlEditIndex  VALUE=2>
+   <PARAM NAME=AutoClose      VALUE=1>
+   <PARAM NAME=Label          VALUE="...">
+</APPLET>
+</TD></TR> <TR><TD ALIGN="left">Arrival City :</TD> <TD><SELECT NAME="arrive">
+<OPTION SELECTED VALUE="Denver">Denver
+<OPTION  VALUE="Frankfurt">Frankfurt
+<OPTION  VALUE="London">London
+<OPTION  VALUE="Los Angeles">Los Angeles
+<OPTION  VALUE="Paris">Paris
+<OPTION  VALUE="Portland">Portland
+<OPTION  VALUE="San Francisco">San Francisco
+<OPTION  VALUE="Seattle">Seattle
+<OPTION  VALUE="Sydney">Sydney
+<OPTION  VALUE="Zurich">Zurich
+</SELECT>
+</TD> <TD ALIGN="left">Return Date :</TD> <TD><INPUT TYPE="text" NAME="returnDate" VALUE="04/12/2007" SIZE=10 MAXLENGTH=10> 
+<!-- Return Date Applet -->
+<APPLET CODE="FormDateUpdate.class" MAYSCRIPT Width=26 Height=28 BORDER=0>
+   <PARAM NAME=CalenderTitle  VALUE="Select Return Date">
+   <PARAM NAME=HtmlFormIndex  VALUE=0>
+   <PARAM NAME=HtmlEditIndex  VALUE=4>
+   <PARAM NAME=AutoClose      VALUE=1>
+   <PARAM NAME=Label          VALUE="...">
+</APPLET>
+</TD></TR> <TR><TD ALIGN="left">No. of Passengers : </TD> <TD><INPUT TYPE="text" NAME="numPassengers" VALUE="1" SIZE=3 MAXLENGTH=8></TD> <TD COLSPAN="2"><INPUT TYPE="checkbox" NAME="roundtrip" VALUE="on">Roundtrip ticket
+</TD></TR> <TR><TD>Seating Preference</TD> <TD> <TD>Type of Seat</TD></TR> <TR><TD><INPUT TYPE="radio" NAME="seatPref" VALUE="Aisle">Aisle<BR> <INPUT TYPE="radio" NAME="seatPref" VALUE="Window">Window<BR> <INPUT TYPE="radio" NAME="seatPref" VALUE="None" CHECKED>None<BR></TD> <TD> <TD><INPUT TYPE="radio" NAME="seatType" VALUE="First">First<BR> <INPUT TYPE="radio" NAME="seatType" VALUE="Business">Business<BR> <INPUT TYPE="radio" NAME="seatType" VALUE="Coach" CHECKED>Coach<BR></TD></TR> <TR><TD HEIGHT="10"></TR> <TR><TD ALIGN="center" COLSPAN="4"><INPUT TYPE="image" NAME="findFlights" SRC="/MercuryWebTours/images/continue.gif" BORDER="0"></TD></TR></TABLE><INPUT TYPE="hidden" NAME=".cgifields" VALUE="seatPref"><INPUT TYPE="hidden" NAME=".cgifields" VALUE="seatType"><INPUT TYPE="hidden" NAME=".cgifields" VALUE="roundtrip"></FORM>
+</blockquote>
+</BODY></HTML>

@@ -1,0 +1,4 @@
+lr_message函数输出！
+Action.c(8): lr_output_message函数输出！
+Action.c(9): Error: lr_error_message函数输出！
+Vuser Terminated.

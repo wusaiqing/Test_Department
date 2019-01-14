@@ -1,0 +1,27 @@
+[Network Analyzer ( f84: b40)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( f84: b40)] Load Network Traffic Analyzers:
+[Network Analyzer ( f84: b40)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( f84: b40)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( f84: b40)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( f84: b40)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( f84: b40)]     Analyzer Module: QTWeb (value=)
+[Network Analyzer ( f84: b40)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( f84: b40)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( f84: c8c)] Address lookup for yuy = 10.0.0.55
+[Network Analyzer ( f84: 314)] Address lookup for yuy = 10.0.0.55
+[Network Analyzer ( f84: 314)] Request Connection: Remote Server @ 127.0.0.1:8089   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      ( f84: c8c)] "GET /manager/status"   
+[Network Analyzer ( f84: c8c)]   (Sid:  1) Client -> Server : 259 bytes (Service=HTTP)
+[Network Analyzer ( f84: c8c)]   (Sid:  1) Server -> Client : 2118 bytes  (Service=HTTP)
+[Network Analyzer ( f84: c8c)]   (Sid:  1) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( f84: c8c)] "GET /manager/status"   
+[Network Analyzer ( f84: c8c)]   (Sid:  1) Client -> Server : 343 bytes (Service=HTTP)
+[Network Analyzer ( f84: c8c)]   (Sid:  1) Server -> Client : 5741 bytes  (Service=HTTP)
+[Web Request      ( f84: c8c)] "GET /manager/images/asf-logo.gif"   
+[Network Analyzer ( f84: c8c)]   (Sid:  1) Client -> Server : 403 bytes (Service=HTTP)
+[Network Analyzer ( f84: c8c)]   (Sid:  1) Server -> Client : 7485 bytes  (Service=HTTP)
+[Network Analyzer ( f84: ee4)] Address lookup for yuy = 10.0.0.55
+[Network Analyzer ( f84: ee4)] Request Connection: Remote Server @ 127.0.0.1:8089   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      ( f84: c8c)] "GET /manager/images/tomcat.gif"   
+[Network Analyzer ( f84: c8c)]   (Sid:  2) Client -> Server : 401 bytes (Service=HTTP)
+[Network Analyzer ( f84: c8c)]   (Sid:  2) Server -> Client : 2140 bytes  (Service=HTTP)

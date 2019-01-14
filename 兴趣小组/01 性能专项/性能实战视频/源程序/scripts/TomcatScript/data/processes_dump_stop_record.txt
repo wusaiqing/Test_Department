@@ -1,0 +1,197 @@
+Failed to get information of process Id: 0
+Failed to get information of process Id: 4
+PROCESS 0x5a4       smss.exe
+Failed to get information of process Id: 816
+PROCESS 0x580       winlogon.exe
+PROCESS 0x744       services.exe
+PROCESS 0x770       lsass.exe
+PROCESS 0x1e4       ati2evxx.exe
+PROCESS 0x23c       svchost.exe
+Failed to get information of process Id: 700
+PROCESS 0x668       svchost.exe
+Failed to get information of process Id: 1764
+PROCESS 0x38c       ati2evxx.exe
+Failed to get information of process Id: 1000
+PROCESS 0x22c       spoolsv.exe
+Failed to get information of process Id: 992
+PROCESS 0x7a4       frameworkservice.exe
+PROCESS 0x128       mcshield.exe
+Failed to get information of process Id: 716
+PROCESS 0x614       vstskmgr.exe
+PROCESS 0x160       mdm.exe
+PROCESS 0x440       vmnat.exe
+PROCESS 0x464       vmnetdhcp.exe
+PROCESS 0x6a4       vmware-authd.exe
+PROCESS 0x284       svchost.exe
+Failed to get information of process Id: 1620
+PROCESS 0xc44       wscntfy.exe
+PROCESS 0xd94       explorer.exe
+Failed to get information of process Id: 3192
+PROCESS 0xc80       360tray.exe
+PROCESS 0x3f8       safeboxtray.exe
+PROCESS 0xd8c       antiarp.exe
+PROCESS 0xe14       ctfmon.exe
+PROCESS 0x928       foxmail.exe
+PROCESS 0x9c0       iexplore.exe
+PROCESS 0x65c       wltuser.exe
+PROCESS 0xca0       udaterui.exe
+PROCESS 0x87c       mctray.exe
+PROCESS 0xcb4       svchost.exe
+PROCESS 0x880       msnmsgr.exe
+PROCESS 0xab4       wlcomm.exe
+PROCESS 0x884       conime.exe
+PROCESS 0x910       tomcat6w.exe
+PROCESS 0xdec       tomcat6.exe
+PROCESS 0x688       vugen.exe
+PROCESS 0xf84       iexplore.exe
+		6.00.2900.2180 (xpsp_sp2_rtm.040803-2158)C:\Program Files\Internet Explorer\IEXPLORE.EXE
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\ntdll.dll
+		5.1.2600.3119 (xpsp_sp2_gdr.070416-1301)C:\WINDOWS\system32\kernel32.dll
+		7.0.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\msvcrt.dll
+		5.1.2600.3099 (xpsp_sp2_gdr.070308-0222)C:\WINDOWS\system32\USER32.dll
+		5.1.2600.3466 (xpsp_sp2_gdr.081022-1254)C:\WINDOWS\system32\GDI32.dll
+		6.00.2900.3462 (xpsp_sp2_gdr.081015-1244)C:\WINDOWS\system32\SHLWAPI.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\ADVAPI32.dll
+		5.1.2600.3173 (xpsp_sp2_gdr.070709-0051)C:\WINDOWS\system32\RPCRT4.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\Secur32.dll
+		6.00.2900.3462 (xpsp_sp2_gdr.081015-1244)C:\WINDOWS\system32\SHDOCVW.dll
+		5.131.2600.3272 (xpsp_sp2_qfe.071212-1253)C:\WINDOWS\system32\CRYPT32.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\MSASN1.dll
+		5.131.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\CRYPTUI.dll
+		5.131.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\WINTRUST.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\IMAGEHLP.dll
+		5.1.2600.3266                 C:\WINDOWS\system32\OLEAUT32.dll
+		5.1.2600.2665 (xpsp_sp2_gdr.050427-1553)C:\WINDOWS\system32\ole32.dll
+		5.1.2600.3462 (xpsp_sp2_gdr.081015-1244)C:\WINDOWS\system32\NETAPI32.dll
+		6.00.2900.3462 (xpsp_sp2_gdr.081015-1244)C:\WINDOWS\system32\WININET.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\WLDAP32.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\VERSION.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\IMM32.DLL
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\LPK.DLL
+		1.0420.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\USP10.dll
+		6.0 (xpsp.060825-0040)        C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2982_x-ww_ac3f9c03\comctl32.dll
+		                              C:\Program Files\HP\LoadRunner\bin\bbhook.dll
+		9.10.0.1435                   C:\Program Files\HP\LoadRunner\bin\api_trapper.dll
+		                              C:\Program Files\HP\LoadRunner\bin\PathResolverUtil.dll
+		500.0.0.5126                  C:\Program Files\HP\LoadRunner\bin\mosifs32.dll
+		500.0.0.5126                  C:\Program Files\HP\LoadRunner\bin\thrdutil.dll
+		500.0.0.5126                  C:\Program Files\HP\LoadRunner\bin\mmalloc_logic.dll
+		6.00.2900.3453 (xpsp_sp2_gdr.080929-1303)C:\WINDOWS\system32\SHELL32.dll
+		5.82 (xpsp.060825-0040)       C:\WINDOWS\system32\comctl32.dll
+		9.10.0.710                    C:\Program Files\HP\LoadRunner\bin\api_sock_proxy.dll
+		9.10.0.710                    C:\Program Files\HP\LoadRunner\bin\MicSocket.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\WSOCK32.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\WS2_32.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\WS2HELP.dll
+		                              C:\Program Files\HP\LoadRunner\bin\LIBEAY32_MIC.dll
+		                              C:\Program Files\HP\LoadRunner\bin\SSLEAY32_MIC.dll
+		500.0.0.5042                  C:\Program Files\HP\LoadRunner\bin\LRUN50.dll
+		500.0.0.5058                  C:\Program Files\HP\LoadRunner\bin\trans.dll
+		500.0.0.5018                  C:\Program Files\HP\LoadRunner\bin\MLIB_DS.dll
+		500.0.0.5209                  C:\Program Files\HP\LoadRunner\bin\msg_handler.dll
+		500.0.0.5209                  C:\Program Files\HP\LoadRunner\bin\config.dll
+		500.0.0.5126                  C:\Program Files\HP\LoadRunner\bin\lr_exp.dll
+		500.0.0.5058                  C:\Program Files\HP\LoadRunner\bin\trans_server.dll
+		500.0.0.5058                  C:\Program Files\HP\LoadRunner\bin\timediff_ext.dll
+		500.0.0.5054                  C:\Program Files\HP\LoadRunner\bin\xdr.dll
+		500.0.0.5209                  C:\Program Files\HP\LoadRunner\bin\comm_util.dll
+		500.0.0.5054                  C:\Program Files\HP\LoadRunner\bin\libxdrutil.dll
+		500.0.0.5209                  C:\Program Files\HP\LoadRunner\bin\wrapzlib.dll
+		500.0.0.5209                  C:\Program Files\HP\LoadRunner\bin\libdatatypes.dll
+		500.0.0.5209                  C:\Program Files\HP\LoadRunner\bin\data_types_ifs.dll
+		500.0.0.5157                  C:\Program Files\HP\LoadRunner\bin\jrequestor_srv.dll
+		500.0.0.5123                  C:\Program Files\HP\LoadRunner\bin\dc_requests.dll
+		500.0.0.5209                  C:\Program Files\HP\LoadRunner\bin\merc_uuid.dll
+		500.0.0.5017                  C:\Program Files\HP\LoadRunner\bin\runlogic.dll
+		                              C:\Program Files\HP\LoadRunner\bin\run_time_context.dll
+		                              C:\Program Files\HP\LoadRunner\bin\rtc_protocol.dll
+		500.0.0.5068                  C:\Program Files\HP\LoadRunner\bin\parameng.dll
+		500.0.0.5136                  C:\Program Files\HP\LoadRunner\bin\faserver.dll
+		500.0.0.5123                  C:\Program Files\HP\LoadRunner\bin\wrapicu.dll
+		2, 0, 0, 0                    C:\Program Files\HP\LoadRunner\bin\icuuc20.dll
+		2, 0, 0, 0                    C:\Program Files\HP\LoadRunner\bin\icudt20.dll
+		9.10.0.96                     C:\Program Files\HP\LoadRunner\bin\VnpLog.dll
+		9.10.0.96                     C:\Program Files\HP\LoadRunner\bin\VnpUtils.dll
+		9.10.0.710                    C:\Program Files\HP\LoadRunner\bin\api_http_filter.dll
+		6.02.3104.0                   C:\WINDOWS\system32\MSVCP60.dll
+		9.10.0.1435                   C:\Program Files\HP\LoadRunner\bin\api_trapper1.dll
+		9.10.0.908                    C:\Program Files\HP\LoadRunner\bin\WebMultiInProcNotify.dll
+		5.1.2600.3284 (xpsp_sp2_gdr.071231-1252)C:\WINDOWS\system32\MSCTF.dll
+		4, 2, 0, 1005                 C:\Program Files\360safe\safemon\safemon.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\PSAPI.DLL
+		6.00.2900.3462 (xpsp_sp2_gdr.081015-1244)C:\WINDOWS\system32\BROWSEUI.dll
+		6.00.2900.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\browselc.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\msctfime.ime
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\appHelp.dll
+		9.10.0.1435                   C:\Program Files\HP\LoadRunner\bin\type_info_pool.dll
+		3.05.2284                     C:\WINDOWS\system32\ATL.DLL
+		5.1.2600.3019 (xpsp_sp2_gdr.061019-0414)C:\WINDOWS\system32\SXS.DLL
+		2001.12.4414.258              C:\WINDOWS\system32\CLBCATQ.DLL
+		2001.12.4414.258              C:\WINDOWS\system32\COMRes.dll
+		6.00.2900.3462 (xpsp_sp2_gdr.081015-1244)C:\WINDOWS\system32\urlmon.dll
+		6.00.2900.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\UxTheme.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\System32\cscui.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\System32\CSCDLL.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\SETUPAPI.dll
+		9.1.3120.0                    C:\WINDOWS\system32\BHOManager.dll
+		7.10.3077.0                   C:\WINDOWS\system32\MSVCP71.dll
+		7.10.3052.4                   C:\WINDOWS\system32\MSVCR71.dll
+		3.1.4000.4039                 C:\WINDOWS\system32\msi.dll
+		14.0.8052.1208                C:\Program Files\Windows Live\Family Safety\fssbho.dll
+		8.00.50727.1801               C:\WINDOWS\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.1801_x-ww_5eed8217\MSVCR80.dll
+		1.2.118.0                     C:\Program Files\Microsoft\Search Enhancement Pack\Search Helper\SearchHelper.dll
+		1.2.121.0                     C:\Program Files\Microsoft\Search Enhancement Pack\Search Box Extension\SRCHBXEX.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\USERENV.dll
+		6.00.2900.2530 (xpsp.040919-1030)C:\WINDOWS\system32\mlang.dll
+		1.2.121.0                     C:\Program Files\Microsoft\Search Enhancement Pack\SeaShadow\SEASHADO.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\xpsp2res.dll
+		5.0.70.3                      C:\Program Files\Java\jre1.5.0_07\bin\ssv.dll
+		5.1.2600.2180                 C:\WINDOWS\system32\OLEPRO32.DLL
+		5.000.817.1                   C:\Program Files\Common Files\Microsoft Shared\Windows Live\WindowsLiveLogin.dll
+		5.000.817.1                   C:\Program Files\Common Files\Microsoft Shared\Windows Live\msidcrl40.dll
+		4.2.5406.0 (xpclient.010817-1148)C:\WINDOWS\system32\OLEACC.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\SensApi.dll
+		5.1.2600.2161 (xpsp.040706-1629)C:\WINDOWS\system32\rsaenh.dll
+		14.0.8052.1208                C:\Program Files\Windows Live\Toolbar\wltcore.dll
+		6.0.6000.16386 (vista_rtm.061101-2205)C:\Program Files\Windows Live\Toolbar\sqmapi.dll
+		5.1.3102.3352 (xpsp_sp2_qfe.080415-1302)C:\WINDOWS\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.2600.3352_x-ww_81af8e88\gdiplus.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\MSIMG32.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\Cabinet.dll
+		6.00.2900.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\actxprxy.dll
+		14.0.8052.1208                C:\Program Files\Windows Live\Toolbar\zh-cn\wltcore.market.dll.mui
+		14.0.8052.1208                C:\Program Files\Windows Live\Toolbar\zh-chs\wltcore.dll.mui
+		8.100.1048.0                  C:\WINDOWS\system32\msxml3.dll
+		5.131.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\cryptnet.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\WINHTTP.dll
+		6.00.2900.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\shdoclc.dll
+		                              C:\WINDOWS\system32\TcpIpDog0.dll
+		6.00.2900.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\comdlg32.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\WINSPOOL.DRV
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\RASAPI32.DLL
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\rasman.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\TAPI32.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\rtutils.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\WINMM.dll
+		5.1.2600.3394 (xpsp_sp2_gdr.080620-1245)C:\WINDOWS\system32\mswsock.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\hnetcfg.dll
+		9.10.0.710                    C:\Program Files\HP\LoadRunner\bin\api_openssl_proxy.dll
+		9.10.0.1074                   C:\Program Files\HP\LoadRunner\bin\WebGetClientCertificate.dll
+		6.02.4131.0                   C:\WINDOWS\system32\MFC42.DLL
+		9.10.0.1074                   C:\Program Files\HP\LoadRunner\bin\WebCertificateCreator.dll
+		6.00.8665.0                   C:\WINDOWS\system32\MFC42LOC.DLL
+		5.1.2600.3365 (xpsp_sp2_qfe.080503-1352)C:\WINDOWS\system32\msv1_0.dll
+		5.1.2600.2912 (xpsp_sp2_gdr.060519-0003)C:\WINDOWS\system32\iphlpapi.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\System32\wshtcpip.dll
+		5.1.2600.3394 (xpsp_sp2_gdr.080620-1245)C:\WINDOWS\system32\DNSAPI.dll
+		5.1.2600.2938 (xpsp_sp2_gdr.060626-0020)C:\WINDOWS\system32\rasadhlp.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\System32\winrnr.dll
+		9.10.0.710                    C:\PROGRA~1\HP\LOADRU~1\bin\api_sock_util.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\DBGHELP.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\ICMP.DLL
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\credui.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\pstorec.dll
+		6.00.2900.3492 (xpsp_sp2_gdr.081212-1610)C:\WINDOWS\system32\mshtml.dll
+		3.10.349.0                    C:\WINDOWS\system32\msls31.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\msimtf.dll
+		11.0.5510                     C:\Program Files\Microsoft Office\OFFICE11\msohev.dll
+Failed to get information of process Id: 3892

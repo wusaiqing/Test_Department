@@ -1,0 +1,22 @@
+[t2]
+FileName2=t1f0.html
+FileName5=t2f1f1.html
+FileName4=t2f1f0.html
+UseFrameIndex=1
+RequestBodyFile=t2_RequestBody.txt
+ContentType=text/html
+URL1=http://localhost/MercuryWebTours/
+URL2=http://localhost/MercuryWebTours/header.html
+URL3=http://localhost/MercuryWebTours/login.pl
+ResponseHeaderFile=t2_ResponseHeader.txt
+URL4=http://localhost/MercuryWebTours/nav.pl?in=signup&username=
+URL5=http://localhost/MercuryWebTours/login.pl?username=&password=&getInfo=true
+RequestHeaderFile=t2_RequestHeader.txt
+Total=5
+StepName=Submit Form: login.pl
+FrameIndex2=0.0
+FrameIndex3=0.1
+FrameIndex4=0.1.0
+FrameIndex5=0.1.1
+FileName1=t1.html
+FileName3=t2f1.html

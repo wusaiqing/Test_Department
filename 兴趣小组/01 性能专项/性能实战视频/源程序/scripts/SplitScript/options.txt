@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\1\复件 mys\books\books\SplitScript
+-IC:\Program Files\Mercury Interactive\Mercury LoadRunner\include
+-ed:\1\复件 mys\books\books\splitscript\\logfile.log
+d:\1\复件 mys\books\books\splitscript\\combined_SplitScript.c
+d:\1\复件 mys\books\books\splitscript\\pre_cci.c

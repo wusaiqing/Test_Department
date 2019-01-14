@@ -1,0 +1,25 @@
+Virtual User Script started
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 8.0.0 for WIN2000; Web build 4121  	[MsgId: MMSG-27143]
+Run-Time Settings file: "C:\Documents and Settings\Administrator\Local Settings\Temp\noname1\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(7): Notify: Transaction "登录首页事务" started.
+Action.c(8): Found resource "http://www.cnblogs.com/Skins/AnotherEon001/style.css" in HTML "http://www.cnblogs.com/tester2test"  	[MsgId: MMSG-26659]
+Action.c(8): Found resource "http://www.cnblogs.com/tester2test/customcss.aspx" in HTML "http://www.cnblogs.com/tester2test"  	[MsgId: MMSG-26659]
+Action.c(8): Found resource "http://www.cnblogs.com/images/xml.gif" in HTML "http://www.cnblogs.com/tester2test"  	[MsgId: MMSG-26659]
+Action.c(8): Found resource "http://fastonlineusers.com/online.php?d=http://www.cnblogs.com/tester2test" in HTML "http://www.cnblogs.com/tester2test"  	[MsgId: MMSG-26659]
+Action.c(8): Found resource "http://xyz.freeweblogger.com/counter/index.php?u=tony2yy&s=7seg" in HTML "http://www.cnblogs.com/tester2test"  	[MsgId: MMSG-26659]
+Action.c(8): Found resource "http://xyz.freeweblogger.com/counter/script.php?u=tony2yy" in HTML "http://www.cnblogs.com/tester2test"  	[MsgId: MMSG-26659]
+Action.c(8): Found resource "http://www.cnblogs.com/script/ShowHidden.js" in HTML "http://www.cnblogs.com/tester2test"  	[MsgId: MMSG-26659]
+Action.c(8): web_url("tester2test") was successful, 54708 body bytes, 2077 header bytes, 29 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(16): Notify: Transaction "登录首页事务" ended with "Pass" status (Duration: 30.8774).
+Action.c(17): 测试脚本，作者:于涌 !
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

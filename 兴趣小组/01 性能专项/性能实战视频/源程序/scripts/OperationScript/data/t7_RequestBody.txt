@@ -1,0 +1,4 @@
+"firstName=John&lastName=Tomas&address1=Peking&address2=100084&pass1=John+Tomas&creditCard=&exp"
+"Date=&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=200%3B338%3B04%"
+"2F11%2F2007&advanceDiscount=0&returnFlight=&JSFormSubmit=off&.cgifields=saveCC&buyFlights.x=57"
+"&buyFlights.y=12"

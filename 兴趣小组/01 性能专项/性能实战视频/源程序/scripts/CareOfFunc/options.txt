@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Documents and Settings\admin\桌面\books\books\CareOfFunc
+-IC:\Program Files\Mercury Interactive\Mercury LoadRunner\include
+-ec:\documents and settings\admin\桌面\books\books\careoffunc\\logfile.log
+c:\documents and settings\admin\桌面\books\books\careoffunc\\combined_CareOfFunc.c
+c:\documents and settings\admin\桌面\books\books\careoffunc\\pre_cci.c

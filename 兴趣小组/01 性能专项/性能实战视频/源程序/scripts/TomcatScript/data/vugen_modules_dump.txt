@@ -1,0 +1,254 @@
+		9.10.0.2451                   C:\Program Files\HP\LoadRunner\bin\vugen.exe
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\ntdll.dll
+		5.1.2600.3119 (xpsp_sp2_gdr.070416-1301)C:\WINDOWS\system32\kernel32.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\IMAGEHLP.dll
+		7.0.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\msvcrt.dll
+		                              C:\Program Files\HP\LoadRunner\bin\crlquery.dll
+		9.0.0.526                     C:\Program Files\HP\LoadRunner\bin\vug_grid.dll
+		5.1.2600.2665 (xpsp_sp2_gdr.050427-1553)C:\WINDOWS\system32\ole32.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\ADVAPI32.dll
+		5.1.2600.3173 (xpsp_sp2_gdr.070709-0051)C:\WINDOWS\system32\RPCRT4.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\Secur32.dll
+		5.1.2600.3466 (xpsp_sp2_gdr.081022-1254)C:\WINDOWS\system32\GDI32.dll
+		5.1.2600.3099 (xpsp_sp2_gdr.070308-0222)C:\WINDOWS\system32\USER32.dll
+		5.1.2600.3266                 C:\WINDOWS\system32\OLEAUT32.dll
+		9.10.0.534                    C:\Program Files\HP\LoadRunner\bin\XmlParserInterface.dll
+		2, 7, 0                       C:\Program Files\HP\LoadRunner\bin\xerces-c_2_7.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\WS2_32.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\WS2HELP.dll
+		1, 10, 0, 0                   C:\Program Files\HP\LoadRunner\bin\Xalan-C_1_10Mic.dll
+		                              C:\Program Files\HP\LoadRunner\bin\XalanMessages_1_10.dll
+		3, 6, 0, 0                    C:\Program Files\HP\LoadRunner\bin\icuin36.dll
+		3, 6, 0, 0                    C:\Program Files\HP\LoadRunner\bin\icuuc36.dll
+		3, 6, 0, 0                    C:\Program Files\HP\LoadRunner\bin\icudt36.dll
+		6.02.3104.0                   C:\WINDOWS\system32\MSVCP60.dll
+		500.0.0.5126                  C:\Program Files\HP\LoadRunner\bin\mosifs32.dll
+		500.0.0.5126                  C:\Program Files\HP\LoadRunner\bin\thrdutil.dll
+		500.0.0.5126                  C:\Program Files\HP\LoadRunner\bin\mmalloc_logic.dll
+		6.00.2900.3453 (xpsp_sp2_gdr.080929-1303)C:\WINDOWS\system32\SHELL32.dll
+		6.00.2900.3462 (xpsp_sp2_gdr.081015-1244)C:\WINDOWS\system32\SHLWAPI.dll
+		                              C:\Program Files\HP\LoadRunner\bin\std-vc-mt.dll
+		7.0.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\MSVCIRT.dll
+		500.0.0.5209                  C:\Program Files\HP\LoadRunner\bin\mic_regex.dll
+		9.0.0.1004                    C:\Program Files\HP\LoadRunner\bin\DBIR32.dll
+		500.0.0.5018                  C:\Program Files\HP\LoadRunner\bin\MLIB_DS.dll
+		8.1.0.337                     C:\Program Files\HP\LoadRunner\bin\RecordEJB.dll
+		9.10.0.1579                   C:\Program Files\HP\LoadRunner\bin\FuncView.dll
+		6.02.4131.0                   C:\WINDOWS\system32\MFC42.DLL
+		5.82 (xpsp.060825-0040)       C:\WINDOWS\system32\COMCTL32.dll
+		9.10.0.1799                   C:\Program Files\HP\LoadRunner\bin\MicDynScriptHandler.dll
+		9.10.0.1643                   C:\Program Files\HP\LoadRunner\bin\WSDLSDK.dll
+		9.10.0.1643                   C:\Program Files\HP\LoadRunner\bin\SoapRecordFilter.dll
+		9.10.0.1643                   C:\Program Files\HP\LoadRunner\bin\WebServicesSDK.dll
+		2, 0, 0, 0                    C:\Program Files\HP\LoadRunner\bin\icuuc20.dll
+		2, 0, 0, 0                    C:\Program Files\HP\LoadRunner\bin\icudt20.dll
+		9.10.0.1643                   C:\Program Files\HP\LoadRunner\bin\LrJni.dll
+		9.10.0.270                    C:\Program Files\HP\LoadRunner\bin\ServiceManagementLight.dll
+		500.0.0.5209                  C:\Program Files\HP\LoadRunner\bin\config.dll
+		9.10.0.1643                   C:\Program Files\HP\LoadRunner\bin\WSDLParser.dll
+		9.10.0.1643                   C:\Program Files\HP\LoadRunner\bin\MicXMLDiffTool.dll
+		9.10.0.1643                   C:\Program Files\HP\LoadRunner\bin\WSDLToolkits.dll
+		9.10.0.425                    C:\Program Files\HP\LoadRunner\bin\ServiceManagement.dll
+		6.00.2900.3462 (xpsp_sp2_gdr.081015-1244)C:\WINDOWS\system32\WININET.dll
+		5.131.2600.3272 (xpsp_sp2_qfe.071212-1253)C:\WINDOWS\system32\CRYPT32.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\MSASN1.dll
+		9, 30, 0, 0                   C:\Program Files\HP\LoadRunner\bin\BCGCBPRO930.dll
+		6.00.2900.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\comdlg32.dll
+		3.525.1117.0 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\ODBC32.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\WINMM.dll
+		9.10.0.2224                   C:\Program Files\HP\LoadRunner\bin\lr_vug32.dll
+		9.10.0.1526                   C:\Program Files\HP\LoadRunner\bin\inifile.dll
+		500.0.0.5017                  C:\Program Files\HP\LoadRunner\bin\runlogic.dll
+		500.0.0.5209                  C:\Program Files\HP\LoadRunner\bin\msg_handler.dll
+		500.0.0.5209                  C:\Program Files\HP\LoadRunner\bin\comm_util.dll
+		500.0.0.5054                  C:\Program Files\HP\LoadRunner\bin\xdr.dll
+		500.0.0.5054                  C:\Program Files\HP\LoadRunner\bin\libxdrutil.dll
+		                              C:\Program Files\HP\LoadRunner\bin\run_time_context.dll
+		                              C:\Program Files\HP\LoadRunner\bin\rtc_protocol.dll
+		9.10.0.1044                   C:\Program Files\HP\LoadRunner\bin\vusercfg.dll
+		9.10.0.1579                   C:\Program Files\HP\LoadRunner\bin\DynamicTree.dll
+		9.10.0.1526                   C:\Program Files\HP\LoadRunner\bin\MultiVuser.dll
+		500.0.0.5068                  C:\Program Files\HP\LoadRunner\bin\parameng.dll
+		9.0.0.5018                    C:\Program Files\HP\LoadRunner\bin\dtable32.dll
+		9.10.0.2451                   C:\Program Files\HP\LoadRunner\bin\PickProtocol.dll
+		9.10.0.2451                   C:\Program Files\HP\LoadRunner\bin\script_creator_helper.dll
+		9.10.0.1526                   C:\Program Files\HP\LoadRunner\bin\vugencfg.dll
+		                              C:\Program Files\HP\LoadRunner\bin\PathResolverUtil.dll
+		9.10.0.1505                   C:\Program Files\HP\LoadRunner\bin\ProtocolInfoLib.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\MPR.dll
+		9.10.0.421                    C:\Program Files\HP\LoadRunner\bin\slick_edit.dll
+		                              C:\Program Files\HP\LoadRunner\bin\vsapi.dll
+		2, 7, 0                       C:\Program Files\HP\LoadRunner\bin\vsxmlutl.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\WINSPOOL.DRV
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\IMM32.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\WSOCK32.dll
+		9.10.0.1505                   C:\Program Files\HP\LoadRunner\bin\MicEouComponents.dll
+		9.10.0.1505                   C:\Program Files\HP\LoadRunner\bin\MicXmlViewHelper.dll
+		                              C:\Program Files\HP\LoadRunner\bin\ReplayBinaryUtils32.dll
+		9.10.0.2451                   C:\Program Files\HP\LoadRunner\bin\sqlgrid.dll
+		9.10.0.2451                   C:\Program Files\HP\LoadRunner\bin\optn_dlg.dll
+		9.10.0.2451                   C:\Program Files\HP\LoadRunner\bin\pefile.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\VERSION.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\LPK.DLL
+		1.0420.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\USP10.dll
+		6.0 (xpsp.060825-0040)        C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2982_x-ww_ac3f9c03\comctl32.dll
+		6.00.8665.0                   C:\WINDOWS\system32\MFC42LOC.DLL
+		5.1.2600.3284 (xpsp_sp2_gdr.071231-1252)C:\WINDOWS\system32\MSCTF.dll
+		4, 2, 0, 1005                 C:\Program Files\360safe\safemon\safemon.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\PSAPI.DLL
+		3.525.1117.0 built by: (_sqlbld)C:\WINDOWS\system32\odbcint.dll
+		6.00.2900.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\UxTheme.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\msimg32.dll
+		5.1.2600.0 (xpclient.010817-1148)C:\WINDOWS\system32\RICHED32.DLL
+		5.30.23.1228                  C:\WINDOWS\system32\RICHED20.dll
+		2001.12.4414.258              C:\WINDOWS\system32\CLBCATQ.DLL
+		2001.12.4414.258              C:\WINDOWS\system32\COMRes.dll
+		9.10.0.339                    C:\Program Files\HP\LoadRunner\bin\SOALicenseManager.dll
+		8, 0, 2, 0                    C:\Program Files\HP\LoadRunner\bin\LSAPIW32.DLL
+		5.1.2600.3462 (xpsp_sp2_gdr.081015-1244)C:\WINDOWS\system32\NETAPI32.dll
+		3.1.4000.4039                 C:\WINDOWS\system32\msi.dll
+		7.10.3077.0                   C:\WINDOWS\system32\MFC71U.DLL
+		7.10.3052.4                   C:\WINDOWS\system32\MSVCR71.dll
+		9.10.0.72                     C:\Program Files\HP\LoadRunner\bin\lrcrashhandler.dll
+		4.50.000                      C:\Program Files\HP\LoadRunner\bin\BugslayerUtil.dll
+		6.1.0017.2 (DbgBuild.030121-2003)C:\Program Files\HP\LoadRunner\bin\dbghelp.dll
+		8.00.50727.1801               C:\WINDOWS\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.1801_x-ww_5eed8217\MSVCR80.dll
+		8.00.50727.762                C:\WINDOWS\WinSxS\x86_Microsoft.VC80.MFC_1fc8b3b9a1e18e3b_8.0.50727.762_x-ww_3bf8fa05\MFC80U.DLL
+		8.00.50727.762                C:\WINDOWS\WinSxS\x86_Microsoft.VC80.ATL_1fc8b3b9a1e18e3b_8.0.50727.762_x-ww_cbb27474\ATL80.DLL
+		8.00.50727.762                C:\WINDOWS\WinSxS\x86_Microsoft.VC80.MFCLOC_1fc8b3b9a1e18e3b_8.0.50727.762_x-ww_91481303\MFC80CHS.DLL
+		9.2.0.5003                    C:\Program Files\HP\LoadRunner\bin\TDExtendedAPI.dll
+		                              C:\Program Files\HP\LoadRunner\bin\FREC.dll
+		5.1.2600.2180                 C:\WINDOWS\system32\OLEPRO32.DLL
+		6.00.2900.3462 (xpsp_sp2_gdr.081015-1244)C:\WINDOWS\system32\urlmon.dll
+		3.05.2284                     C:\WINDOWS\system32\ATL.DLL
+		2.0.50727.832 (QFE.050727-8300)C:\WINDOWS\system32\mscoree.dll
+		2.0.50727.832 (QFE.050727-8300)C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+		2.0.50727.832 (QFE.050727-8300)C:\WINDOWS\assembly\NativeImages_v2.0.50727_32\mscorlib\314c62e3d0eaa32a14522bf290d4c9d1\mscorlib.ni.dll
+		5.1.2600.3019 (xpsp_sp2_gdr.061019-0414)C:\WINDOWS\system32\sxs.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\xpsp2res.dll
+		1.0.0.0                       C:\Program Files\HP\LoadRunner\bin\BPTManagerImpl.dll
+		1.0.0.0                       C:\Program Files\HP\LoadRunner\bin\BPTManager.dll
+		9.10.461.0                    C:\Program Files\HP\LoadRunner\bin\Interop.TDExtendedAPI.dll
+		2.0.50727.832 (QFE.050727-8300)C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\mscorjit.dll
+		9.10.461.0                    C:\Program Files\HP\LoadRunner\bin\Interop.SOAMaf.dll
+		2.0.50727.42 (RTM.050727-4200)C:\WINDOWS\assembly\GAC_MSIL\mscorlib.resources\2.0.0.0_zh-CHS_b77a5c561934e089\mscorlib.resources.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\msctfime.ime
+		                              C:\Program Files\HP\LoadRunner\bin\vslick\win\vsRTE.dll
+		9.10.0.2451                   C:\Program Files\HP\LoadRunner\bin\vugen_replay_api.dll
+		9.10.0.1289                   C:\Program Files\HP\LoadRunner\bin\coparamui.dll
+		9.10.0.1289                   C:\Program Files\HP\LoadRunner\bin\paramui.dll
+		9.10.0.2224                   C:\Program Files\HP\LoadRunner\bin\is32.dll
+		500.0.0.5068                  C:\Program Files\HP\LoadRunner\bin\paramlr.dll
+		500.0.0.5068                  C:\Program Files\HP\LoadRunner\bin\paramtbl.dll
+		500.0.0.5209                  C:\Program Files\HP\LoadRunner\bin\mmdtable.dll
+		500.0.0.5022                  C:\Program Files\HP\LoadRunner\bin\libmemmap.dll
+		500.0.0.1                     C:\Program Files\HP\LoadRunner\bin\mmdbigtable.dll
+		500.0.0.5068                  C:\Program Files\HP\LoadRunner\bin\paramcst.dll
+		500.0.0.5068                  C:\Program Files\HP\LoadRunner\bin\paramunq.dll
+		500.0.0.5068                  C:\Program Files\HP\LoadRunner\bin\paramfnc.dll
+		500.0.0.5068                  C:\Program Files\HP\LoadRunner\bin\paramss.dll
+		500.0.0.5068                  C:\Program Files\HP\LoadRunner\bin\paramdte.dll
+		500.0.0.5068                  C:\Program Files\HP\LoadRunner\bin\paramvar.dll
+		500.0.0.5068                  C:\Program Files\HP\LoadRunner\bin\paramrnd.dll
+		1, 0, 0, 1                    C:\Program Files\HP\LoadRunner\bin\RecentScripts.dll
+		9.0.0.37                      C:\Program Files\HP\LoadRunner\bin\PLATFORMSUPPORTMIC.DLL
+		1, 6, 0                       C:\Program Files\HP\LoadRunner\bin\xerces-c_1_6_0.dll
+		9.0.0.37                      C:\Program Files\HP\LoadRunner\bin\XalanDOMMic.dll
+		9.10.0.1767                   C:\Program Files\HP\LoadRunner\bin\SOAProtocol.dll
+		9.10.0.1767                   C:\Program Files\HP\LoadRunner\bin\ServiceManagementUILib.dll
+		9.10.0.2226                   C:\Program Files\HP\LoadRunner\bin\base_scripthandler.dll
+		9.1.1895.0                    C:\Program Files\HP\LoadRunner\bin\TulipAppInfo.dll
+		7.10.6041.0                   C:\WINDOWS\system32\ATL71.DLL
+		7.10.3077.0                   C:\WINDOWS\system32\MSVCP71.dll
+		9.10.0.1505                   C:\Program Files\HP\LoadRunner\bin\threadsafefileoperator.dll
+		9.10.0.2451                   C:\Program Files\HP\LoadRunner\bin\insp_gen.dll
+		9.10.0.2451                   C:\Program Files\HP\LoadRunner\bin\inspdll.dll
+		9.10.0.326                    C:\Program Files\HP\LoadRunner\bin\pc_integration.dll
+		7.8.4.0                       C:\Program Files\HP\LoadRunner\bin\orchidcommutils.dll
+		3, 0, 0, 3                    C:\Program Files\HP\LoadRunner\bin\XUpload.ocx
+		6.00.2900.3462 (xpsp_sp2_gdr.081015-1244)C:\WINDOWS\system32\shdocvw.dll
+		5.131.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\CRYPTUI.dll
+		5.131.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\WINTRUST.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\WLDAP32.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\SETUPAPI.dll
+		6.00.2900.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\shdoclc.dll
+		6.00.2900.2530 (xpsp.040919-1030)C:\WINDOWS\system32\mlang.dll
+		11.0.5510                     C:\Program Files\Common Files\Microsoft Shared\OFFICE11\MSOXMLMF.DLL
+		6.00.2900.3492 (xpsp_sp2_gdr.081212-1610)C:\WINDOWS\system32\mshtml.dll
+		3.10.349.0                    C:\WINDOWS\system32\msls31.dll
+		8.100.1048.0                  C:\WINDOWS\system32\msxml3.dll
+		6.00.2900.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\ImgUtil.dll
+		5.6.0.8835                    C:\WINDOWS\system32\jscript.dll
+		6.00.2900.3462 (xpsp_sp2_gdr.081015-1244)C:\WINDOWS\system32\pngfilt.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\msimtf.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\appHelp.dll
+		6.00.2900.3462 (xpsp_sp2_gdr.081015-1244)C:\WINDOWS\system32\mshtmled.dll
+		9.0.0.924                     C:\Program Files\HP\LoadRunner\bin\scriptview.ocx
+		9.10.0.1044                   C:\Program Files\HP\LoadRunner\bin\runlogicview.ocx
+		9.10.0.1483                   C:\Program Files\HP\LoadRunner\bin\WebStudioDocuments.dll
+		9.10.0.5896                   C:\Program Files\HP\LoadRunner\bin\LrwiWebInfra.dll
+		500.0.0.5042                  C:\Program Files\HP\LoadRunner\bin\LRUN50.dll
+		500.0.0.5058                  C:\Program Files\HP\LoadRunner\bin\trans.dll
+		500.0.0.5126                  C:\Program Files\HP\LoadRunner\bin\lr_exp.dll
+		500.0.0.5058                  C:\Program Files\HP\LoadRunner\bin\trans_server.dll
+		500.0.0.5058                  C:\Program Files\HP\LoadRunner\bin\timediff_ext.dll
+		500.0.0.5209                  C:\Program Files\HP\LoadRunner\bin\wrapzlib.dll
+		500.0.0.5209                  C:\Program Files\HP\LoadRunner\bin\libdatatypes.dll
+		500.0.0.5209                  C:\Program Files\HP\LoadRunner\bin\data_types_ifs.dll
+		500.0.0.5157                  C:\Program Files\HP\LoadRunner\bin\jrequestor_srv.dll
+		500.0.0.5123                  C:\Program Files\HP\LoadRunner\bin\dc_requests.dll
+		500.0.0.5209                  C:\Program Files\HP\LoadRunner\bin\merc_uuid.dll
+		500.0.0.5136                  C:\Program Files\HP\LoadRunner\bin\faserver.dll
+		500.0.0.5123                  C:\Program Files\HP\LoadRunner\bin\wrapicu.dll
+		9.0.0.924                     C:\Program Files\HP\LoadRunner\bin\coscriptparser.dll
+		9.10.0.1593                   C:\Program Files\HP\LoadRunner\bin\webscripthandler.dll
+		9.10.0.1074                   C:\Program Files\HP\LoadRunner\bin\WebStepClsShared.dll
+		9.10.0.1074                   C:\Program Files\HP\LoadRunner\bin\mshtmtr.dll
+		9.10.0.1074                   C:\Program Files\HP\LoadRunner\bin\DynWininet.dll
+		9.10.0.1593                   C:\Program Files\HP\LoadRunner\bin\WebStepClsDesign.dll
+		9.10.0.1483                   C:\Program Files\HP\LoadRunner\bin\ArchiveManager.dll
+		9.10.0.1483                   C:\Program Files\HP\LoadRunner\bin\WebStudioViews.dll
+		9.10.0.1593                   C:\Program Files\HP\LoadRunner\bin\WebCorrelation.dll
+		9.10.0.2226                   C:\Program Files\HP\LoadRunner\bin\websteps_scripthandler.dll
+		9.10.0.2226                   C:\Program Files\HP\LoadRunner\bin\LrXmlScriptHandler.dll
+		9.10.0.2226                   C:\Program Files\HP\LoadRunner\bin\lrscripthandler.DLL
+		5.1.2600.3394 (xpsp_sp2_gdr.080620-1245)C:\WINDOWS\System32\mswsock.dll
+		5.1.2600.3394 (xpsp_sp2_gdr.080620-1245)C:\WINDOWS\system32\DNSAPI.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\System32\winrnr.dll
+		                              C:\Program Files\HP\LoadRunner\bin\vslick\win\vshlp.dll
+		                              C:\Program Files\HP\LoadRunner\bin\vslick\win\tagsdb.dll
+		                              C:\Program Files\HP\LoadRunner\bin\vslick\win\cparse.dll
+		9.10.0.2226                   C:\Program Files\HP\LoadRunner\bin\unparsedhandler.DLL
+		1, 0, 0, 1                    C:\Program Files\HP\LoadRunner\bin\WebUIRes.dll
+		                              C:\Program Files\HP\LoadRunner\bin\vslick\win\dragdrop.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\System32\drprov.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\System32\ntlanman.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\System32\NETUI0.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\System32\NETUI1.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\System32\NETRAP.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\System32\SAMLIB.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\System32\davclnt.dll
+		                              C:\Program Files\HP\LoadRunner\bin\vslick\win\vsvcs.dll
+		9.10.0.1435                   C:\Program Files\HP\LoadRunner\bin\api_inspector.dll
+		                              C:\Program Files\HP\LoadRunner\bin\trpfnc32.dll
+		9.10.0.1435                   C:\Program Files\HP\LoadRunner\bin\script_language_helper.dll
+		9.10.0.1435                   C:\Program Files\HP\LoadRunner\bin\api_scrinfo.dll
+		9.10.0.1435                   C:\Program Files\HP\LoadRunner\bin\Api_Filter_Helper.dll
+		9.10.0.1435                   C:\Program Files\HP\LoadRunner\bin\type_info_pool.dll
+		9.10.0.108                    C:\Program Files\HP\LoadRunner\bin\CodeGenerationAPI.dll
+		                              C:\Program Files\HP\LoadRunner\bin\InternalSDKUtils.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\wbem\wbemprox.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\wbem\wbemcomn.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\wbem\wbemsvc.dll
+		5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)C:\WINDOWS\system32\wbem\fastprox.dll
+		5.1.2600.3365 (xpsp_sp2_qfe.080503-1352)C:\WINDOWS\system32\NTDSAPI.dll
+		9.10.0.1435                   C:\Program Files\HP\LoadRunner\bin\lrc_basic_filters.dll
+		9.10.0.1435                   C:\Program Files\HP\LoadRunner\bin\api_event_parser.dll
+		9.10.0.710                    C:\Program Files\HP\LoadRunner\bin\api_sock_filter.dll
+		9.10.0.908                    C:\Program Files\HP\LoadRunner\bin\WebHTMLCodeGen.dll
+		9.10.0.1593                   C:\Program Files\HP\LoadRunner\bin\WebRecorder.dll
+		                              C:\Program Files\HP\LoadRunner\bin\LIBEAY32_MIC.dll
+		                              C:\Program Files\HP\LoadRunner\bin\SSLEAY32_MIC.dll
+		500.0.0.5126                  C:\Program Files\HP\LoadRunner\bin\jconv_str.dll
+		9.10.0.1435                   C:\Program Files\HP\LoadRunner\bin\lrc_com_filters.dll
+		9.10.0.1435                   C:\Program Files\HP\LoadRunner\bin\lrc_code_gen_filter.dll

@@ -1,0 +1,8 @@
+HTTP/1.0 200 Ok
+content-type: text/html
+date: Thu, 21 Sep 2006 13:43:52 GMT
+expires: Thu, 21 Sep 2006 13:43:57 GMT
+Content-Length: 357
+Connection: Keep-Alive
+Keep-Alive: timeout=30, max=25
+

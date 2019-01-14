@@ -1,0 +1,8 @@
+GET /online.php?d=http://www.cnblogs.com/tester2test HTTP/1.1
+Accept-Language: zh-cn
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)
+Referer: http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html
+

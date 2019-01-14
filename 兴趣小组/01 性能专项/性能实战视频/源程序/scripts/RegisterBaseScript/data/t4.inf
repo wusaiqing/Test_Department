@@ -1,0 +1,15 @@
+[t4]
+FileName1=t2.htm
+URL1=http://localhost/MercuryWebTours/
+Total=3
+FileName2=t2f0.htm
+URL2=http://localhost/MercuryWebTours/header.html
+FrameIndex2=0.0
+UseFrameIndex=1
+FileName3=t4f1.htm
+URL3=http://localhost/MercuryWebTours/login.pl
+ContentType=text/html
+FrameIndex3=0.1
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=t4_RequestBody.txt
+ResponseHeaderFile=t4_ResponseHeader.txt

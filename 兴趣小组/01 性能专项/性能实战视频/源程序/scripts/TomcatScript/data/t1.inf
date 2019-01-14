@@ -1,0 +1,16 @@
+[t1]
+FileName1=t1.htm
+URL1=http://localhost:8089/manager/status
+Total=3
+RequestHeaderFile=t1_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t1_ResponseHeader.txt
+ContentType=text/html
+FileName2=t1_asf-logo.gif
+URL2=http://localhost:8089/manager/images/asf-logo.gif
+FileName3=t1_tomcat.gif
+URL3=http://localhost:8089/manager/images/tomcat.gif
+[ProtocolInfo]
+ProtocolId=QTWeb
+[AdditionalInfo]
+IsIgnorable=0

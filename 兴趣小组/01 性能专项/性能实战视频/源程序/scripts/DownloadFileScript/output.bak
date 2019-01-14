@@ -1,0 +1,44 @@
+Virtual User Script started
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 8.0.0 for WINXP; Web build 4121  	[MsgId: MMSG-27143]
+Run-Time Settings file: "E:\books\DownloadFileScript\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(9): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(11): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(13): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(15): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(17): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(19): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(21): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(23): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(25): Found resource "http://www.cnblogs.com/Skins/AnotherEon001/style.css" in HTML "http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html"  	[MsgId: MMSG-26659]
+Action.c(25): Found resource "http://www.cnblogs.com/tester2test/customcss.aspx" in HTML "http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html"  	[MsgId: MMSG-26659]
+Action.c(25): Found resource "http://www.cnblogs.com/WebResource.axd?d=PyW-m2hLmppJ9byT1bYEqw2&t=632962190405242500" in HTML "http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html"  	[MsgId: MMSG-26659]
+Action.c(25): Found resource "http://www.cnblogs.com/ScriptResource.axd?d=1tualuFjIrW5BhcqrLWk6MZMSgCf3qdM23cocf46W_YPDKYndQKM4cfXpMr228wSsKPkDCjwiZD_EKKItC3GLSzAkAHnnOGM1NG5G_IRe7PJcuzazgREXA2&t=632999880532957500" in HTML "http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html"  	[MsgId: MMSG-26659]
+Action.c(25): Found resource "http://www.cnblogs.com/ScriptResource.axd?d=1tualuFjIrW5BhcqrLWk6MZMSgCf3qdM23cocf46W_YPDKYndQKM4cfXpMr228wSsKPkDCjwiZD_EKKItC3GLSzAkAHnnOGMfB24-9379DVtDUT3I9PY0zovIKSrWmw90&t=632999880532957500" in HTML "http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html"  	[MsgId: MMSG-26659]
+Action.c(25): Found resource "http://www.cnblogs.com/WebResource.axd?d=PN3YVKw-Ky20FbAsNYS9UM8XqUzPcwpd0&t=632962190405242500" in HTML "http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html"  	[MsgId: MMSG-26659]
+Action.c(25): Downloading resource "http://www.vqq.com/vqq_inset.js?isMin=0&place=RB&Css=2&RoomName=5rWL6K+V6ICF5a625Zut6K665Z2b&encode=1&isTime=0&width=350&height=240&everypage=0" (specified by argument number 9)  	[MsgId: MMSG-26577]
+Action.c(25): Downloading resource "http://www.vqq.com/image/chat2.gif" (specified by argument number 11)  	[MsgId: MMSG-26577]
+Action.c(25): Found resource "http://www.cnblogs.com/tester2test/aggbug/487989.html?webview=1" in HTML "http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html"  	[MsgId: MMSG-26659]
+Action.c(25): Found resource "http://www.cnblogs.com/images/xml.gif" in HTML "http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html"  	[MsgId: MMSG-26659]
+Action.c(25): Found resource "http://fastonlineusers.com/online.php?d=http://www.cnblogs.com/tester2test" in HTML "http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html"  	[MsgId: MMSG-26659]
+Action.c(25): Found resource "http://xyz.freeweblogger.com/counter/index.php?u=tony2yy&s=7seg" in HTML "http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html"  	[MsgId: MMSG-26659]
+Action.c(25): Found resource "http://xyz.freeweblogger.com/counter/script.php?u=tony2yy" in HTML "http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html"  	[MsgId: MMSG-26659]
+Action.c(25): Found resource "http://www.cnblogs.com/script/ShowHidden.js" in HTML "http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html"  	[MsgId: MMSG-26659]
+Action.c(25): web_url("487989.html") was successful, 72459 body bytes, 4335 header bytes, 98 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(38): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Action.c(41): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(43): Redirecting "http://www.cnblogs.com/Files/tester2test/xncssj.pdf" (redirection depth=0)  	[MsgId: MMSG-26694]
+Action.c(43): To location "http://files.cnblogs.com/tester2test/xncssj.pdf"  	[MsgId: MMSG-26693]
+Action.c(43): Warning -26548: HTML parsing not performed for Content-Type "application/pdf" ("ParseHtmlContentType" Run-Time Setting is "TEXT"). URL="http://files.cnblogs.com/tester2test/xncssj.pdf"  	[MsgId: MWAR-26548]
+Action.c(43): web_url("œ¬‘ÿ“≥√Ê") highest severity level was "warning", 279304 body bytes, 540 header bytes  	[MsgId: MMSG-26388]
+Action.c(53): web_get_int_property was successful  	[MsgId: MMSG-26392]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

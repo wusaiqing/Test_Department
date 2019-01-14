@@ -1,0 +1,54 @@
+Debug Message:
+	Correlation engine instance created; using configuration Default
+
+Debug Message:
+	Rules could not be applied to http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html
+
+Debug Message:
+	TaskID=2  URL=http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html
+
+Debug Message:
+	TaskID=2  URL=http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html
+
+Debug Message:
+	TaskID=2  URL=http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html
+
+Debug Message:
+	TaskID=2  URL=http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html
+
+Debug Message:
+	TaskID=2  URL=http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html
+
+Debug Message:
+	TaskID=2  URL=http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html
+
+Debug Message:
+	Rules could not be applied to http://www.vqq.com/vqq_inset.js?isMin=0&place=RB&Css=2&RoomName=5rWL6K+V6ICF5a625Zut6K665Z2b&encode=1&isTime=0&width=350&height=240&everypage=0
+
+Debug Message:
+	Rules could not be applied to http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html
+
+Debug Message:
+	Rules could not be applied to http://fastonlineusers.com/online.php?d=http://www.cnblogs.com/tester2test
+
+Debug Message:
+	Rules could not be applied to http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html
+
+Debug Message:
+	Rules could not be applied to http://xyz.freeweblogger.com/counter/script.php?u=tony2yy
+
+Debug Message:
+	Rules could not be applied to http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html
+
+Debug Message:
+	Rules could not be applied to http://www.vqq.com/image/chat2.gif
+
+Debug Message:
+	Rules could not be applied to http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html
+
+Debug Message:
+	Rules could not be applied to http://www.vqq.com/image/chat2.gif
+
+Debug Message:
+	Rules could not be applied to http://www.cnblogs.com/tester2test/archive/2006/08/28/487989.html
+

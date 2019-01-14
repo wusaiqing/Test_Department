@@ -1,0 +1,69 @@
+Debug Message:
+	Correlation engine instance created; using configuration Default
+
+Debug Message:
+	Rules could not be applied to http://localhost/MercuryWebTours/
+
+Debug Message:
+	TaskID=2  URL=http://localhost/MercuryWebTours/
+
+Debug Message:
+	TaskID=3  URL=http://localhost/MercuryWebTours/header.html
+
+Debug Message:
+	TaskID=4  URL=http://localhost/MercuryWebTours/welcome.pl?signOff=true
+
+Debug Message:
+	TaskID=7  URL=http://localhost/MercuryWebTours/home.html
+
+Debug Message:
+	TaskID=6  URL=http://localhost/MercuryWebTours/nav.pl?in=home
+
+Debug Message:
+	TaskID=13  URL=http://localhost/MercuryWebTours/login.pl
+
+Debug Message:
+	TaskID=15  URL=http://localhost/MercuryWebTours/login.pl?intro=true
+
+Debug Message:
+	TaskID=14  URL=http://localhost/MercuryWebTours/nav.pl?page=menu&in=home
+
+Debug Message:
+	Rules could not be applied to http://localhost/MercuryWebTours/welcome.pl?page=search
+
+Debug Message:
+	Rules could not be applied to http://localhost/MercuryWebTours/nav.pl?page=menu&in=home
+
+Debug Message:
+	TaskID=22  URL=http://localhost/MercuryWebTours/welcome.pl?page=search
+
+Debug Message:
+	TaskID=23  URL=http://localhost/MercuryWebTours/nav.pl?page=menu&in=flights
+
+Debug Message:
+	TaskID=24  URL=http://localhost/MercuryWebTours/reservations.pl?page=welcome
+
+Debug Message:
+	TaskID=32  URL=http://localhost/MercuryWebTours/reservations.pl
+
+Debug Message:
+	TaskID=35  URL=http://localhost/MercuryWebTours/reservations.pl
+
+Debug Message:
+	TaskID=38  URL=http://localhost/MercuryWebTours/reservations.pl
+
+Debug Message:
+	Rules could not be applied to http://localhost/MercuryWebTours/welcome.pl?signOff=1
+
+Debug Message:
+	Rules could not be applied to http://localhost/MercuryWebTours/nav.pl?page=menu&in=flights
+
+Debug Message:
+	TaskID=41  URL=http://localhost/MercuryWebTours/welcome.pl?signOff=1
+
+Debug Message:
+	TaskID=43  URL=http://localhost/MercuryWebTours/home.html
+
+Debug Message:
+	TaskID=42  URL=http://localhost/MercuryWebTours/nav.pl?in=home
+

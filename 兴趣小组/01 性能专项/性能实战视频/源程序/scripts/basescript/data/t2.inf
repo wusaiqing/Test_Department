@@ -1,0 +1,12 @@
+[t2]
+FileName1=t2.htm
+URL1=http://www.cnblogs.com/tester2test
+Total=3
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+ContentType=text/html
+FileName2=t2_online.htm
+URL2=http://fastonlineusers.com/online.php?d=http://www.cnblogs.com/tester2test
+FileName3=t2_script.htm
+URL3=http://xyz.freeweblogger.com/counter/script.php?u=tony2yy

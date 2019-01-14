@@ -1,0 +1,7 @@
+[t1]
+RequestHeaderFile=t1_RequestHeader.txt
+ResponseHeaderFile=t1_ResponseHeader.txt
+StepName=Url: status
+RequestBodyFile=t1_RequestBody.txt
+Total=0
+ContentType=text/html

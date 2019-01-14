@@ -1,0 +1,12 @@
+POST /MercuryWebTours/login.pl HTTP/1.0
+Content-Type: application/x-www-form-urlencoded
+Cache-Control: no-cache
+Referer: http://localhost/MercuryWebTours/nav.pl?in=home
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; Alexa Toolbar)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Host: localhost
+Cookie: MSO=SID&1176134481
+Content-Length: 113
+

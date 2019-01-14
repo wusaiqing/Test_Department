@@ -1,0 +1,20 @@
+Virtual User Script started
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 8.0.0 for WINXP; Web build 4121  	[MsgId: MMSG-27143]
+Run-Time Settings file: "D:\1\¸´¼þ mys\books\books\SplitScript\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(19): È¡¾­ËÄÈË°üÀ¨£ºÌÆÉ®,Îò¿Õ,°Ë½ä,É³É®
+Action.c(21): =====================================
+Action.c(42): Ê¦¸¸: ÌÆÉ®
+Action.c(43): ´óÍ½µÜ: Îò¿Õ
+Action.c(44): ¶þÍ½µÜ: °Ë½ä
+Action.c(45): ÈýÍ½µÜ: É³É®
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

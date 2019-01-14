@@ -1,0 +1,15 @@
+[t8]
+FileName1=t8.htm
+URL1=http://localhost/MercuryWebTours/welcome.pl?signOff=1
+Total=3
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t8_ResponseHeader.txt
+ContentType=text/html
+FileName2=t8f1.htm
+URL2=http://localhost/MercuryWebTours/home.html
+FrameIndex2=0.1
+UseFrameIndex=1
+FileName3=t8f0.htm
+URL3=http://localhost/MercuryWebTours/nav.pl?in=home
+FrameIndex3=0.0

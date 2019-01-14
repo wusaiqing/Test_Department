@@ -1,0 +1,417 @@
+****** Start Log Message ******
+Web Recorder version : 9.10.0.1593 
+Recording Mode: HTML-based script containing explicit URLs only
+Correlation is enabled system wide
+Not recording headers
+Not excluding content types
+Reset context between actions
+Record non-HTML elements in current HTML function
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 9.10.0.908
+
+****** Request Header For Transaction With Id 3 ******
+GET /manager/status HTTP/1.1
+Accept: */*
+Accept-Language: zh-cn
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30)
+Host: localhost:8089
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 3 Ended $$$$$$
+
+****** Response Header For Transaction With Id 3 ******
+HTTP/1.1 401 Unauthorized
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=6899E60A1702B8231C0646BE2B15E68E; Path=/manager
+WWW-Authenticate: Basic realm="Tomcat Manager Application"
+Content-Type: text/html
+Transfer-Encoding: chunked
+Date: Thu, 12 Feb 2009 07:48:29 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 3 Ended $$$$$$
+
+****** Response Body For Transaction With Id 3 ******
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<html>
+ <head>
+  <title>401 Unauthorized</title>
+  <style>
+    <!--
+    BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;font-size:12px;}
+    H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;}
+    PRE, TT {border: 1px dotted #525D76}
+    A {color : black;}A.name {color : black;}
+    -->
+  </style>
+ </head>
+ <body>
+   <h1>401 Unauthorized</h1>
+   <p>
+    You are not authorized to view this page. If you have not changed
+    any configuration files, please examine the file
+    <tt>conf/tomcat-users.xml</tt> in your installation. That
+    file will contain the credentials to let you use this webapp.
+   </p>
+   <p>
+    You will need to add <tt>manager</tt> role to the config file listed above.
+    For example:
+<pre>
+&lt;role rolename="manager"/&gt;
+&lt;user username="tomcat" password="s3cret" roles="manager"/&gt;
+</pre>
+   </p>
+   <p>
+    For more information - please see the
+    <a href="/docs/manager-howto.html">Manager App HOW-TO</a>.
+   </p>
+ </body>
+
+</html>
+
+$$$$$$ Response Body For Transaction With Id 3 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 4 ******
+GET /manager/status HTTP/1.1
+Accept: */*
+Accept-Language: zh-cn
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30)
+Host: localhost:8089
+Connection: Keep-Alive
+Cookie: JSESSIONID=6899E60A1702B8231C0646BE2B15E68E
+Authorization: Basic YWRtaW46
+
+
+$$$$$$ Request Header For Transaction With Id 4 Ended $$$$$$
+
+****** Response Header For Transaction With Id 4 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Pragma: No-cache
+Cache-Control: no-cache
+Expires: Thu, 01 Jan 1970 08:00:00 CST
+Content-Type: text/html;charset=utf-8
+Content-Length: 5514
+Date: Thu, 12 Feb 2009 07:48:40 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 4 Ended $$$$$$
+
+****** Response Body For Transaction With Id 4 ******
+<html>
+<head>
+<style>
+H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}  table {
+    width: 100%;
+  }
+  td.page-title {
+    text-align: center;
+    vertical-align: top;
+    font-family:sans-serif,Tahoma,Arial;
+    font-weight: bold;
+    background: white;
+    color: black;
+  }
+  td.title {
+    text-align: left;
+    vertical-align: top;
+    font-family:sans-serif,Tahoma,Arial;
+    font-style:italic;
+    font-weight: bold;
+    background: #D2A41C;
+  }
+  td.header-left {
+    text-align: left;
+    vertical-align: top;
+    font-family:sans-serif,Tahoma,Arial;
+    font-weight: bold;
+    background: #FFDC75;
+  }
+  td.header-center {
+    text-align: center;
+    vertical-align: top;
+    font-family:sans-serif,Tahoma,Arial;
+    font-weight: bold;
+    background: #FFDC75;
+  }
+  td.row-left {
+    text-align: left;
+    vertical-align: middle;
+    font-family:sans-serif,Tahoma,Arial;
+    color: black;
+  }
+  td.row-center {
+    text-align: center;
+    vertical-align: middle;
+    font-family:sans-serif,Tahoma,Arial;
+    color: black;
+  }
+  td.row-right {
+    text-align: right;
+    vertical-align: middle;
+    font-family:sans-serif,Tahoma,Arial;
+    color: black;
+  }
+  TH {
+    text-align: center;
+    vertical-align: top;
+    font-family:sans-serif,Tahoma,Arial;
+    font-weight: bold;
+    background: #FFDC75;
+  }
+  TD {
+    text-align: center;
+    vertical-align: middle;
+    font-family:sans-serif,Tahoma,Arial;
+    color: black;
+  }
+</style>
+<title>/manager</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<table cellspacing="4" width="100%" border="0">
+ <tr>
+  <td colspan="2">
+   <a href="http://www.apache.org/">
+    <img border="0" alt="The Apache Software Foundation" align="left"
+         src="/manager/images/asf-logo.gif">
+   </a>
+   <a href="http://tomcat.apache.org/">
+    <img border="0" alt="The Tomcat Servlet/JSP Container"
+         align="right" src="/manager/images/tomcat.gif">
+   </a>
+  </td>
+ </tr>
+</table>
+<hr size="1" noshade="noshade">
+<table cellspacing="4" width="100%" border="0">
+ <tr>
+  <td class="page-title" bordercolor="#000000" align="left" nowrap>
+   <font size="+2">Server Status</font>
+  </td>
+ </tr>
+</table>
+<br>
+
+<table border="1" cellspacing="0" cellpadding="3">
+<tr>
+ <td colspan="4" class="title">Manager</td>
+</tr>
+ <tr>
+  <td class="row-left"><a href="/manager/html/list">List Applications</a></td>
+  <td class="row-center"><a href="/manager/../docs/html-manager-howto.html">HTML Manager Help</a></td>
+  <td class="row-center"><a href="/manager/../docs/manager-howto.html">Manager Help</a></td>
+  <td class="row-right"><a href="/manager/status/all">Complete Server Status</a></td>
+ </tr>
+</table>
+<br>
+
+<table border="1" cellspacing="0" cellpadding="3">
+<tr>
+ <td colspan="6" class="title">Server Information</td>
+</tr>
+<tr>
+ <td class="header-center"><small>Tomcat Version</small></td>
+ <td class="header-center"><small>JVM Version</small></td>
+ <td class="header-center"><small>JVM Vendor</small></td>
+ <td class="header-center"><small>OS Name</small></td>
+ <td class="header-center"><small>OS Version</small></td>
+ <td class="header-center"><small>OS Architecture</small></td>
+</tr>
+<tr>
+ <td class="row-center"><small>Apache Tomcat/6.0.18</small></td>
+ <td class="row-center"><small>1.5.0_07-b03</small></td>
+ <td class="row-center"><small>Sun Microsystems Inc.</small></td>
+ <td class="row-center"><small>Windows XP</small></td>
+ <td class="row-center"><small>5.1</small></td>
+ <td class="row-center"><small>x86</small></td>
+</tr>
+</table>
+<br>
+
+<h1>JVM</h1><p> Free memory: 1.86 MB Total memory: 5.26 MB Max memory: 63.56 MB</p><h1>jk-8009</h1><p> Max threads: 200 Current thread count: 4 Current thread busy: 1<br> Max processing time: 0 ms Processing time: 0.0 s Request count: 0 Error count: 0 Bytes received: 0.00 MB Bytes sent: 0.00 MB</p><table border="0"><tr><th>Stage</th><th>Time</th><th>B Sent</th><th>B Recv</th><th>Client</th><th>VHost</th><th>Request</th></tr></table><p>P: Parse and prepare request S: Service F: Finishing R: Ready K: Keepalive</p><h1>http-8089</h1><p> Max threads: 40 Current thread count: 3 Current thread busy: 1<br> Max processing time: 1406 ms Processing time: 2.001 s Request count: 50 Error count: 5 Bytes received: 0.00 MB Bytes sent: 0.11 MB</p><table border="0"><tr><th>Stage</th><th>Time</th><th>B Sent</th><th>B Recv</th><th>Client</th><th>VHost</th><th>Request</th></tr><tr><td><strong>R</strong></td><td>?</td><td>?</td><td>?</td><td>?</td><td>?</td><td>?</td></tr><tr><td><strong>S</strong></td><td>0 ms</td><td>0 KB</td><td>0 KB</td><td>127.0.0.1</td><td nowrap>localhost</td><td nowrap>GET /manager/status HTTP/1.1</td></tr><tr><td><strong>R</strong></td><td>?</td><td>?</td><td>?</td><td>?</td><td>?</td><td>?</td></tr></table><p>P: Parse and prepare request S: Service F: Finishing R: Ready K: Keepalive</p><hr size="1" noshade="noshade">
+<center><font size="-1" color="#525D76">
+ <em>Copyright &copy; 1999-2005, Apache Software Foundation</em></font></center>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 4 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 4 ****** (Location Flag : tFlagInsertEnd, Location ID : 4)
+	web_url("status",
+		"URL=http://localhost:8089/manager/status",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Snapshot=t1.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 4 Ended $$$$$$
+
+****** Request Header For Transaction With Id 5 ******
+GET /manager/images/asf-logo.gif HTTP/1.1
+Accept: */*
+Referer: http://localhost:8089/manager/status
+Accept-Language: zh-cn
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30)
+Host: localhost:8089
+Connection: Keep-Alive
+Cookie: JSESSIONID=6899E60A1702B8231C0646BE2B15E68E
+Authorization: Basic YWRtaW46
+
+
+$$$$$$ Request Header For Transaction With Id 5 Ended $$$$$$
+
+****** Response Header For Transaction With Id 5 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+ETag: W/"7279-1216684872000"
+Last-Modified: Tue, 22 Jul 2008 00:01:12 GMT
+Content-Type: image/gif
+Content-Length: 7279
+Date: Thu, 12 Feb 2009 07:48:40 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 5 Ended $$$$$$
+
+****** Response Body For Transaction With Id 5 ******
+GIF89a\x83\x01d\x00\xF7\x00\x00÷ë~fff™™™ÌÌÌ\x99\x003´Œo¬lJff3¬OE\xFFff™f\x99\xFF\xFF\xFF®«™‘O\xCC\x00f\xCC\x003öÛ{\xB67O3\x003–§·™\x00f™ffPPP™f3³˜\x92333ÌÌfN@EÏƒY™™f\xEA/X\xE6\x00T\xC8\x00J\x7F\x7F\x7F´ÃÏ·\x00Tff™§¶Åf\x00fuŒ\xFFÌf\x993ff\x003®Jmèİv\xB0\x00d\xFF™fÌff\x00\x00\x00ËVP‚šEO\xE1\x00V˜NjE\x0BHÌ™fµŸ¥æææéééš|~¯¯¯°cv\xFF3fÇ°dõ¶lÔ®if\x03I °¾v\x16t\x9933gt\x80··¶|tA{F|\x88\x15{ \x847-\x1B}L‚”¥®"B¦«¯¾¼·¸±j´®x ª²ÌÌ™\xD8\x00O\xA2\x01K·‡V\x9E\x1DE\x17\x03\x18íœ\x830\x01\x1D\xD4*P\xAE\x00jOV]~\x03ff33­¨{M
+V\xAD\x00Jä½q‚ˆY\x07O\xAE\x0EC\xBC\x0FL\xE8\x13VAMY\xE7
+U\xD2\x00Q\xC1\x00P\xD4\x17w\xB5\x18{}\x1BH²¶¸ááám\x10~\x81\x19\x80¹±_ãã\xE3\x1D\x04!\xEA\x19tó±r\xAE\x0Cl\x1E\x19\x0F\xE7\x07T=GQÓàêÈ\x16x\xAA\x19|ìN\\ä±n{8QçĞuNNN·¹ºlUH¶ªiÃ¯¸¯¾Ì\xD2\x12Ny\x18/f3f¨†Q‚„‡„†ˆÌ™\x99\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00!\xF9\x04\x00\x00\x00\x00\x00,\x00\x00\x00\x00\x83\x01d\x00@\x08\xFF\x00\x17\x08\x1CH° Áƒ\x08\x13*\\È°¡Ã\x87\x10#JœH±¢Å‹\x183jÜx1\x00Œ\x19\x06,ä±H\xC0\x02\x19\x02ÌP\x198 \x8D\x03\x07\x04\x1C\xD0 ğà\xC3\x07\x10=p(PÀƒ£ÏŸ@\x83
+\x1DJ´¨Q\x8C:\xE6(\x9D3ÀãÇ§ a\x088\xB2 	\x1D\x13Wéh\x15B\xA1+\x05\xAE\x14\x08´xéà
+\x05\xB2\x0EFAK\x00„Í\x9B\x04\x08Ø´B`Ç€»G\x7Ff\x80\xCA\x17F\x88\x05!@\x0E\xED\x0B5¯á†„\x0F+V(`ˆ€\x01f&<\x16qbˆ™\x01wRÀt@\xC1\x04\x91:uL˜@\xF8#\x1E	XµÚĞz\xD5+\x851­…Œu@ÆkÌ—·q[\xB1\x19W&\x8D\x0Ftk\xBE\x05A\x80‘\x04	\x10\x14yB K\x8F\x1DE
+İë·``\x18\x19\x06>\x15ÉCpA\xE9
+\xA9\x17\xFFîÎ7»ÂÒè\x0B\x1B\x14\x9F\x1EªùƒìÛW\xD7.¿tÂø\xF2\x177œC¿À¤s\x08€\x0FjÈõ\x1F‘G\x1E\x14(\x11\x1Ah\x0FB\x18\xA1	\x10z6\x9A\x16õÁ\x80\x07\x17¢e¥•h^\x81\x01\x1Bk&\x80ÑU\x0B-äö\x92
+©}(\\m]áF\x00\x02\xC8%à‚\x0B@4\x11F+\x14P\x00\x0E"\xDD\x05ŞQøY\x10Â‘Hâ÷^A\x89\x1D4@\x93\x03áW\x1F“}‰X_\x08A)P†èéç\x93\x0E\x0B\x00\xB8\x14S\x0Ch\x00@\x07\x00¤Y\x04lf\xE1\x01olÎô\x16\x01q\xD29ÓKkáFÖm#\xA8\x18\xA3\x03*Tx\x16L-\xD2\x01VWB¤f\x83
+ŒJ\xE0(\x1ExhG{|dp\xC0\x01\x17\\P\x06
+(Ü°)\xA774\x11\x04\xA7\x1DÜ€D\x14\x15\xE1\x17\x00CJRÉåS\x7F\x11\xFFôä«êYGk¬[by–\x03]w«—\xC0.”Ã˜Ä\x16k\xEC\x00\x02$›ì\x12\x01¬E\\* a&\x02n}\xF0\x00\x8D	D`À\x06<Q\xED\x13\x08Üè\x02\x07hÜ„\xC0z¤‹B\x07\x17Ô°S\x00KLÑ@\x07\x84 XD\x07\x1D ÑÁ\x14K$kl\x0EÁîªk\xC0\x04\x17œ‘”„YI\x11zæñ¥°Á^r\xB9$\xC4\x15ÍúTF\x0E\x0BüÔ\xC4\x14_„°{&¹ê@\x02ğ…\xEB\x02ìLßv\x1A\x7F\x04\x1E~!\xA3\x0CÕ\x8F\x1Dd\x01_²¶gS\x1F\xC5,\x10{«^9¥@\x16\x7F\x14´@<»LP\xC6\x04¥Ü´ÉÒ•\x0C\x95\x05\x04\xDD\x0C•ÏEÃPP\xCD\x06Y}ñÒ3\xC3\x07ÕÉ\xE5\x11$5¬O\x8F\x1D5_T\x1B%^\x00=\x15”ô|\x0B\x94=ĞÙ\x1Fì´A&'\xFF4·Ñ\x03‘gw¯îm\x8D3K‡‹}õA\x02dÀq–c3”õ\xD1\x0B\xCC=d_q7Õw”‘\x13\xE4+v`C\x15\xF7\x02\x03x\xFD\x11\xE1\x1B\x1B^k®h¯×9\xEB#/\x807\xDD2·z\xEC\x1Dç®ûî¼÷î»a\x8E#şğ\x93\x0F\x0B\x14XxK\x1EOQ\x00\x8F7Mùw0ô”\x01\x0F\x19¬Z=BÌË>½Ö\xC4;\x19=ÊÔ[\xFF¼CM‰§²vz7/\x80\x05ây?ú}ïuÏw\x06H†°—D\xC1/}>ÊÍ\x93\x0EÃåûÛÒû~—»üY\x04/
+A \x01\x7FB\xBB\x05êg\x00oC\x88\x02\x1D˜@9Pğ‚\x18Ì \x06\x7F2,\xA5\x00\xA6/\x01\x00\xCF\x1CBp\x02\x01`\x02F\x80BU\x10Õ‚\x13\xA5%7\x0F\x18ÁªÅ\x1B\x02ìÆ&\x0F¨À\x047ÈÃ\x1E\xFA0`\x01\x08\xC0	\xFFŒğ\x85\x00\x18Áq\x1Fƒ£X\xB3\x1A\x0FÑ¡3W1AW@\xD4\x15\x02ÈPO/éÓœÈB\x1C+xÀFÊ‰KsV\x80ƒŞQGe¾z\x0CÏ¤ó”Ym|Œ“Ï~\xC8\x10^Ñ±!:\x00\xD8\x02\xA0 \x00\xA5<\xE6\x08`Z\x01o>0\x136õfE\x81\x08\x04\x85"D\x04\x1B¦=§I\xCD\x18\xB0"E¯œ¡’* ‹YP\x14\x16´¼pO\x14˜MŸ^ò›¸ØD>ˆA\x1C\xFE\x04\x13\x03\xDC\x00\x08\x8F\x10\x80\x02\x80Ô»ÙÁ m°kcBìø3\x10J„W¶”ŠB,\xE03^~îkw«’\xF7\x06çÀ1 TMØ–\x0B\x0C°…-\x08\x07A*Ê6q£„\xAE(B•ìŒW(ÔH!¨€\x0B\x18¢ÕG¸À\x05G‰FŠd\x11\x02kè\x1B6\x11Ç“¦ì\x83\x07\x04\x91\xFF\x9C\x0B\xFC\x00\x02øbA\x9A4Ğ€\x06Ø¡\x03\x0Cğ‰àÔù”\x01Öm`9ëKÌğ\xF30^ıMk	\xBC\x1CDC·ºÊùò\x16\x11“±\xFC8\x85)ĞË- hBš~P-\x03àšs\xC2!\x08êD\xC3\x03±©ØÜ]\\ƒ ›„2Es!À `R-º¸\x81,EĞ€\x06n\x00¦v@\xA07Ğ@S\x7F\x80¦ƒ²@\x03\x1Dh\x02\xAA \xA6%!\x15O‚HújD\x06Àƒúñ@¬C¹KıB°CòN\x07p…ëHçJ\xD7\x7F)\xE4\x0E\x1E\x0C“[÷Ê×„Ìî\xAB\x10T˜æÊs>Ç•\x07‰1¬{\x90\x18\x12\x082ÖJöC¢•˜‡ÄÑ1\xAF4\xD5\x13,cß³¾ëm­HhåÛ\xEB\x1A²¾¾d`Qz¬Ü\x18\xEB3\xCA:\xCE$\x10tCYb:\x18\xFF\x04à˜«Ål\x08e¥Ø©¶r¬uÒßè‡½àÆvc\xB35\x0C\xB2.kÚ^\xA6\x0EzasnŞZ\xF6?„°G$©óÕªL\x07İ¡\x11-q¶z•C6wÑ\x1A\x0F¼Lãœíj7]\xCF\x15î¼\x1Dõßê²\x96\x1E‘U×u¶c\x0FÇ²\xF62ó~\xAE\x7F@\x11\x00sË³Û„”Î\xB4\x01tíiı–°ïl\x16\xB5\x0F– ~\xFFâX$ò–±¤\xAD-H\x02\x80Z\xF8!\x16"\x8D3m‡o\xF7\x11\x0BˆDÁ­®Ù\x18\x0BÇ¹Qx\xB3\x0EvÏ‹1l‹J\x07ÅN\xD20q\x0F‚ã\x15#\x11\x8E\x04Ë_[…—\x10åI.´ˆ\x19ñw‘L@!\x91/´N>2üˆ\x06\xE5!C$\xCA\x17±²u\x00¼A\x03Êo~d\x15¬m\x91%¶ÇPï¾»êß÷\x12Ò+%\x13\xFFÈH\x13f®Äz:’Ù\xF6>\x185HÉØ\x1A\xE2\x00b\xE71%k\x1EvÎê\x14„tÇÄ<ÈŞzâ‡æœ–¬Šv\x1D\x9E\x1F\x13\x18 \x1Bp™{ÙË\xFE"İ×N{úÓ ¶È^
+Ü\x01”à\x10²ãÁe\x94\x1CêV»ú\xD5\x0B˜Ã\x1Dâ¼\xB1\x0ECF2F A	P\xB2\x00Eœ…\x02Wp\x80\x1B‚\x1B7\xCC	\x9B\x15èÁ
+z\x80\x01&ÃúÙĞ&X\x07ıH˜ÌÎá\x04\x01\x1FLb\x953P\x00\x0Cáü)g\x06•I¶ e&5\xFD\x00\x1A* 	I$7ƒ^·“¯ÃeŒÈ[ËŸæe¨EêÇ¡¦EMÔÊˆÂ\xD9\x02\x15x…“C%CL~ó€£¾\x04§§\x8C\x00\x82\x1E €\x0C\x9E1¼§\x8D.Ñôëì\x8B>\x05—®Öw«oí˜ æÚ\x88\x03\xFF˜ƒ#B3šÒháß$*\x94	šh\x823\xA0\x08E•L‘¹ar\xC3\x03‘’\x06Ä‘\xA6\x01Š` 6ìó\x05a\x08\x00\x06\x96.\x80vWA1\x17w/èX'’c‚W‚¦mpyq6X\xD3\x16/‰|!µ_Á~K\x8D\x1EÎãrf\x0CØáüÀ\xBB$+\x04\x7F\x10A²5\x80\x1C(À+\x02¥ƒl\xD0\x15G¦“0§±A\x8B\x06~(\x16\x893\x8B\x06GÑmh@\x17²¸\x81\x00\x0E÷M[‚J\x16kÙğ\x03j@\x0E\x02\x0C\xD0\x04,4\xA1\x00ÍŞHÔQ\xF7\x1E–É·¹
+ù[ÈşÆvÌF'Äv\xDC\x0B1\x15fõ©K]ÄwI´ù8jÚŞ²Í V\x7F\x1E}\x1B]°a\xE91\x04`"[\x0C„Í8]\x01\x10\x80\xA0\x00h\x16\x19¡é‡æ‘íy\xF9\x18Àp\x06\x12ı”ŠáN\xD1\xFFOG \x04\x13Ù†-mxËRSI\x02\x1C'\x06*úÍ\x07"àlåòjøÅÓw0\x11R\xDA\x0C\x15DU\x11¡o¼Bvõµ@Ó¶\x03\x06p\x017\x92\x00O\xC0\x06\x07\xB2 ƒ¢M^\xE0\x1AR4}S\xB4\x07ST!uĞH¤Nîd\x02c0"Q\xA4\x0277\x16\x04 sy\xE2\x06\xEC\x17\x16ê‡C1¡~ P\x04\x06\x00\x044\x08\x04(@P\x06\xD5\x01bP\x7F\x12v\xF5\x01Gú‡z§g^\x0Fuu„ÁjÔUg¢e\x84\x1BÅWråLK\x90/\x1A\x80\x051\x05\x1Cy\x02\x13[\x84\x1BY\xB8\x19\\È…B\xD5 &\xD0\x02\x13\xF8\x19\x16\xD8\x15g0}‹Â(\xE84)´ÂNBE*\xF0\x00òg.7\x80\x02e\xD0\x01f\x92&\x1DğO\x10@UO\x05\x00X%	<\x089|ñn\x1EÕ„\x841:\xC8"% W$\xC0\xFF\x17{Õf%gF;\x02Ø„R\x12@\x93\x18@=4mcR\x05O\xA5\x01Y\x00\x1CX\x90&\x00`\x00o\x81\x00¤ˆ\x00sqM\xF64S4\xF0\x00-E\x16°È&XÔ…¹¡\x02ód\x02‘ç\x00òTsWdp^ap/!N]\x11\x07£ò\x03u\xD8)ap\x03ùr\x00a\xC0\x04L\xC0\x07Oq\x00p\x01\x05\xD5\x01O×ƒB˜@„A9ê¤d>\xB8*"w\\rÄ{Jh_\xE7\x18c\\‚„{…WxUWKq\x04É‚\x80\x06\x10\x06\x06\xC0\x01\x1C\xD0\x08\xE52y\x1F\x90\x06pUO0\x1C\x04 \x08>\x00\x1C\x06B\x17s¢SÙ¤~'lÂq v\x02t\x08B\x1Cê—Tv`\x07irP\x00\xC0\x02\x05u\x03\x85\x00\x01—²\x04)\xD71"\x17m&i\x14q\x15W\x02ñ\xF08W²d\x17Î¤,)×’4Ù’w\x00W\xBC\xFFS\x92'éCÈ‚$\\\xE3\x13\x07ÆL;9\x94\x06\x915G!”w\xA4$I’^\x15a:@¨qDY„òQo\x14d\x94\x18Á”¯fKpƒd\x04\x08\x1EíÁVòqbïõ]c9„K\x92!C\x925ñÁY?\xF8\x10äµ\x10şg_V\xB27Ò•\x1Fáå]¹„\x1E\xD21|LC—u©—\xFF\xC7%‡Aí1\x10s£gàå\x97+\xA34ˆù\\g\xF39d	8N\x12\x02”ÕUW\x878\x1B³V”y™„h—ìuK]S–Xé—Š™4\x8C&:İ•\x8E,A™¾‡L¹ô0ty˜ªãš¥Y–C!vŠó5²i6‰I„RI|˜¹a\xA6'\x1Ex\xE33\x0BÕhV\x19™ª)\x10Ç©\x11oi]S\x13šÏõš¹^Šù_\xC9\x04•C˜gÇ™–LhzÕÙ^\x87\xFFèšv\xB6:×i›Ó\xF1*sY\x1Fë¹^$†•\x16¥Láé™Û\xC9\x18\x19B•¿©‰èh\x1F\x05qœé\xA17şe\x9B\x04x\x8E\x03šgğ¥uŠÙ•ó‰F\xE8\x19\x95\x0Eú \x10J\x14—f`lE¡ƒ	œƒŸ\x11
+\x11\x13ÚW\x9E\x05R\x9A&\x107\xC3\x7FRÑVšƒeOS\xA1%£d¶g]lW7#¦hİa\x1E%#f!\xB3\x177Úb\xE61£v6\x88\x05\x16\x18ÉÕ3q\xF60<\x102…\x10\x81\x112\x02&6\xB12¢Ş\x134{6\x11\xD8\x11$-\x9A6·…ZIÊœD\x10\xDD1\x88\x04äe\x18úeˆ<\x04Ái\x10Ñf©Çe\xCC\x13DşÓ¥»ä¦Ad\x01p¶¦«ò$n\x1A\x11ì£?Y\xA27ãó$1cd9Ã`ZQ/\xDA\x10y\xBA4\x1DÖ¡ˆSL\x01\xFFô¡\x1B\xEA\x10ŠŠ?\xFA)¦¯¶¥\x8F
+=
+S2—º©œÚ©ú© új\x85\x1Aª¤ZªŒƒ›¤Å\x1D\x16D:¦Úª®Šgc\xD6\x10r w²“,2\x00\x1E\x03\xB0\x13\x030\x03\x04\xB0\x02<\xA0\x00=\xA0\x08\xAF:¬—ªG\x0Bµ`	!\x03%`\x062P\x192@\x15\x0B\xA0\x19^H\x16\xAF8\x91\x1B\xA0\x00^J¬Ú
+RJ1k„é\x17ii\x01'\xE4\x04\x010\x01' B
+\x80"å–\x1BÄ†E†ty§T\x04\x15\xA0\x00¡·­öÚi"õ­\x7F\xB6\x00x%\x00äê\x04_Àm\xDF&ER¤®;\xB7\x19l\xC2\x1Béwln\xF1\x00)PF÷º©›\x15©}åL\x1EGL\x01\xB0\x06_\xD0\x13V\x81\x15“„('RpœÔ®]è®\x0CgCj \x08ã‚\x08gåCI\xF4\x17ôv›¥1ª{¥“}\xFFÅ’La?¥a\x08\x03Ğ±\x1E\x02\x1B\x95\x14\xB4?e\x827W‹´Ñs\x0FĞS\x04\x10\x01âr\x01\x15@K\x0EäU\xD4\x11Bóæ\x1DZ†¢áŸ\xA8	k6ëi3i\xB1\x08\xA3\x05\x92\x14sQD®A\x01$xs*Ò®\x8F7'4D\x00)>"	\x0E4z\x07:8Z‹¡IØ„ ÖµŸ\x16	F\xE4\x04F\x10\x00~\xF0\x05…Û\x14Ø×\x17\x12`\x03#\x12pN\xA4\x1A<¥I?E\x01y\x02tWD\x13ÇÖst\x91\x05\x08\xD0\x04bÀaK×²\x05c\xB7\x1Fd{,C\x1E…,\xB8\x03\x9D:sdñÆ\x12\x03†¬\x06&\x00‘eZ\x1CV\x7F\x03\x10\x02ìã\x1E\x1C¶·\xB0+\x1Eôãlº·X?I1\x02\xB0\x08(\x11\x00_@\x02\xB6:\x04\x90\x10 Q!-W\x1A¨ñ¸t x\x1F\x12NÀØ\x19W(\x16-$‡Œ\xFF—MÂÑ\x05YĞs\x06\x19\x17\x1Ep\x1C\x08@#âR\x00‡A\xBA1Ku¥ËŸ©'Q\xAC\x07—˜\x13–¹‰–áÁ%d“¿ía\x88\x05š­A\x11B<@\x05\x02p«M\x01hLqT\xB7\x11\x13`\x08!\x1D\x88\x1EîD"ÙË\x1Ac0´íG\x16\xB51\x1B\x13w\x85\x0E´sh-\x0F\x19\x17=\x17\x17\x08\xF0\x02.p\x03@·@\x01\xBF#3\x9C ñz\x14«œ%–—kÖ™\xB42>k‰Dè‘¨¿²˜\xB4\x02\xC4\x04v$RB³G1,²ƒ,\x01\xF2\x07}\xB4\x00‚THwòI+’,—¸}q\x1AÕK\x07\x1FÛw[qsÛK\x01W\x04\x13³¡pÄ…Õ\xCA\x164D\x17EP#.\xF0\x02E\xA0\x02\x04\x90\x025Ğl\x04\x0C\\²K2s4’•\xA1\x1Bƒª\xFB\x198%©uez„ß\xB1\x10û·Ÿi\xFFÇ›”hZ\xEF3|\x1C\xD3\x17 ÷\x8B\x1C0I\x11B²V9ş¡\x00ƒt \x84$\xC24\x00\x13p\x00\x07‹D}¥l\x03\x7F\x87\x1E\x90"xáÔ!\xAD1\x1B…W‚œ¡M!;J3¤~W\x10n\x14ĞÆ7Â«òGq¼£a\xEF3\\»Ä·ã9³{$»»Q\xC4\x0C\x11\xBC4|rcÌ¿Y\xA5\x043\x07z\x14k\x03\xA1\x038\xF0,¼qC\x08r\x05o\xF0\x06ÒW}\xD4\x17\x1Adh!X¬Êâm]1p\xE1\x16nòôDâ„"TLJ,’‹/2T{\x02.\x06\x80\x01\x82\x081Z‰_‹ã»Ët™µW˜æ˜ÃãeÌ¼ÂPñE1\xD7\x1CkJ\xB1\x037\x82\x00\x1E\xC0\x06ğJ\x00\x10\xA8'\x18¨Ë¥|\xCE\x1A8slX\x1F\x92"\x01!HI\xAE,pT„¶t\xCF$B\x06¿¡‚®\x11\x87\x1F\xFF OÇ‘\x1C˜k\x13\x1E\xF0\x02™r\x03¤Ø\x01yÁ—ü»\x84\x0F½ç¨a a$ÑĞòé–\x0C½Q\x0EM¿Ã’\x02P\x00Üâ\x02	\xE0\x01\x11\xE0\x03\x14\x80Cm\xF0\x12Ãv\xB0*0b\xBC"\x1A\x18\x1AŞtI\x13L+²\xCE\x04\x07E$BlnĞ}\x1FB'êG\x17W\x18\xBE1àÆ+Œ‡\x00pP\x1Dp‘RP@\x11ÕR=\xCD\x06ZÈ¿w·’\x19Èi\x03\x15HŒÃ:œ\x14åiÇ’\x08RM¡èÉ¼\xC1\x16[ˆM{\x92\x16?E\x00^0¥<N QNç¤\x05©Ì%ìÔN&m\x02BàI\x0FPIÃØS\xE6"UT%P\x80ˆ‡\x10‘\x07\xC5\x11:6±ŒE\x18“ŒØû\x0B•MÔä9|ÇL\xFFË™\xC8\x1DQ|„\x10¤Ÿ\x044RG\xD0\x01\x07\x00\x01z\xFF\xC0\x011@\x90\x11\x89 §\x857!‡ÂæÀ¡E·Ø \x16(†BpÎAË~£a\x02ŒÂ(’âÚ\\xC0(p{\x01\x9C\x12\x04h2P\x1D\xF0)¾İT}X*\x17P\xBC\x12‘È\x06f\xC8	=ÔŒ]bg•»\x08S”éáÃ£U‰—)ÔÕs$\x03&\x9E?t,\x02\xC0\x00\x7F\xA8\x01i`\x13E\x90&\x9D\x02\xBE \xC0\x01Èñ\x02\xBB!\xC5\x04ğÕ](\x1C\x0FÀÁ L\x06¿¸\x07\x18\x08l+’‹\xFA\x1CÏ²=E-¢½¨áH–r\x00ÑÈ\x04}\x01—\xF2\x08\x17P‡Ap\x01ğ)7@\x11øÇ\x10µgv¯ÒbS©o>\xD8\x17Ñ]Ôúv\xD0\xFF‰¯Æ¢,;\x10\x17\x17@ŠE0\x17&,P.œıR†Ô\x06†¤uÒ‚Û„\x1BxN\x03a\xAC"0QE`\x1D\xE8\x0E‡S\xAE\xFFÑæKe\xE0\x7Fh\x07£‚\x02A`&M0/\x19\xC0\x04\x1D\xD0\x00\x84\x1D\x11
+öZ\x0E±éš\x18°÷Çh\x15êOQ`ÄÈH½as9±ÖÅê
+\xC1\x03©şqìèV8;WG\xA0\x0050\x03\x1D \x05\x1A\xF0\x03\x11\xE0\x01ä{\xD1\x14ÉÙ\x1Fp.o\xCC\x08sò6E\x03\x10×Í\x06éx=\x15C\xC2\x06\xDA\x1CŒMc\x9C\x06M\xC0\x02\x7F\x08\x00`&vÀT\x10P\x08\x015/v\xB0\x04$)\xCD\x11ÛWOH“ò8\x07Gp\x04L!K\x15P\x01YP\x13O\xD0\x04\x1A`\x00t\xFE\x01O\x80&\x100\x08\x11 Ş¼×ÉqCta#\x15\xBD\x1B/\xF5\x16tM\x04\x80\x1C.\xD0\x04ûîX…‘ÚŞ\x00, í!\xF0\x18crîÒî&	WœX“s\x85,\x0C\xB0\x03›ı\x01°ëù\x12\xE0?0\x03)\xF0,a\xFF\xB0/&U/\x04P\x01}\x91\x1DĞG.\xB9\x030Ù’\x11m0~\x0B\xF2\x1B\xAA\x03µNòHŸôğ˜\x03Éç;§Nô¯öº†ñM\x0FW\xEF\x18\xF4\x08“P¿õ9\xC60p\xA3\x11\xC14ukuÇ|%1 •œ\x161öÔ¥¡\x184\xC0\x181;FB™Aƒ•Ciöw„ö\x15A÷¿ÉöQ‹”\x0B0‰€…µ\x02¡zŸV^\x15\x14\x87/¥}o‚Ï\x12O\x14_\x94\x08„÷²’øÅ\x0CX\x1Eù®\xAB\x18Ç„\xDD5\xD6\x1E\\N\x18`	úŸ\xF9<\xEC1GéU\x1Fsd”Ø)Èé\x11ÙÏi`I\x14\x12Ìİ\x9E \x0E4©ŞaaNª\x1Fœ€ù™\xE7\x13\xE6
+ƒû\xA51\xEB\x1AÁá³‡¤E¬a©uX¯åXÎï8\xDC\x01^V\x07\x1EŸó¿Áëv\xF1\x01rB\xFFmµawV¤®·ÌM\xDC\x16¦^™©³¶9š£U Xc»¬É„Ù¿ˆ‹ı‹ÕÇ\xC0\x7F{\x1B¦»\x1BÅşA\x100\x04\x0E$H0Ã€\x05	\x05\x14D\x980a\x06\x83\x0E\x17@\x1C\x18B¢C\x86\x17\x13\x06 hqÁ€\x82\x02-`\x1C˜AãÉ\x8F\x05%‚ì\xD80aC\x95\x17\x17–D\xA91äM\x81\x0E9\x12´I0\x80ÄŒ\x12)
+ôø°ãÅ¡0L\x92\x1C8reÌš\x0EY\x0E\xBC\x18\x14éQ…VÒt˜´èVK£%{rÀN\x9C\x02\x7FNŒxqª@—^Oj\x05Ês\x81\x05ªCy,\x98)pïE´ia<µ«1„à›e\x17\x14\xCC\x10ÂñãÇL\x89\x1A†º˜ K\xB00¾Ê•x˜ë\x02ÏTİVŞˆ8gİ˜»beûYªU\xCE\x0EC+U\\Ûö\xFFJ\xBC1“Š}}yuÅ¹¾OöÕÌc €”a-‹¼êS\xC0\x00è•\xDF\x0E>9\xBB1dì\x15\x17üŠ\x92;åÂËá6Ÿü»¼ì¶ I'\x17\x9D\x19F\x80çÑÃ‹‡¡:sÑİ\x1A§ÇeĞúm\x00W\x0B\xC0>óhã‹®ü
+\xEC.!º„ºI¬Àæû°öØ;M¿‚«‰Àà€\x1B+Â\x06Z‹AŸÈÓÌA\x0FÑûlºî¦SQ9
+/$1µ“b#\xAE>\x13y‹Í¿ô\x02\xB4-©°2\x102$ŞfS*\x80\x10r›o\xC7\x025\x1B\x80\x87\x01c\x1Cè¯\x19	ÒĞ!\xE3\x08²€\x87'#¤î¥õz3\xC8\x02\xC7\x02\x18Š·¨¾#\x0BÈëØ¼HI\xD36ëO=×ŒTjÈ\xB0,h\xCB.óD±¢.\x1BÚÑ\xC8\x0C„SÆÖÎã\xFF\xD15\x1F\x15\xB3\x13'4uB\xCC>&›¤Q\xA2\x08Ò³G1\x19»QÊ±\x06\x00òÁíæÜpT\x83\x08ô’\xA8\x1D™œ°SƒŒ”²¤OM\x14®ÒU…ûóÄ\xCE8m\x14@è‚\xBD-X\x0E}$¶Ø_õƒ.Ù²ˆeÖXa\x15‹öÙf—µmÚÚ…ÖZj»õö[p\xC3\x15w\\r\xCB5÷\tÓUL\x80+Õ¥6\x04d\x07XĞ]zëå«]{\xD1\x1D\x00ß|\xBF\x15²Y\x1CQ:Ì]3Çj¬_„Õ\xFD7asAB–a\x1F…D‹_\x0B\x03~\x11Ñ‡
+\x151ÍHe\xFA\x12\xA5\x004EJÓ÷Àäw¡†\x16Ò©\xE3\x0CH^\x0B$ŠÇ*hD›Ì<\x0E%\xE2\x0Eªi¶y%\xBE\x19%\x1E†¢ùÚ3k\x12RT^\x01+)\xE9\x1Ac†ø×…\x170@‡w\xFE\xFFX£¨'êø¥x-\x1Eîj‰P^Àf\x84
+®ñ'Zfb±É\x1E{kÛ˜\x06ê«’Ç\x1Ax®¡k\x14kê“,àÍlÛTÖ“À¬k»¦\x9F\x067êª1,ön”²\x86\x1C\xC0\x0CœN	ÙBAâË$\x18bV\xD9\x02\xE4:\x0F\x01îÌ\x07\x13\x80sËQJ;„çäÆh3–ßƒ—#³¼\¬Æ\xAB\x12r÷Â\xCB*Üu\xAD7\xF4\x1A\xF8\x03\x15_\x1CwÛÁ¤’²¨²®\xBB:\xA7-È»ªÔËà¯İ›_Øz§­Ç¾w\x87\x04\x987ø×\xBD+
+f\xC7%½}MäU\x05\x1BçñÅÎŠp¸É?pŞÜ§6\x80\x11E\xE50èñ\x80‡e-\x13	æ¦·¹±H\xAF,H’Êõ¢\xE2?Ùˆ\xEC$\x0C|\x89\x03A\x06·X@T1»“ZN¥L\x14ÖÁ\x80JYNú§3³ eK\x17ŒÊN\x0E\x06\xB2\x03JE|{\x01^çôwCßÕOZ\xC9\x0B\x9B\x0Eq\xD8-âı°_gáÒ\xE9:¦@!&Q‰Kdb\x13øD(FQŠS4^@\x00\x00;
+$$$$$$ Response Body For Transaction With Id 5 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/manager/status
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 8 ******
+GET /manager/images/tomcat.gif HTTP/1.1
+Accept: */*
+Referer: http://localhost:8089/manager/status
+Accept-Language: zh-cn
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30)
+Host: localhost:8089
+Connection: Keep-Alive
+Cookie: JSESSIONID=6899E60A1702B8231C0646BE2B15E68E
+Authorization: Basic YWRtaW46
+
+
+$$$$$$ Request Header For Transaction With Id 8 Ended $$$$$$
+
+****** Response Header For Transaction With Id 8 ******
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+ETag: W/"1934-1216684872000"
+Last-Modified: Tue, 22 Jul 2008 00:01:12 GMT
+Content-Type: image/gif
+Content-Length: 1934
+Date: Thu, 12 Feb 2009 07:48:41 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 8 Ended $$$$$$
+
+****** Response Body For Transaction With Id 8 ******
+GIF89a\x82\x00\\\x00\xB3\x00\x00#!\x1Dğğğ§“WñĞp‹q&ÓÓÓ³³³GB4¸’ ‘‘‘ok]Ï´b\xFFÜuÒ¤\x1C\x00\x00\x00\xFF\xFF\xFF!\xF9\x04\x00\x00\x00\x00\x00,\x00\x00\x00\x00\x82\x00\\\x00\x00\x04\xFFğÉI«½8\xEB-\xCF)\\(ZÆaŒhªr…ã*\xE0*?\xE5;\xDF8§¸.ä¢À\x8E\x07\x00\x1A\x8F\x00\x1Eïs\xC4\x14’JG¬IM\xB5\x1CCâ©*ID\x0F\xC9-w\xBC18\x00‹¨KÜÌ\xF2\x08\x07ÇLÇx\x01Œ¸\x9At\xF3\x16;
+u\x83\x15;\x07\x0C~<S9^j‡†„‘\x0Fq
+\x0Cij\x0E\x07\x01@f\x98\x02ˆ™’ƒ\x01I•y˜r9¤˜\x00\x03\x0C\x02g›¢d\x01.Ÿ–¨E\x13\x01\x05\x05\x06	ÀÁ\xC2\x06\x06\x05\x01›j·°\x0E²³\\W\xB7\x0C\x04\xA8
+
+`¨ÙgØ\x0CŞÌ‹ÏMÑŞŞzÚèéD®ß.áâFäå§¬\x07
+\x04\x02\x02\x80_\x03\x0B\x0B\xF9\x04®A!²`\x1E3>\xF08Ùš\xF7-	\x00\x05úØ1\x1C0\x10\x0BÃr\x03\x06\x08\x80s  \xC15	\xFF©t\x926¯ŸÄ‹åÜxDÉ²\x1C\xB39!ŒlI³Ü\xA535i¾ŒydfNšCLı¼\xB83\xA6\x01k	ŒÉ\x907\x14\xE5%’M½]‚IçX/\xA5\x13\xFC<|ÇbaN@\x00\x00\x1C\x80\x1AçdT\\©Æ\x048Êˆ½DK¸f¨e±æ\x10±^\xBF\x1D:ûÑ\x01B \x05\x14TT‡I³«„²ŒÓQjX‰ıøöı{Cˆ’‡ÀˆıJpM\x1D\x00\xB9\x16\x18\x03­›ÒÁJ\xC9\x0CÁ\x1B¨ÀÀá
+tÕQ\xAE šešV\x0CÓ@­ÙO\x00D¢îzB\x81\x11b°¶ÙYÏ˜\xB59öb\x1A\xC54\xF7-\x01\x0EàõŒNiC$“½¡ÑéŸ\xCF\x7F\x0E\x19ëo9$\xC0\x0E‘_H`¼Z\x99\x1E\x02–·\x0Co7Ó÷‹ŒèQa­À(b)\x90\x14\xFF\x07±\xB1\x1BK\xB0\x1CøÑ^5\x95\x02D#TÉ`U/Ç¤0\x18\x00ñÕ\x04Ë}%=ö•\x0B\x11®°\xCA\x01<=0\x9E5\x10}—Ñ\x8A\x03ìÀâ‹\x19ÁR	\x8B\x13	p\x0Eh#4‚£$Şµ$@X@B\x11ä@\x9E1\xA44\x0B\x9C\x13\x0B\x0E#ÆÄK\x02z@g\x90\x07T:Då•Unƒ¥4+&\x19
+\x0Eğ§ÖQ\x831˜S\x82:9 àEI„¨\xC2\x0EÕÍâ_™P\x8C%\x1FCe¥¹\xE6<—ì\x18B~\x92\x14ÀŞe\x07\x10\x80@\x03\xD4,Á¡M™h¨¦xg¨Òf$5¸E@\x03˜fêĞ\x02w–¶(£Rb\x04H”ª\x80XG\x00P*Qè¡™¶ªÇ§ŞP„GNbÍç†˜\x1B\\«ˆƒªÚê¯\x98&\x1AêG
+øcì±Çî°ç\x00qè‚\x83\xFF®\ Ú\x1E\x1AÀşêP\xA7\x14\x11F\x04MÙº\xA9\x02´MH«\x00Õ¶šè\x9E?¾€âºÖèašR\x00A—·2ôš‰’K”Ûêµ\xD15{`\xBA
+tj\x0E\x16F¬Bo
+•fr)¢Æ-\x00,G\x1EÔye¨é6&U³÷Ùˆe\x0FT
+r\x03%9\x04\x16\x05¹™"\x80/Éæ¦cfIA ¬|Ìhã¬\x0Cpâ`/\x11\x0F\x0Ft\x80¾™
+;”—IX|\xE6\x1A\xC7\x14fp+\x14p\x8E\x07J(\x00¬É\x7FğŒ)¿\xBE0T\xB6$†kj
+\xA8\x12\xB10\x01\x039œ³š¿\x82=$\x11a­Ìg\xD06Ú‡`\x90=\x0C™õÇ_ \xF4\x1Bcï\­Éz÷LdXD„Ú¢Õa±Ü€\x1B)7#Hk\xA7\x04«Õ‚½päë‹@\x0Fw\xC2"t\xFF¬ÍÊÇì’\x14X'¢ƒ\x04úr¹•K­¯\xCF(iä£‚‰îúfãN\x18ç´ê¸K­Çg1ãñ\x18Wü¾\xDE\x12`»ĞwîÈ\x03\x0B\x05¬M-\x10´èmĞNA\x16“ë‘zòÉ_~\x06\xF39eûÙ OÔ½‹»\x93\x07\x0B@ùØc\x9F(n¨}îW$°q\xF7\x19\xD77\x80@\xF9\x08@”~î‰\x1E 0Mz8\x18\x15V\x11\xA7\x07\x84/\x13õ‹\x9C\x0B\x12¸¿²a\x8E/\xA4\x12E'\x04qÀã©®Yä_\x0F¸‡\x91\x08\xCE"(u\xC2\x1Ec2¨A\x03ÇƒrR\x12úT‡€$¬„åJ\x94\x03\x08P\x13çÙ !Øy¡Ô\x12¥C\x18Ím(‘¡ğ\x11\x80¥¥/Q\x0Côá¯Z\x08ŸÜœC\x80§r\xD7\x0BÔw\x06%"\x0FjÆ[†dÇ…\xF1\xFF`ñv\xB9\x1B\xA1\x15\x91'Ã{\xC5%&ãÁ\x14\x13\xC9\x16ÆL\x8C1{íáb\x15\x1A\x01\x00È­ñt<+\xC5\x1B©h¼fÉ±'=H\xDD\x1D1•B\x1AR\x1FzÜc\xF6
+…©f\xF9	\x1AP¨Ÿ\x0C\xDB"³·àC\x1FŠÌö\xBE'ŠUÌğipĞ–\xCC\x02„L–ë\x1CœŒ\x84\x1EĞ—¿öx\xE6?¹°\x87\x00\x92\x08\xC32á‘}0^Ùt\x96\x14\x03¸R\x1E³Ê/`	 {\xD0\x12{Ú[•C ×„N\x1C\x0F‹™X\xC4\x01\xD117\x0Bğâ\x17”ìş|è\xC91Q\x13t\x08_\x1DKV§¿L3\x1B\x05DŒ \x04\x03 {\x1C\x13u+\xFC&3™´Jr¾€™ó\xD3\x06.)°Î2)à¸Ca\xF4>©F(@±ˆè€â\Øò\x85\x7Ff\x10\x9A\x04\x13\x89.5\x05\x12\x11À…\xFF\x08\x80I•ªğˆ;\x19\xE2%¢ñp\x08\xE4\x02˜‚íì\xE1\x08‚RÒC8º·f\x19\x13Q7\x04B=\x83\x15S\x14\xF82\x17óLÚÍÜÉ3\x02\x18êa[³™\x0BÊ·Ì¥à‹\x07¿Ë)ÂØ©M–ê.¨K\x99(M\xB3#¢‹
+$@\x7FìF\xB3(ÂŠÊÀz\xAE\x12\xDF\x0Cn–!†Œ©gph\x1Bß·‚F\xE0\x0F\xAA7È§6\x14Êµ­bÁ©ÀÚÏ·‚ö+8)u\x04–¡&\x19\x12\x96	¼îë–)\x00ëaÍšƒ›¢ó\xAF3\x08ŒÎ\x0Ck?‡ì\xB3\x13¬„k<„Á\xD9\x04d\xD5
+öÂ\x10Ï˜èƒÌ€†€Oój‰ª .mZ\xCE8\x07\x18P\x05\xDC
+Ôx­–\x16	{\x08ê®T\x11âH`D
+lÆm\x07‘[0Z®xgØB#$\xE9\x02\xC8\x0E\x17L\xA8;4îêxp\x02‰a\x89\x1Bû|.t\x03§ºõ]!\x1DŸÕ\xAE
+Š»Cu±ë¼Ö\x08¯xÇ‹JŸº÷½>uÈz×KØtÌw¾õÍE\x04\x00\x00;
+$$$$$$ Response Body For Transaction With Id 8 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/manager/status
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+

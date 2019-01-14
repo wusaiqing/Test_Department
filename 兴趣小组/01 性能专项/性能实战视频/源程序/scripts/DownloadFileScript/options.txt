@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IH:\books\DownloadFileScript
+-IC:\Program Files\Mercury Interactive\Mercury LoadRunner\include
+-eh:\books\downloadfilescript\\logfile.log
+h:\books\downloadfilescript\\combined_DownloadFileScript.c
+h:\books\downloadfilescript\\pre_cci.c

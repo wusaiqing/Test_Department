@@ -1,0 +1,40 @@
+Virtual User Script started
+Starting action vuser_init.
+vuser_init.c(12): lrs_startup(257)
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(7): lrs_create_socket(socket0, TCP, ...)
+Action.c(8): lrs_send(socket0, buf0)
+Action.c(9): lrs_receive(socket0, buf1)
+Action.c(11): lrs_send(socket0, buf2)
+Action.c(12): lrs_receive(socket0, buf3)
+Action.c(14): lrs_send(socket0, buf4)
+Action.c(15): lrs_receive(socket0, buf5)
+Action.c(17): lrs_send(socket0, buf6)
+Action.c(18): lrs_receive(socket0, buf7)
+Action.c(19): lrs_send(socket0, buf8)
+Action.c(20): lrs_receive(socket0, buf9)
+Action.c(21): lrs_send(socket0, buf10)
+Action.c(22): lrs_receive(socket0, buf11)
+Action.c(23): lrs_send(socket0, buf12)
+Action.c(24): lrs_receive(socket0, buf13)
+Action.c(25): lrs_send(socket0, buf14)
+Action.c(26): lrs_receive(socket0, buf15)
+Action.c(27): lrs_send(socket0, buf16)
+Action.c(28): lrs_receive(socket0, buf17)
+Action.c(28): Mismatch (expected 8 bytes, 99 bytes actually received)
+Action.c(29): lrs_send(socket0, buf18)
+Action.c(30): lrs_receive(socket0, buf19)
+Action.c(31): lrs_send(socket0, buf20)
+Action.c(32): lrs_receive(socket0, buf21)
+Action.c(33): lrs_send(socket0, buf22)
+Action.c(34): lrs_receive(socket0, buf23)
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+vuser_end.c(12): lrs_cleanup()
+Ending action vuser_end.
+Vuser Terminated.

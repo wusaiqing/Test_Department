@@ -1,0 +1,8 @@
+[t3]
+FileName1=t3.htm
+URL1=http://fastonlineusers.com/online.php?d=http://www.cnblogs.com/tester2test
+Total=1
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=text/html

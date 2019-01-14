@@ -1,0 +1,21 @@
+Virtual User Script started
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 9.10.0 for WINXP; WebReplay85 build 5896  	[MsgId: MMSG-27143]
+Run Mode: HTML  	[MsgId: MMSG-26000]
+Run-Time Settings file: "D:\Book\µÚ¶þ°æ\Scripts\Scriptlrexit\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(12): This is main Action()
+Ending action Action.
+Starting action Action1.
+Action1.c(3): This is Action1()
+Ending action Action1.
+Starting action Action2.
+Action2.c(3): This is Action2()
+Ending action Action2.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

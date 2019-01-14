@@ -1,0 +1,48 @@
+Failed to get information of process Id: 0
+Failed to get information of process Id: 4
+PROCESS 0x5a4       smss.exe
+Failed to get information of process Id: 816
+PROCESS 0x580       winlogon.exe
+PROCESS 0x744       services.exe
+PROCESS 0x770       lsass.exe
+PROCESS 0x1e4       ati2evxx.exe
+PROCESS 0x23c       svchost.exe
+Failed to get information of process Id: 700
+PROCESS 0x668       svchost.exe
+Failed to get information of process Id: 1764
+PROCESS 0x38c       ati2evxx.exe
+Failed to get information of process Id: 1000
+PROCESS 0x22c       spoolsv.exe
+Failed to get information of process Id: 992
+PROCESS 0x7a4       frameworkservice.exe
+PROCESS 0x128       mcshield.exe
+Failed to get information of process Id: 716
+PROCESS 0x614       vstskmgr.exe
+PROCESS 0x160       mdm.exe
+PROCESS 0x440       vmnat.exe
+PROCESS 0x464       vmnetdhcp.exe
+PROCESS 0x6a4       vmware-authd.exe
+PROCESS 0x284       svchost.exe
+Failed to get information of process Id: 1620
+PROCESS 0xc44       wscntfy.exe
+PROCESS 0xd94       explorer.exe
+Failed to get information of process Id: 3192
+PROCESS 0xc80       360tray.exe
+PROCESS 0x3f8       safeboxtray.exe
+PROCESS 0xd8c       antiarp.exe
+PROCESS 0xe14       ctfmon.exe
+PROCESS 0x928       foxmail.exe
+PROCESS 0x9c0       iexplore.exe
+PROCESS 0x65c       wltuser.exe
+PROCESS 0xca0       udaterui.exe
+PROCESS 0x87c       mctray.exe
+PROCESS 0xcb4       svchost.exe
+PROCESS 0x880       msnmsgr.exe
+PROCESS 0xab4       wlcomm.exe
+PROCESS 0x884       conime.exe
+PROCESS 0x910       tomcat6w.exe
+PROCESS 0xdec       tomcat6.exe
+PROCESS 0xddc       qq.exe
+PROCESS 0xd84       txplatform.exe
+PROCESS 0x9c8       lrlauncherapp.exe
+PROCESS 0x688       vugen.exe

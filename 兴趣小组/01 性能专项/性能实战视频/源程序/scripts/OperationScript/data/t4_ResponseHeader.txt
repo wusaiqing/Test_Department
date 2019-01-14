@@ -1,0 +1,6 @@
+HTTP/1.0 200 Ok
+content-type: text/html
+Content-Length: 564
+Connection: Keep-Alive
+Keep-Alive: timeout=30, max=25
+

@@ -1,0 +1,8 @@
+HTTP/1.0 200 Ok
+Server: Xitami
+Content-Type: text/html
+Content-Length: 332
+Last-Modified: Wed, 27 Jan 1999 06:13:42 GMT
+Connection: Keep-Alive
+Keep-Alive: timeout=30, max=25
+

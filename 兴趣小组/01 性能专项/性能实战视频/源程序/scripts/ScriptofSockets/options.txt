@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\Book\第二版\Scripts\ScriptofSockets
+-IC:\Program Files\Mercury Interactive\Mercury LoadRunner\include
+-ed:\book\第二版\scripts\scriptofsockets\\logfile.log
+d:\book\第二版\scripts\scriptofsockets\\combined_ScriptofSockets.c
+d:\book\第二版\scripts\scriptofsockets\\pre_cci.c

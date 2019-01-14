@@ -1,0 +1,18 @@
+Virtual User Script started
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 8.0.0 for WINXP; Web build 4121  	[MsgId: MMSG-27143]
+Run-Time Settings file: "C:\Documents and Settings\admin\桌面\books\books\CareOfFunc\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(16): 用atof格式化输出totalprice＝0.000000
+Action.c(17): 浮点数取的是近似值请看函数的输出结果：6279.600098
+Action.c(19): 保留两位小数格式化的浮点数为：6279.60 
+Action.c(22): 预期结果与实际结果相等!
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

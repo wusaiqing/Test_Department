@@ -1,0 +1,12 @@
+Debug Message:
+	Correlation engine instance created; using configuration Default
+
+Debug Message:
+	TaskID=3  URL=http://localhost:8089/manager/status
+
+Debug Message:
+	Rules could not be applied to http://localhost:8089/manager/status
+
+Debug Message:
+	TaskID=4  URL=http://localhost:8089/manager/status
+

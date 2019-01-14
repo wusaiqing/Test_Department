@@ -1,0 +1,15 @@
+Debug Message:
+	Correlation engine instance created; using configuration Default
+
+Debug Message:
+	Rules could not be applied to http://localhost:8083/mytest/index.jsp
+
+Debug Message:
+	TaskID=2  URL=http://localhost:8083/mytest/index.jsp
+
+Debug Message:
+	Rules could not be applied to http://localhost:8083/mytest/resp.jsp
+
+Debug Message:
+	Rules could not be applied to http://localhost:8083/mytest/index.jsp
+

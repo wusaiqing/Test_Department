@@ -1,0 +1,33 @@
+Debug Message:
+	Correlation engine instance created; using configuration Default
+
+Debug Message:
+	Rules could not be applied to http://localhost/MercuryWebTours/
+
+Debug Message:
+	TaskID=2  URL=http://localhost/MercuryWebTours/
+
+Debug Message:
+	TaskID=3  URL=http://localhost/MercuryWebTours/header.html
+
+Debug Message:
+	TaskID=4  URL=http://localhost/MercuryWebTours/welcome.pl?signOff=true
+
+Debug Message:
+	TaskID=7  URL=http://localhost/MercuryWebTours/home.html
+
+Debug Message:
+	TaskID=6  URL=http://localhost/MercuryWebTours/nav.pl?in=home
+
+Debug Message:
+	TaskID=13  URL=http://localhost/MercuryWebTours/login.pl
+
+Debug Message:
+	TaskID=15  URL=http://localhost/MercuryWebTours/login.pl?username=&password=&getInfo=true
+
+Debug Message:
+	TaskID=14  URL=http://localhost/MercuryWebTours/nav.pl?in=signup&username=
+
+Debug Message:
+	TaskID=23  URL=http://localhost/MercuryWebTours/login.pl
+

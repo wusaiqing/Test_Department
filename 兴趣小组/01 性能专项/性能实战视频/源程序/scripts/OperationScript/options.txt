@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Documents and Settings\admin\桌面\books\books\OperationScript
+-IC:\PROGRA~1\MERCUR~1\MERCUR~1\include
+-ec:\documents and settings\admin\桌面\books\books\operationscript\\logfile.log
+c:\documents and settings\admin\桌面\books\books\operationscript\\combined_OperationScript.c
+c:\documents and settings\admin\桌面\books\books\operationscript\\pre_cci.c

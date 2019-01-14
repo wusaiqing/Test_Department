@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Set-Cookie: JSESSIONID=71699BE586ABFD9EC5394A73219B73D4; Path=/mytest
+Content-Type: text/html;charset=GBK
+Content-Length: 233
+Date: Thu, 21 Sep 2006 14:23:52 GMT
+Server: Apache-Coyote/1.1
+

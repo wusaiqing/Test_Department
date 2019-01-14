@@ -1,0 +1,8 @@
+GET /MercuryWebTours/welcome.pl?signOff=1 HTTP/1.1
+Accept-Language: zh-cn
+Referer: http://localhost/MercuryWebTours/nav.pl?page=menu&in=flights
+Connection: Keep-Alive
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, application/x-shockwave-flash, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; Alexa Toolbar)
+Cookie: MSO=SID&1176214837; MTUserInfo=username&Johnx&hash&56&lastName&Tomas%0A&address1&Peking&address2&100084&firstName&John
+

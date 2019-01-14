@@ -1,0 +1,45 @@
+Virtual User Script started
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 8.0.0 for WINXP; Web build 4121  	[MsgId: MMSG-27143]
+Run-Time Settings file: "C:\Documents and Settings\admin\桌面\books\books\RegisterScript\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(5): Rendezvous 同时登录注册
+Action.c(7): Notify: Transaction "登录注册事务" started.
+Action.c(9): Detected non-resource "http://localhost/MercuryWebTours/header.html" in "http://localhost/MercuryWebTours/"  	[MsgId: MMSG-26574]
+Action.c(9): Detected non-resource "http://localhost/MercuryWebTours/welcome.pl?signOff=true" in "http://localhost/MercuryWebTours/"  	[MsgId: MMSG-26574]
+Action.c(9): Found resource "http://localhost/MercuryWebTours/images/banner_animated.gif" in HTML "http://localhost/MercuryWebTours/header.html"  	[MsgId: MMSG-26659]
+Action.c(9): Detected non-resource "http://localhost/MercuryWebTours/nav.pl?in=home" in "http://localhost/MercuryWebTours/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(9): Detected non-resource "http://localhost/MercuryWebTours/home.html" in "http://localhost/MercuryWebTours/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(9): Found resource "http://localhost/MercuryWebTours/images/banner_merctur.jpg" in HTML "http://localhost/MercuryWebTours/home.html"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://localhost/MercuryWebTours/images/sun_swede.gif" in HTML "http://localhost/MercuryWebTours/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://localhost/MercuryWebTours/images/login.gif" in HTML "http://localhost/MercuryWebTours/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://localhost/MercuryWebTours/images/signup.gif" in HTML "http://localhost/MercuryWebTours/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://localhost/MercuryWebTours/images/admin.gif" in HTML "http://localhost/MercuryWebTours/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(9): web_url("MercuryWebTours") was successful, 51018 body bytes, 2125 header bytes  	[MsgId: MMSG-26386]
+Action.c(18): Submitting form to "http://localhost/MercuryWebTours/login.pl", Target Frame="body"  	[MsgId: MMSG-27978]
+Action.c(18): Detected non-resource "http://localhost/MercuryWebTours/nav.pl?in=signup&username=" in "http://localhost/MercuryWebTours/login.pl"  	[MsgId: MMSG-26574]
+Action.c(18): Detected non-resource "http://localhost/MercuryWebTours/login.pl?username=&password=&getInfo=true" in "http://localhost/MercuryWebTours/login.pl"  	[MsgId: MMSG-26574]
+Action.c(18): Resource "http://localhost/MercuryWebTours/images/sun_swede.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(18): Resource "http://localhost/MercuryWebTours/images/login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(18): Found resource "http://localhost/MercuryWebTours/images/in_signup.gif" in HTML "http://localhost/MercuryWebTours/nav.pl?in=signup&username="  	[MsgId: MMSG-26659]
+Action.c(18): Resource "http://localhost/MercuryWebTours/images/admin.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(18): Found resource "http://localhost/MercuryWebTours/profileValidate.js" in HTML "http://localhost/MercuryWebTours/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "http://localhost/MercuryWebTours/images/splashCustprofile.gif" in HTML "http://localhost/MercuryWebTours/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "http://localhost/MercuryWebTours/images/continue.gif" in HTML "http://localhost/MercuryWebTours/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(18): web_submit_form("login.pl") was successful, 19598 body bytes, 1348 header bytes  	[MsgId: MMSG-26386]
+Action.c(27): Submitting form to "http://localhost/MercuryWebTours/login.pl", Target Frame="info"  	[MsgId: MMSG-27978]
+Action.c(27): Resource "http://localhost/MercuryWebTours/images/banner_merctur.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(27): Resource "http://localhost/MercuryWebTours/images/continue.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(27): web_submit_form("login.pl_2") was successful, 670 body bytes, 338 header bytes  	[MsgId: MMSG-26386]
+Action.c(41): "检查点" successful. 1 occurrence(s) of "Wilson" found (RightOf="", LeftOf="")  	[MsgId: MMSG-27196]
+Action.c(41): web_find was successful  	[MsgId: MMSG-26392]
+Action.c(45): Notify: Transaction "登录注册事务" ended with "Pass" status (Duration: 5.4683).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
