@@ -1,0 +1,1 @@
+{'dalei': {'money': 1003.0, 'role': 2, 'pass': '123456', 'products': ['mac', '宝马', '手机', '手机']}, 'xg': {'money': 1000, 'role': 1, 'pass': '123456', 'products': ['mac']}}
