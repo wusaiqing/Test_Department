@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>进击的菜鸟_抽奖系统</title>
+    <link rel="shortcut icon" href="http://www.imdsx.cn:80/wp-content/themes/QQ/images/favicon.ico">
+    <link rel="stylesheet" href="all_css.css">
+    <!--接口说明：http://doc.nnzhp.cn-->
+</head>
+<body>
+<div class="c1">
+    <div class="c2"></div>
+    <div class="c3">
+        <div>
+            <h2 style="text-align:center;margin-top: 60px">导&nbsp&nbsp航&nbsp&nbsp栏</h2>
+        </div>
+        <div class="c4">
+            <span><a href="#register" style="text-decoration: none">注&nbsp&nbsp册</a></span>
+        </div>
+        <div class="c4">
+            <span><a href="#login" style="text-decoration: none">登&nbsp&nbsp录</a></span>
+        </div>
+        <div class="c4">
+            <span><a href="#add_prize" style="text-decoration: none">添加奖品</a></span>
+        </div>
+        <div class="c4">
+            <span><a href="#get_prize" style="text-decoration: none">抽&nbsp&nbsp奖</a></span>
+        </div>
+        <div class="c4">
+            <span><a href="#show_prize" style="text-decoration: none">查看中奖记录</a></span>
+        </div>
+        <div class="c4">
+            <span><a href="#all_prize" style="text-decoration: none">获取所有奖品</a></span>
+        </div>
+    </div>
+    <div class="c5">
+        <div class="c6" id="register">
+            <h1 style="margin-top: 60px">注&nbsp&nbsp册</h1>
+            <div class="c_login_box">
+                <form id="RegisterData">
+                    <input id="RegisterName" name="username" placeholder="请输入用户名" type="text" size="25" >
+                    <input id="RegisterPassword" name="pwd" placeholder="请输入密码" type="password" size="25" >
+                    <input id="RegisterCPassword" name="cpwd" placeholder="请输入确认密码" type="password" size="25">
+                </form>
+                <div class="c_last">
+                    <div class="c_btn" id="RegisterButton">
+                        点击注册
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c6" id="login">
+            <h1 style="margin-top: 60px">登&nbsp&nbsp录</h1>
+            <div class="c_login_box">
+                <form id="LoginData">
+                    <input id="loginName" name="username" placeholder="请输入用户名" type="text" size="25" >
+                    <input id="loginPassword" name="passwd" placeholder="请输入密码" type="text" size="25" >
+                </form>
+                <div class="c_last">
+                    <div class="c_btn" id="LoginButton">
+                        点击登录
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c6" id="add_prize">
+            <h1 style="margin-top: 60px">添加奖品</h1>
+            <div class="c_login_box">
+                <form id="AddData">
+                    <input id="AddUserId" name="userid" placeholder="请输入用户id" type="text" size="25">
+                    <input id="AddSign" name="sign" placeholder="请输入签名" type="text" size="25">
+                    <input id="AddName" name="name" placeholder="请输入奖品名称" type="text" size="25">
+                    <input id="AddPicture" name="file" type="file" accept="image/jpeg"><br/>
+                    <input id="AddButton" type="submit" value="点击添加" class="c_btn" style="font-size: 16px;width:78px;color:white">
+                </form>
+            </div>
+        </div>
+        <div class="c6" id="get_prize">
+            <h1 style="margin-top: 60px">抽&nbsp&nbsp奖</h1>
+            <div class="c_login_box">
+                <form id="CjData">
+                    <input id="CjUserId" name="userid" placeholder="请输入用户id" type="text" size="25">
+                    <input id="CjSign" name="sign" placeholder="请输入签名" type="text" size="25">
+                </form>
+                <div class="c_last">
+                    <div class="c_btn" id="CjButton">
+                        点击抽奖
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c6" id="show_prize">
+            <h1 style="margin-top: 60px">查看中奖记录</h1>
+            <div class="c_login_box">
+                <form id="LookData">
+                    <input id="LookUserId" name="userid" placeholder="请输入用户id" type="text" size="25">
+                    <input id="LookSign" name="sign" placeholder="请输入签名" type="text" size="25">
+                </form>
+                <div class="c_last">
+                    <div class="c_btn" id="LookButton">
+                        点击查看
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c6" style="margin-bottom: 400px" id="all_prize">
+            <h1 style="margin-top: 60px">获取所有奖品</h1>
+            <div class="c_login_box">
+                <form id="AllData">
+                </form>
+                <div class="c_last">
+                    <div class="c_btn" id="AllButton">
+                        点击查看
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="jquery-1.11.1.min.js"></script>
+<script>
+    var target=document.getElementById('RegisterButton');
+    target.onclick=function(){
+        $.ajax({
+            url:"http://api.nnzhp.cn/api/user/user_reg",
+            type:"POST",
+            data:$('#RegisterData').serialize(),
+            success:function(data){
+                console.log(data)
+                if (data.error_code==1000){
+                    str='<span style="height:36px;width:257px;background-color:yellowgreen;margin-top: 20px;display: block;text-align: center;line-height: 36px">' +
+                        '恭喜您！注册成功!' +
+                        '</span>';
+                    target.insertAdjacentHTML('afterEnd',str);
+                    for (var i in target.parentElement.previousElementSibling.children){
+                        target.parentElement.previousElementSibling.children[i].value='';
+                    }
+                }else{
+                        alert(data.msg)
+                    }
+            }
+        })
+    };
+    var target_login=document.getElementById('LoginButton');
+    target_login.onclick=function(){
+        $.ajax({
+            url:"http://api.nnzhp.cn/api/user/login",
+            type:"POST",
+            data:$('#LoginData').serialize(),
+            success:function(data){
+                console.log(data);
+                if (data.error_code==0){
+                    str='<span style="height:36px;width:257px;background-color:yellowgreen;margin-top: 20px;display: block;text-align: center;line-height: 36px">恭喜您！登录成功！</span>';
+                    login_id='<span id="Lid" style="height:36px;width:100%;margin-top: 20px;display: block;line-height: 36px"></span>';
+                    login_sign='<span style="height:36px;width:100%;margin-top: 20px;display: block;line-height: 36px"></span>';
+                    target_login.insertAdjacentHTML('afterEnd',login_sign);
+                    target_login.insertAdjacentHTML('afterEnd',login_id);
+                    target_login.insertAdjacentHTML('afterEnd',str);
+                    var tmp=document.getElementById('Lid');
+                    tmp.innerText='用户ID：'+data.login_info["userId"];
+                    tmp.nextElementSibling.innerText='登录签名：'+data.login_info["sign"];
+                    var tmp1=document.getElementById('CjUserId');
+                    tmp1.value=data.login_info["userId"];
+                    tmp1.nextElementSibling.value=data.login_info["sign"];
+                    for (var i in target_login.parentElement.previousElementSibling.children){
+                        target_login.parentElement.previousElementSibling.children[i].value='';
+                    }
+                }else{
+                        alert(data.msg)
+                    }
+            }
+        })
+    };
+    var target_add=document.getElementById('AddButton');
+    target_add.onclick=function(){
+        if (1==1){
+            str='<span style="height:36px;width:257px;background-color:yellowgreen;margin-top: 20px;display: block;text-align: center;line-height: 36px">恭喜您！添加成功！</span>';
+            target_add.insertAdjacentHTML('afterEnd',str);
+            for (var i=0;i<4;i++){
+                target_add.parentElement.children[i].value='';
+            }
+        }else{
+                alert('咋获取后台数据啊？')
+            }
+    };
+    var target_cj=document.getElementById('CjButton');
+    target_cj.onclick=function(){
+        $.ajax({
+            url:"http://api.nnzhp.cn/api/product/choice",
+            type:"get",
+            data:$('#CjData').serialize(),
+            success:function(data){
+                console.log(data);
+                if (data.error_code==0){
+                    product_name='<span style="height:36px;width:100%;margin-top: 10px;display: block;line-height: 36px"></span>';
+                    count='<span id="Jid" style="height:36px;width:100%;margin-top: 10px;display: block;line-height: 36px"></span>';
+                    imgUrl='<img style="height: 200px;width: 400px;">';
+                    target_cj.insertAdjacentHTML('afterEnd',imgUrl);
+                    target_cj.insertAdjacentHTML('afterEnd',product_name);
+                    target_cj.insertAdjacentHTML('afterEnd',count);
+                    var tmp=document.getElementById('Jid');
+                    tmp.innerText='抽奖次数：'+data.product_info["count"];
+                    tmp.nextElementSibling.innerText='中奖情况：'+data.product_info["product_name"];
+                    tmp.nextElementSibling.nextElementSibling.setAttribute('src',data.product_info["imgUrl"]);
+                    for (var i in target_cj.parentElement.previousElementSibling.children){
+                        target_cj.parentElement.previousElementSibling.children[i].value='';
+                    }
+                }else{
+                        alert(data.msg)
+                    }
+            }
+        })
+    };
+    var target_look=document.getElementById('LookButton');
+    target_look.onclick=function(){
+        $.ajax({
+            url:"http://api.nnzhp.cn/api/user/win_record",
+            type:"get",
+            data:$('#LookData').serialize(),
+            success:function(data){
+                console.log(data);
+                if (data.error_code==0){
+                    product_name='<span style="height:36px;width:100%;margin-top: 10px;display: block;line-height: 36px"></span>';
+                    count='<span id="Jid" style="height:36px;width:100%;margin-top: 10px;display: block;line-height: 36px"></span>';
+                    imgUrl='<img style="height: 200px;width: 400px;">';
+                    target_look.insertAdjacentHTML('afterEnd',count);
+                    var tmp=document.getElementById('Jid');
+                    tmp.innerText='抽奖总次数：'+data.product_info.length;
+                    for (var i in data.product_info){
+                        n=parseInt(i)+1;
+                        console.log(n);
+                        tmp.insertAdjacentHTML('afterEnd',imgUrl);
+                        tmp.insertAdjacentHTML('afterEnd',product_name);
+                        tmp.nextElementSibling.innerText='第'+n+'次中奖情况：'+data.product_info[i]["product_name"];
+                        tmp.nextElementSibling.nextElementSibling.setAttribute('src',data.product_info[i]["img_url"]);
+                    }
+                    for (var j in target_look.parentElement.previousElementSibling.children){
+                        target_look.parentElement.previousElementSibling.children[j].value='';
+                    }
+                }else{
+                        alert(data.msg)
+                    }
+            }
+        })
+    };
+    var target_all=document.getElementById('AllButton');
+    target_all.onclick=function(){
+        $.ajax({
+            url:"http://api.nnzhp.cn/api/product/all",
+            type:"get",
+            data:$('#AllData').serialize(),
+            success:function(data){
+                console.log(data);
+                if (data.error_code==0){
+                    product_name='<span style="height:36px;width:100%;margin-top: 10px;display: block;line-height: 36px"></span>';
+                    count='<span id="Aid" style="height:36px;width:100%;margin-top: 10px;display: block;line-height: 36px"></span>';
+                    imgUrl='<img style="height: 200px;width: 400px;">';
+                    target_all.insertAdjacentHTML('afterEnd',count);
+                    var tmp=document.getElementById('Aid');
+                    tmp.innerText='奖品类型数：'+data.product_info.length;
+                    for (var i in data.product_info){
+                        n=parseInt(i)+1;
+                        tmp.insertAdjacentHTML('afterEnd',imgUrl);
+                        tmp.insertAdjacentHTML('afterEnd',product_name);
+                        tmp.nextElementSibling.innerText='第'+n+'个奖项：'+data.product_info[i]["product_name"];
+                        tmp.nextElementSibling.nextElementSibling.setAttribute('src',data.product_info[i]["img_url"]);
+                    }
+                    for (var j in target_look.parentElement.previousElementSibling.children){
+                        target_look.parentElement.previousElementSibling.children[j].value='';
+                    }
+                }else{
+                        alert(data.msg)
+                    }
+            }
+        })
+    };
+</script>
+</body>
+</html>

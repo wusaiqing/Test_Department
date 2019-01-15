@@ -1,0 +1,102 @@
+.c1{
+    height:100%;
+    width:100%;
+    background-image: url('https://www.autohome.com.cn/images/error/bg.png');
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+.c2{
+    height:100px;
+    width:100%;
+    background-image: url('http://hdh.faisys.com/image/proVer/proVer2/hdGameCase/lotterydrawGame/hdGame4.jpg?v=201710121753');
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+.c3{
+    height:100%;
+    width:20%;
+    position:fixed;
+    top:100px;
+    left:0;
+    overflow: auto;
+    border:2px black solid;
+}
+.c4{
+    height:50px;
+    width:100%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    cursor:pointer;
+}
+.c4:hover{
+    background-color: #3189fd;
+}
+.c5{
+    height:100%;
+    width:60%;
+    position:fixed;
+    top:100px;
+    right:0;
+    overflow: auto;
+}
+.c6{
+    height:600px;
+    width:80%;
+    overflow: auto;
+    position:relative;
+}
+.c7{
+    height:40px;
+    width:160px;
+    background-color:lawngreen;
+    cursor:pointer;
+    text-align:center;
+    line-height: 40px;
+    font-size: 20px;
+}
+.c_login_box{
+    width: 377px;
+    height: 401px;
+    left: 0;
+    top: 50%;
+    margin-top: -180px;
+    position:absolute;
+}
+.c_login_box form{
+    margin-top: 26px;
+}
+
+.c_login_box form input{
+    width: 237px;
+    height: 36px;
+    border: 1px solid #3a8efd;
+    padding: 0 10px;
+    outline: none;
+    font:14px/36px "微软雅黑";
+    color: #a9aaab;
+    margin-bottom: 10px;
+}
+.c_btn{
+    padding: 0 10px;
+    height: 39px;
+    width: 78px;
+    /*left:0;*/
+    background: #3189fd;
+    margin-left: 0;
+    font: 16px/39px "微软雅黑";
+    color: #FFFFFF;
+    cursor: pointer;
+    text-align: center;
+}
+.c_btn:hover{
+    box-shadow: 1px 1px 5px #000000;
+}
+.c_login_box .c_last{
+    border: none;
+    height: 39px;
+}

@@ -1,0 +1,1 @@
+{"opUserId": "1", "stu_class": "1班", "stu_name": "yxg", "sign": "5f7f6e722e45934fdb81a4d74b011180", "stu_type": "1", "stu_sex": "男", "stu_phone": "13537737007"}

@@ -1,0 +1,11 @@
+def clean_log(logpath):
+    import os,time
+    today = int(time.strftime('%Y%m%d'))
+    file_name_list = map(str,[today-1,today-2,today-3])
+    file_list = os.listdir(logpath)
+    for f in file_list:
+        if f.endswith('.log'):
+            name_sub = f.split('-')[-1].split('.')[0]
+            if name_sub in file_name_list:
+                os.remove(os.path.join(logpath,f))
+    print('clean over..')
