@@ -1,0 +1,15 @@
+常用的字符串方法：
+file_name='D:\1自动化\day2\day2笔记.txt'
+name='名字：{name},年龄：{age}'
+print(file_name.endswith('.png'))  # 判断是否以x结尾
+name.format(name='niuniu', age=18)  # 这个是格式字符串
+print('122'.isdigit())  # 是否是数字
+print(''.join(['hehe', 'haha', 'ee']))  # 拼接字符串
+# 1、把list转成字符串
+# 2、把list里面每个元素连起来
+print('adbefF'.lower())  # 变成小写
+print('adbefF'.upper())  # 变成大写
+print('\nmysql \n'.strip())  #
+print('mysql is db.'.replace('mysql', 'oracle'))
+print('1+2+3+4'.split('+'))  # 切割字符串，返回一个list
+print('1+2+3\n1+2+3+4'.splitlines())  # 按照换行符分割，返回一个list

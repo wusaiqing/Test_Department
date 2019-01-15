@@ -1,0 +1,35 @@
+字符串方法：
+filename='a.txt'
+name = 'my \t name is {name},age is {age}.'
+# print(name.capitalize())#首字母大写
+# print(name.center(50,'\t'))#把字符长度加到50个，如果元字符长度大于50，则字符不变，若大于50，则字符不做改变
+# print(name.endswith('.png'))#判断字符串是否以'.png'结尾
+# print(name.find('n'))#查找字符的索引，当查不到的时候会返回-1,
+# print(name.index('w'))#查找字符的索引，当查不到的时候会报错
+# print(name.format(name='niuniu',age=16))#格式化字符串
+# print(name.format_map({'name':'niuniu','age':18}))#格式化字符串
+# print('a'.isalnum())#判断是否只包含数字或字母
+# print('sdSD'.isalpha())#判断是否英文字母
+# print('13413'.isdigit())#判断是否数字
+# print('ads'.isidentifier())#判断是一个合法变量名
+# print('aaa'.islower())#是否都是小写字母
+# print('AAA'.isupper())#是否都是大写字母
+# print(''.join(('dfas','gasdf','24658')))#拼接字符串，必须是str类型
+# print('aaaaAAAA'.lower())#变成小写
+# print('aaaaAAAA'.upper())#变成大写
+# print('\n   mysql   \n'.lstrip())#默认去掉左边的空格和换行
+# print('\n   mysql   \n'.rstrip())#默认去掉右边的空格和换行
+# print('\n   my\nsql   \n'.strip())#默认去掉左右两边的空格和换行,中间的空行去不掉
+# print(input('shuru:').strip())#去掉输入账号首尾两端的空格
+# print('asdfdsfsfa'.strip('a'))#去掉首尾两端的字符'a'
+# p=str.maketrans('123','abc')#前面的字符串和后面的字符串做映射
+# print('123'.translate(p))#输出按照上面maketrans做映射后的字符串
+# print('asd gd gfd'.replace(' ','',1))#替换字符串，替换一次，不写数字表示全部替换
+# print('mysql is is db'.find('is'))#返回最左边字符的下标
+# print('mysql is is db'.rfind('is'))#返回最右边字符的下标
+# print('1+2+3+4'.split('+'))#分割字符串，返回一个list
+# src='yxg,12345'
+# print(src.split(',')[0])
+# print(src.split(',')[1])
+# print('1+2+3\n4+5+6'.splitlines())#按照换行符来分割，返回一个list
+# print('AAAaaa'.swapcase())#字母大小写反转
