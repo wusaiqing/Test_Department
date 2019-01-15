@@ -1,0 +1,74 @@
+sql性能测试与调优之慢查询：
+要有大概的思路，高手在于计划的精细和思路的逻辑性
+
+分析优化思路   抓取（范围）->  定位（缩小范围）-> 分析并给出建议
+
+配置慢查询
+在my.cnf配置文档内配置
+
+#打开慢数据查询日志记录
+slow_query_log=ON
+#如果查询时间超过一秒的进行记录
+slow_launch_time=1
+#记录没有采用索引的查询
+log-queries-not-using-indexes  = 1
+#慢查询的日志记录，这个记录会记录慢查询和没有使用索引的查询。
+slow-query-log-file= /var/lib/mysql/mysql-slow.log
+
+之后重启mysql；
+
+验证是否开启慢查询：
+执行show variables like '%slow%' 查看慢查询日志是否开启
+如果slow_query_log和 log_slow_queries展示on,即说明服务器的慢查询日志已经开启
+如果没有开启，在mysql命令行中输入：set global log_slow_queries = ON即可
+
+cd /var/log
+
+mysqldumpslow命令：
+命令如何使用？
+
+mysqldumpslow -s c -t 5 /var/log/mysql/slowquery.log
+
+这条语句可以看出访问次数最多的5个语句
+
+-s表示按某种方式排序  c\t\l\r 分别是按照记录次数、时间、查询时间、返回的记录数来排序；
+ac\at\al\ar表示相应的倒序号
+
+-t  是top的意思
+-q  后边可以写一个正则匹配模式。大小写不敏感
+后面则是慢查询log地址
+
+用explain进行sql语句的分析与调优
+
+explain  select * from  xxx  explain只能对select语句分析
+
+1、type 访问类型
+常见类型如下：从左至右   由最差到最好
+
+all  index range ref eq_ref const,system  null
+2、key  显示mysql查询中实际使用的索引，如果没有索引，则显示mull
+3、rows   表示mysql根据表统计信息以及索引使用情况，估算找回索要记录需要读取的行数
+4、extra  如果是ONLY index  这意味着信息只用索引树中的信息检索出的，这比扫描整个表要快。
+如果是where used 就是使用上了where限制
+如果是impossible where表示用不着where,一般就是没查出来
+
+如果此信息显示Using filesort或者Using temporary的话会很吃力，where和order  by
+的索引经常无法兼顾，如果按照where来确定索引，那么在order by时，就必然会引起using filesort,如果按照where来确定索引，那么在order by时，就必然会引起using filesort 这就要看是
+先过来再排序还是先排序再过滤；
+
+Using temporary 生成一巨大的临时表，内存放不下，于是全部拷贝到磁盘，导致IO飙升
+
+explain不考虑各种cache
+不能显示sql语句在执行时所作的优化工作
+部分统计信息是估算的
+只查询select语句
+
+配置文档内配置 log_output=table
+
+show variables like '%version%';
+show variables like '%general%';
+
+set @@global.general_log=1;
+
+show variables like '%slow%';
+set global log_slow_queries = ON
