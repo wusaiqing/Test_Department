@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyTest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/MyTest.res" /d "_DEBUG" /d "_AFXDLL" "E:\单元测试理论与实践\单元测试理论与实践\vc6.0上可以运行的单元测试例子\myTest (1)\myTest\MyTest\MyTest.rc"" 
+Creating temporary file "C:\DOCUME~1\HONGCH~1.ZHA\LOCALS~1\Temp\RSP61.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MyTest.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\单元测试理论与实践\单元测试理论与实践\vc6.0上可以运行的单元测试例子\myTest (1)\myTest\counter\Counter.cpp"
+"E:\单元测试理论与实践\单元测试理论与实践\vc6.0上可以运行的单元测试例子\myTest (1)\myTest\MyTest\CounterTest.cpp"
+"E:\单元测试理论与实践\单元测试理论与实践\vc6.0上可以运行的单元测试例子\myTest (1)\myTest\MyTest\MyTest.cpp"
+"E:\单元测试理论与实践\单元测试理论与实践\vc6.0上可以运行的单元测试例子\myTest (1)\myTest\MyTest\MyTestDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\HONGCH~1.ZHA\LOCALS~1\Temp\RSP61.tmp" 
+Creating temporary file "C:\DOCUME~1\HONGCH~1.ZHA\LOCALS~1\Temp\RSP62.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MyTest.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\单元测试理论与实践\单元测试理论与实践\vc6.0上可以运行的单元测试例子\myTest (1)\myTest\MyTest\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\HONGCH~1.ZHA\LOCALS~1\Temp\RSP62.tmp" 
+Creating temporary file "C:\DOCUME~1\HONGCH~1.ZHA\LOCALS~1\Temp\RSP63.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MyTest.pdb" /debug /machine:I386 /out:"Debug/MyTest.exe" /pdbtype:sept 
+".\Debug\Counter.obj"
+".\Debug\CounterTest.obj"
+".\Debug\MyTest.obj"
+".\Debug\MyTestDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MyTest.res"
+"..\lib\testrunnerd.lib"
+"..\lib\cppunitd.lib"
+"..\lib\cppunitd_dll.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\HONGCH~1.ZHA\LOCALS~1\Temp\RSP63.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Counter.cpp
+CounterTest.cpp
+MyTest.cpp
+MyTestDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MyTest.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
