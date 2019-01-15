@@ -1,0 +1,12 @@
+C:\Documents and Settings\chuan.shi\my documents\visual studio 2010\Projects\CSharpUnit\CSharpUnit\bin\Debug\CSharpUnit.exe
+C:\Documents and Settings\chuan.shi\my documents\visual studio 2010\Projects\CSharpUnit\CSharpUnit\bin\Debug\CSharpUnit.pdb
+C:\Documents and Settings\chuan.shi\my documents\visual studio 2010\Projects\CSharpUnit\CSharpUnit\bin\Debug\nunit.framework.dll
+C:\Documents and Settings\chuan.shi\my documents\visual studio 2010\Projects\CSharpUnit\CSharpUnit\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\chuan.shi\my documents\visual studio 2010\Projects\CSharpUnit\CSharpUnit\obj\x86\Debug\CSharpUnit.exe
+C:\Documents and Settings\chuan.shi\my documents\visual studio 2010\Projects\CSharpUnit\CSharpUnit\obj\x86\Debug\CSharpUnit.pdb
+C:\Documents and Settings\chuan.shi\桌面\C#单元测试代码\bin\Debug\CSharpUnit.exe
+C:\Documents and Settings\chuan.shi\桌面\C#单元测试代码\bin\Debug\CSharpUnit.pdb
+C:\Documents and Settings\chuan.shi\桌面\C#单元测试代码\bin\Debug\nunit.framework.dll
+C:\Documents and Settings\chuan.shi\桌面\C#单元测试代码\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\chuan.shi\桌面\C#单元测试代码\obj\x86\Debug\CSharpUnit.exe
+C:\Documents and Settings\chuan.shi\桌面\C#单元测试代码\obj\x86\Debug\CSharpUnit.pdb
