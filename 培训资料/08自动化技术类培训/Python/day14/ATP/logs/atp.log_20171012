@@ -1,0 +1,2 @@
+20171012112726  访问接口报错HTTPConnectionPool(host='jenkins.nnzhp.cn', port=80): Max retries exceeded with url: /login?username=niuhanyang&password=123456 (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x0000000004B455F8>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',))
+20171012112754  case 【通知公告列表】测试不通过，预期结果是 【code=1】 实际结果是【{"code":2,"message":"Object reference not set to an instance of an object.","Data":null}】

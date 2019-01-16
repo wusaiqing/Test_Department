@@ -1,0 +1,341 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>接口测试报告</title>
+    
+    <style type="text/css">
+    				body {
+    					font:normal 68% verdana,arial,helvetica;
+    					color:#000000;
+    				}
+    				table tr td, table tr th {
+    					font-size: 68%;
+    				}
+    				table.details tr th{
+    				    color: #ffffff;
+    					font-weight: bold;
+    					text-align:center;
+    					background:#2674a6;
+    				}
+    				table.details tr td{
+    					background:#eeeee0;
+    				}
+    				h1 {
+    					margin: 0px 0px 5px; font: 165% verdana,arial,helvetica
+    				}
+    				h2 {
+    					margin-top: 1em; margin-bottom: 0.5em; font: bold 125% verdana,arial,helvetica
+    				}
+    				h3 {
+    					margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica
+    				}
+    				.Failure {
+    					font-weight:bold; color:red;
+    				}
+
+
+    				img
+    				{
+    				  border-width: 0px;
+    				}
+
+    				.expand_link
+    				{
+    				   position=absolute;
+    				   right: 0px;
+    				   width: 27px;
+    				   top: 1px;
+    				   height: 27px;
+    				}
+
+    				.page_details
+    				{
+    				   display: none;
+    				}
+
+                                    .page_details_expanded
+                                    {
+                                        display: block;
+                                        display/* hide this definition from  IE5/6 */: table-row;
+                                    }
+
+
+    			</style>
+    <script language="JavaScript">
+    		function show(details_id)
+    			   {
+    			      var close = 'page_details';
+    			      var show = 'page_details_expanded';
+    			      if (document.getElementById(details_id).className==close){
+    			          document.getElementById(details_id).className = show;
+    				  }
+    				  else {
+    			          document.getElementById(details_id).className = close;
+    				  }
+
+    			   }
+
+    			</script>
+    
+    </head>
+    <body>
+    <h1>接口测试报告</h1>
+    <table width="100%">
+    <tr>
+    <td align="left">测试时间: 2017/10/24 13:31:51</td>
+    </tr>
+    </table>
+    <hr size="1">
+    	<h2>测试概况</h2>
+    <table width="95%" cellspacing="2" cellpadding="5" border="0" class="details" align="center">
+    <tr valign="top">
+    <th>用例总数</th><th>通过数量</th><th>失败数量</th><th>运行时间</th>
+    </tr>
+    <tr valign="top" class="">
+    <td align="center">11</td><td align="center">11</td><td align="center">0</td><td align="center">0.2730274200439453 s</td>
+    </tr>
+    </table>
+    <hr align="center" width="95%" size="1">
+    <h2>接口详细</h2>
+    <table width="95%" cellspacing="2" cellpadding="5" border="0" class="details" align="center">
+    <tr valign="top">
+    <th>所属项目</th><th>模块</th><th>用例描述</th><th>URL</th><th>测试人员</th><th>用例状态</th><th></th>
+    </tr>
+    <tr valign="top" class="">
+    <td>智能手环</td><td align="center">IMEI是否绑定</td><td align="center">判断IMEI号是否绑定学生</td><td align="center">http://10.1.135.207:7072/stu/api/StudentSysApi/IsBindByIMEI</td><td align="center">杨晓钢</td><td align="center">通过</td><td align="center"><a href="#" onclick="show('page_details_ZNSH_4.14');">查看接口详细</a></td>
+    </tr>
+    <tr class="page_details" id="page_details_ZNSH_4.14">
+    <td bgcolor="#FF0000" colspan="8">
+    <div align="center">
+    <b>请求/返回 "智能手环"</b>
+    <table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+    <tr>
+    <th>请求报文</th><th>返回报文</th>
+    </tr>
+    <tr>
+    <td align="center" style="width :300px;word-break: break-all;"><span>http://10.1.135.207:7072/stu/api/StudentSysApi/IsBindByIMEI</span></td><td align="center" style="width :300px;word-break: break-all;" ><span>{"code":1,"message":"","data":{"period":"2017年第1期","pId":1,"sId":"2011212964","name":"罗楠","Student_Sex":100101,"sex":"女","Birthday":"\/Date(-62135596800000)\/","age":"","grade":"2班","phone":null,"homeClass":"2","registerStatus":1,"isBindBracelet":1}}</span></td>
+
+    </tr>
+    </table>
+    </div>
+    </td>
+    </tr>
+
+    
+    <tr valign="top" class="">
+    <td>智能手环</td><td align="center">获取班级信息</td><td align="center">获取最新期次的班级信息给学生选择</td><td align="center">http://10.1.135.207:7072/stu/api/BaseClassApi/GetBaseClasssByTrainingPeriodId</td><td align="center">杨晓钢</td><td align="center">通过</td><td align="center"><a href="#" onclick="show('page_details_ZNSH_4.15');">查看接口详细</a></td>
+    </tr>
+    <tr class="page_details" id="page_details_ZNSH_4.15">
+    <td bgcolor="#FF0000" colspan="8">
+    <div align="center">
+    <b>请求/返回 "智能手环"</b>
+    <table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+    <tr>
+    <th>请求报文</th><th>返回报文</th>
+    </tr>
+    <tr>
+    <td align="center" style="width :300px;word-break: break-all;"><span>http://10.1.135.207:7072/stu/api/BaseClassApi/GetBaseClasssByTrainingPeriodId</span></td><td align="center" style="width :300px;word-break: break-all;" ><span>{"code":1,"message":"","data":[{"Class_Id":1,"Training_Period_Id":1,"Teacher_Id":0,"Base_Id":100000,"Class_No":1,"Class_Name":"1班","Standard_Num":30,"Is_Delete":0,"Effective":0,"Create_By":100000,"Create_Time":"\/Date(1506582080000)\/","Update_By":100000,"Update_Time":"\/Date(1506582080000)\/"},{"Class_Id":2,"Training_Period_Id":1,"Teacher_Id":0,"Base_Id":100000,"Class_No":2,"Class_Name":"2班","Standard_Num":30,"Is_Delete":0,"Effective":0,"Create_By":100000,"Create_Time":"\/Date(1506582080000)\/","Update_By":100000,"Update_Time":"\/Date(1506582080000)\/"},{"Class_Id":3,"Training_Period_Id":1,"Teacher_Id":0,"Base_Id":100000,"Class_No":3,"Class_Name":"3班","Standard_Num":30,"Is_Delete":0,"Effective":0,"Create_By":100000,"Create_Time":"\/Date(1506582080000)\/","Update_By":100000,"Update_Time":"\/Date(1506582080000)\/"},{"Class_Id":4,"Training_Period_Id":1,"Teacher_Id":0,"Base_Id":100000,"Class_No":4,"Class_Name":"4班","Standard_Num":30,"Is_Delete":0,"Effective":0,"Create_By":100000,"Create_Time":"\/Date(1506582080000)\/","Update_By":100000,"Update_Time":"\/Date(1506582080000)\/"},{"Class_Id":5,"Training_Period_Id":1,"Teacher_Id":0,"Base_Id":100000,"Class_No":5,"Class_Name":"5班","Standard_Num":30,"Is_Delete":0,"Effective":0,"Create_By":100000,"Create_Time":"\/Date(1506582080000)\/","Update_By":100000,"Update_Time":"\/Date(1506582080000)\/"},{"Class_Id":6,"Training_Period_Id":1,"Teacher_Id":0,"Base_Id":100000,"Class_No":6,"Class_Name":"6班","Standard_Num":30,"Is_Delete":0,"Effective":0,"Create_By":100000,"Create_Time":"\/Date(1506582080000)\/","Update_By":100000,"Update_Time":"\/Date(1506582080000)\/"},{"Class_Id":7,"Training_Period_Id":1,"Teacher_Id":0,"Base_Id":100000,"Class_No":7,"Class_Name":"7班","Standard_Num":30,"Is_Delete":0,"Effective":0,"Create_By":100000,"Create_Time":"\/Date(1506582080000)\/","Update_By":100000,"Update_Time":"\/Date(1506582080000)\/"},{"Class_Id":8,"Training_Period_Id":1,"Teacher_Id":0,"Base_Id":100000,"Class_No":8,"Class_Name":"8班","Standard_Num":30,"Is_Delete":0,"Effective":0,"Create_By":100000,"Create_Time":"\/Date(1506582080000)\/","Update_By":100000,"Update_Time":"\/Date(1506582080000)\/"},{"Class_Id":9,"Training_Period_Id":1,"Teacher_Id":0,"Base_Id":100000,"Class_No":9,"Class_Name":"9班","Standard_Num":30,"Is_Delete":0,"Effective":0,"Create_By":100000,"Create_Time":"\/Date(1506582080000)\/","Update_By":100000,"Update_Time":"\/Date(1506582080000)\/"},{"Class_Id":10,"Training_Period_Id":1,"Teacher_Id":0,"Base_Id":100000,"Class_No":10,"Class_Name":"10班","Standard_Num":30,"Is_Delete":0,"Effective":0,"Create_By":100000,"Create_Time":"\/Date(1506582080000)\/","Update_By":100000,"Update_Time":"\/Date(1506582080000)\/"},{"Class_Id":11,"Training_Period_Id":1,"Teacher_Id":0,"Base_Id":100000,"Class_No":11,"Class_Name":"11班","Standard_Num":30,"Is_Delete":0,"Effective":0,"Create_By":100000,"Create_Time":"\/Date(1506582080000)\/","Update_By":100000,"Update_Time":"\/Date(1506582080000)\/"},{"Class_Id":12,"Training_Period_Id":1,"Teacher_Id":0,"Base_Id":100000,"Class_No":12,"Class_Name":"12班","Standard_Num":30,"Is_Delete":0,"Effective":0,"Create_By":100000,"Create_Time":"\/Date(1506582080000)\/","Update_By":100000,"Update_Time":"\/Date(1506582080000)\/"}]}</span></td>
+
+    </tr>
+    </table>
+    </div>
+    </td>
+    </tr>
+
+    
+    <tr valign="top" class="">
+    <td>智能手环</td><td align="center">获取学生信息</td><td align="center">获取班级id获去学生信息</td><td align="center">http://10.1.135.207:7072/stu/api/StudentSysApi/GetStudentsByBaseClassId</td><td align="center">杨晓钢</td><td align="center">通过</td><td align="center"><a href="#" onclick="show('page_details_ZNSH_4.16');">查看接口详细</a></td>
+    </tr>
+    <tr class="page_details" id="page_details_ZNSH_4.16">
+    <td bgcolor="#FF0000" colspan="8">
+    <div align="center">
+    <b>请求/返回 "智能手环"</b>
+    <table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+    <tr>
+    <th>请求报文</th><th>返回报文</th>
+    </tr>
+    <tr>
+    <td align="center" style="width :300px;word-break: break-all;"><span>http://10.1.135.207:7072/stu/api/StudentSysApi/GetStudentsByBaseClassId</span></td><td align="center" style="width :300px;word-break: break-all;" ><span>{"code":1,"message":"","data":[{"period":null,"pId":0,"sId":"6","name":"马克波罗莫斯科意大利爱尔兰","Student_Sex":0,"sex":null,"Birthday":"\/Date(-62135596800000)\/","age":null,"grade":null,"phone":null,"homeClass":null,"registerStatus":0,"isBindBracelet":0},{"period":null,"pId":0,"sId":"5","name":"马玲波","Student_Sex":0,"sex":null,"Birthday":"\/Date(-62135596800000)\/","age":null,"grade":null,"phone":null,"homeClass":null,"registerStatus":0,"isBindBracelet":0},{"period":null,"pId":0,"sId":"3","name":"刘珂珂","Student_Sex":0,"sex":null,"Birthday":"\/Date(-62135596800000)\/","age":null,"grade":null,"phone":null,"homeClass":null,"registerStatus":0,"isBindBracelet":0},{"period":null,"pId":0,"sId":"1","name":"刘一涵","Student_Sex":0,"sex":null,"Birthday":"\/Date(-62135596800000)\/","age":null,"grade":null,"phone":null,"homeClass":null,"registerStatus":0,"isBindBracelet":0},{"period":null,"pId":0,"sId":"2","name":"罗家楠","Student_Sex":0,"sex":null,"Birthday":"\/Date(-62135596800000)\/","age":null,"grade":null,"phone":null,"homeClass":null,"registerStatus":0,"isBindBracelet":0},{"period":null,"pId":0,"sId":"35","name":"爱的啦","Student_Sex":0,"sex":null,"Birthday":"\/Date(-62135596800000)\/","age":null,"grade":null,"phone":null,"homeClass":null,"registerStatus":0,"isBindBracelet":0}]}</span></td>
+
+    </tr>
+    </table>
+    </div>
+    </td>
+    </tr>
+
+    
+    <tr valign="top" class="">
+    <td>智能手环</td><td align="center">绑定学生</td><td align="center">将学生与手表绑定在一起</td><td align="center">http://10.1.135.207:7072/stu/api/StudentSysApi/BindStudentByIMEI</td><td align="center">杨晓钢</td><td align="center">通过</td><td align="center"><a href="#" onclick="show('page_details_ZNSH_4.17');">查看接口详细</a></td>
+    </tr>
+    <tr class="page_details" id="page_details_ZNSH_4.17">
+    <td bgcolor="#FF0000" colspan="8">
+    <div align="center">
+    <b>请求/返回 "智能手环"</b>
+    <table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+    <tr>
+    <th>请求报文</th><th>返回报文</th>
+    </tr>
+    <tr>
+    <td align="center" style="width :300px;word-break: break-all;"><span>http://10.1.135.207:7072/stu/api/StudentSysApi/BindStudentByIMEI</span></td><td align="center" style="width :300px;word-break: break-all;" ><span>{"code":1,"message":"","data":{"period":"2017年第1期","pId":1,"sId":"2011212964","name":"罗楠","Student_Sex":100101,"sex":"女","Birthday":"\/Date(-62135596800000)\/","age":"","grade":"2班","phone":null,"homeClass":"2","registerStatus":1,"isBindBracelet":1}}</span></td>
+
+    </tr>
+    </table>
+    </div>
+    </td>
+    </tr>
+
+    
+    <tr valign="top" class="">
+    <td>家校互动</td><td align="center">学生表现首页信息</td><td align="center">展示学生的总分数以及不同类型表现的总分数</td><td align="center">http://10.1.135.207:7072/EvaluationAPI/API/Evaluation/StuScoreDetail</td><td align="center">杨晓钢</td><td align="center">通过</td><td align="center"><a href="#" onclick="show('page_details_JXHD_4.1');">查看接口详细</a></td>
+    </tr>
+    <tr class="page_details" id="page_details_JXHD_4.1">
+    <td bgcolor="#FF0000" colspan="8">
+    <div align="center">
+    <b>请求/返回 "家校互动"</b>
+    <table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+    <tr>
+    <th>请求报文</th><th>返回报文</th>
+    </tr>
+    <tr>
+    <td align="center" style="width :300px;word-break: break-all;"><span>http://10.1.135.207:7072/EvaluationAPI/API/Evaluation/StuScoreDetail</span></td><td align="center" style="width :300px;word-break: break-all;" ><span>{"code":1,"msg":"调用成功","data":{"totalScore":22,"content":[{"itemName":"查宿","itemScore":14,"itemid":null,"type":"0"},{"itemName":"宿舍卫生","itemScore":3,"itemid":null,"type":"1"},{"itemName":"课堂表现","itemScore":0,"itemid":null,"type":"2"},{"itemName":"餐桌表现","itemScore":0,"itemid":null,"type":"4"}],"dailyContent":[{"itemName":"日常行为","itemScore":5,"itemid":"1226","type":"3"}]}}</span></td>
+
+    </tr>
+    </table>
+    </div>
+    </td>
+    </tr>
+
+    
+    <tr valign="top" class="">
+    <td>家校互动</td><td align="center">查宿详情接口</td><td align="center">查看宿舍出勤签到情况</td><td align="center">http://10.1.135.207:7072/EvaluationAPI/API/Evaluation/StuCheckRoom</td><td align="center">杨晓钢</td><td align="center">通过</td><td align="center"><a href="#" onclick="show('page_details_JXHD_4.2');">查看接口详细</a></td>
+    </tr>
+    <tr class="page_details" id="page_details_JXHD_4.2">
+    <td bgcolor="#FF0000" colspan="8">
+    <div align="center">
+    <b>请求/返回 "家校互动"</b>
+    <table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+    <tr>
+    <th>请求报文</th><th>返回报文</th>
+    </tr>
+    <tr>
+    <td align="center" style="width :300px;word-break: break-all;"><span>http://10.1.135.207:7072/EvaluationAPI/API/Evaluation/StuCheckRoom</span></td><td align="center" style="width :300px;word-break: break-all;" ><span>{"code":1,"msg":"调用成功","data":{"totalScore":14,"content":[{"dormitoryDate":"2017/09/29","dormitoryScore":4,"timeContent":[{"dormitoryTime":"13:41:00","dormitoryStatute":1},{"dormitoryTime":"16:34:00","dormitoryStatute":1}]},{"dormitoryDate":"2017/09/30","dormitoryScore":7,"timeContent":[{"dormitoryTime":"09:30:00","dormitoryStatute":1},{"dormitoryTime":"13:08:00","dormitoryStatute":1},{"dormitoryTime":"16:00:00","dormitoryStatute":0},{"dormitoryTime":"16:50:00","dormitoryStatute":1},{"dormitoryTime":"16:59:00","dormitoryStatute":1}]},{"dormitoryDate":"2017/10/03","dormitoryScore":2,"timeContent":[{"dormitoryTime":"14:31:28","dormitoryStatute":1},{"dormitoryTime":"14:32:18","dormitoryStatute":1}]},{"dormitoryDate":"2017/10/04","dormitoryScore":1,"timeContent":[{"dormitoryTime":"14:34:00","dormitoryStatute":1}]}]}}</span></td>
+
+    </tr>
+    </table>
+    </div>
+    </td>
+    </tr>
+
+    
+    <tr valign="top" class="">
+    <td>家校互动</td><td align="center">宿舍卫生，餐桌表现</td><td align="center">宿舍卫生，餐桌成绩详情</td><td align="center">http://10.1.135.207:7072/EvaluationAPI/API/Evaluation/GetRoomHealthScoreDetail</td><td align="center">杨晓钢</td><td align="center">通过</td><td align="center"><a href="#" onclick="show('page_details_JXHD_4.3');">查看接口详细</a></td>
+    </tr>
+    <tr class="page_details" id="page_details_JXHD_4.3">
+    <td bgcolor="#FF0000" colspan="8">
+    <div align="center">
+    <b>请求/返回 "家校互动"</b>
+    <table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+    <tr>
+    <th>请求报文</th><th>返回报文</th>
+    </tr>
+    <tr>
+    <td align="center" style="width :300px;word-break: break-all;"><span>http://10.1.135.207:7072/EvaluationAPI/API/Evaluation/GetRoomHealthScoreDetail</span></td><td align="center" style="width :300px;word-break: break-all;" ><span>{"code":1,"msg":"调用成功","data":{"totalScore":8.0,"content":[{"dormName":"座位","dormScore":2.0,"itemContent":[{"itemName":"书籍摆放","itemScore":1.0},{"itemName":"桌面干净","itemScore":1.0}]},{"dormName":"加分项","dormScore":1.0,"itemContent":[{"itemName":"值得表扬","itemScore":1.0},{"itemName":"总体非常好","itemScore":0.0}]},{"dormName":"寝室卫生","dormScore":6.0,"itemContent":[{"itemName":"床铺","itemScore":1.0},{"itemName":"卫生间","itemScore":4.0},{"itemName":"衣柜","itemScore":1.0}]},{"dormName":"扣分项","dormScore":0.0,"itemContent":[{"itemName":"严厉禁止","itemScore":0.0},{"itemName":"总体非常差","itemScore":0.0}]}]}}</span></td>
+
+    </tr>
+    </table>
+    </div>
+    </td>
+    </tr>
+
+    
+    <tr valign="top" class="">
+    <td>家校互动</td><td align="center">课堂表现详情</td><td align="center">课堂表现成绩详情</td><td align="center">http://10.1.135.207:7072/EvaluationAPI/API/Evaluation/CourseScoreDetail</td><td align="center">杨晓钢</td><td align="center">通过</td><td align="center"><a href="#" onclick="show('page_details_JXHD_4.4');">查看接口详细</a></td>
+    </tr>
+    <tr class="page_details" id="page_details_JXHD_4.4">
+    <td bgcolor="#FF0000" colspan="8">
+    <div align="center">
+    <b>请求/返回 "家校互动"</b>
+    <table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+    <tr>
+    <th>请求报文</th><th>返回报文</th>
+    </tr>
+    <tr>
+    <td align="center" style="width :300px;word-break: break-all;"><span>http://10.1.135.207:7072/EvaluationAPI/API/Evaluation/CourseScoreDetail</span></td><td align="center" style="width :300px;word-break: break-all;" ><span>{"code":1,"msg":"调用成功","data":{"totalScore":11.0,"content":[{"scheduleName":"金属丝","scheduleTime":"2017/10/6 15:45:38","scheduleTeacher":"马瑶","scheduleScore":3.0},{"scheduleName":"金属丝","scheduleTime":"2017/10/6 17:13:48","scheduleTeacher":"马瑶","scheduleScore":1.0},{"scheduleName":"金属丝","scheduleTime":"2017/10/4 17:39:32","scheduleTeacher":"超级管理员","scheduleScore":1.0},{"scheduleName":"金属丝","scheduleTime":"2017/10/4 17:39:33","scheduleTeacher":"超级管理员","scheduleScore":2.0},{"scheduleName":"金属丝","scheduleTime":"2017/10/4 17:39:34","scheduleTeacher":"超级管理员","scheduleScore":1.0},{"scheduleName":"金属丝","scheduleTime":"2017/10/4 17:39:38","scheduleTeacher":"超级管理员","scheduleScore":1.0},{"scheduleName":"金属丝","scheduleTime":"2017/10/4 17:39:39","scheduleTeacher":"超级管理员","scheduleScore":2.0}]}}</span></td>
+
+    </tr>
+    </table>
+    </div>
+    </td>
+    </tr>
+
+    
+    <tr valign="top" class="">
+    <td>家校互动</td><td align="center">日常表现</td><td align="center">日常表现详情接口</td><td align="center">http://10.1.135.207:7072/EvaluationAPI/API/Evaluation/DailyScoreDetail</td><td align="center">杨晓钢</td><td align="center">通过</td><td align="center"><a href="#" onclick="show('page_details_JXHD_4.5');">查看接口详细</a></td>
+    </tr>
+    <tr class="page_details" id="page_details_JXHD_4.5">
+    <td bgcolor="#FF0000" colspan="8">
+    <div align="center">
+    <b>请求/返回 "家校互动"</b>
+    <table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+    <tr>
+    <th>请求报文</th><th>返回报文</th>
+    </tr>
+    <tr>
+    <td align="center" style="width :300px;word-break: break-all;"><span>http://10.1.135.207:7072/EvaluationAPI/API/Evaluation/DailyScoreDetail</span></td><td align="center" style="width :300px;word-break: break-all;" ><span>{"code":1,"msg":"调用成功","data":{"totalScore":5.0,"content":[{"itemName":"爱卫生","itemScore":5.0}]}}</span></td>
+
+    </tr>
+    </table>
+    </div>
+    </td>
+    </tr>
+
+    
+    <tr valign="top" class="">
+    <td>家校互动</td><td align="center">学生排行榜分类</td><td align="center">获取学生的排行榜分类</td><td align="center">http://10.1.135.207:7072/EvaluationAPI/API/Evaluation/RankSort</td><td align="center">杨晓钢</td><td align="center">通过</td><td align="center"><a href="#" onclick="show('page_details_JXHD_4.6');">查看接口详细</a></td>
+    </tr>
+    <tr class="page_details" id="page_details_JXHD_4.6">
+    <td bgcolor="#FF0000" colspan="8">
+    <div align="center">
+    <b>请求/返回 "家校互动"</b>
+    <table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+    <tr>
+    <th>请求报文</th><th>返回报文</th>
+    </tr>
+    <tr>
+    <td align="center" style="width :300px;word-break: break-all;"><span>http://10.1.135.207:7072/EvaluationAPI/API/Evaluation/RankSort</span></td><td align="center" style="width :300px;word-break: break-all;" ><span>{"code":1,"msg":"调用成功","data":[{"type":1,"itemid":-1,"item":"综合"},{"type":1,"itemid":-2,"item":"课堂评价"},{"type":1,"itemid":-3,"item":"宿舍评价"},{"type":1,"itemid":-4,"item":"餐桌评价"},{"type":1,"itemid":1226,"item":"日常行为"}]}</span></td>
+
+    </tr>
+    </table>
+    </div>
+    </td>
+    </tr>
+
+    
+    <tr valign="top" class="">
+    <td>家校互动</td><td align="center">排行榜详情</td><td align="center">获取学生的排行榜详情</td><td align="center">http://10.1.135.207:7072/EvaluationAPI/API/Evaluation/ShowTopList</td><td align="center">杨晓钢</td><td align="center">通过</td><td align="center"><a href="#" onclick="show('page_details_JXHD_4.7');">查看接口详细</a></td>
+    </tr>
+    <tr class="page_details" id="page_details_JXHD_4.7">
+    <td bgcolor="#FF0000" colspan="8">
+    <div align="center">
+    <b>请求/返回 "家校互动"</b>
+    <table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+    <tr>
+    <th>请求报文</th><th>返回报文</th>
+    </tr>
+    <tr>
+    <td align="center" style="width :300px;word-break: break-all;"><span>http://10.1.135.207:7072/EvaluationAPI/API/Evaluation/ShowTopList</span></td><td align="center" style="width :300px;word-break: break-all;" ><span>{"code":1,"msg":"调用成功","data":{"scoretype":"0","praiseContent":[{"grade":"一年级","score":"98","name":"爱的啦","classname":"1班","rank":1},{"grade":"一年级","score":"45","name":"刘珂珂","classname":"1班","rank":2},{"grade":"一年级","score":"31","name":"罗家楠","classname":"1班","rank":3},{"grade":"一年级","score":"22","name":"马克波罗莫斯科意大利爱尔兰","classname":"1班","rank":4},{"grade":"一年级","score":"20","name":"罗楠","classname":"2班","rank":5},{"grade":"一年级","score":"17","name":"马玲波","classname":"1班","rank":6},{"grade":"一年级","score":"13","name":"刘一涵","classname":"1班","rank":7}],"warningContent":[]}}</span></td>
+
+    </tr>
+    </table>
+    </div>
+    </td>
+    </tr>
+
+    </table>
+    <hr align="center" width="95%" size="1">
+    </body>
+    </html>
+
+    

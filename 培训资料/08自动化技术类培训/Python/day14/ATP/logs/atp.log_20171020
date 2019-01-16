@@ -1,0 +1,3 @@
+20171020160034  case 【通知公告列表】测试不通过，预期结果是 【code=1】 实际结果是【{"code":2,"message":"Object reference not set to an instance of an object.","Data":null}】
+20171020160153  文件不存在！[Errno 13] Permission denied: 'E:\\study\\Automantic\\jxz-code\\ATP\\cases\\~$国泰安智慧校园基地易管理平台软件V1.10R4_接口测试用例.xlsx'
+20171020160234  case 【1.0】测试不通过，预期结果是 【code=1】 实际结果是【】

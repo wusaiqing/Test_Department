@@ -1,0 +1,7 @@
+20171010190638  访问接口报错HTTPConnectionPool(host='jenkins.nnzhp.cn', port=80): Max retries exceeded with url: /login?username=niuhanyang&password=123456 (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x0000000004C437F0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',))
+20171010195618  文件不存在！[Errno 2] No such file or directory: 'test_byz.xlsx'
+20171010201530  文件不存在！[Errno 2] No such file or directory: '...\\cases\test_byz.xlsx'
+20171010201725  文件不存在！[Errno 2] No such file or directory: '.../cases/test_byz.xlsx'
+20171010201739  文件不存在！[Errno 2] No such file or directory: '../../cases/test_byz.xlsx'
+20171010202736  访问接口报错HTTPConnectionPool(host='jenkins.nnzhp.cn', port=80): Max retries exceeded with url: /login?username=niuhanyang&password=123456 (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x0000000004B476D8>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',))
+20171010202933  访问接口报错HTTPConnectionPool(host='jenkins.nnzhp.cn', port=80): Max retries exceeded with url: /login?username=niuhanyang&password=123456 (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x0000000004B314E0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',))
