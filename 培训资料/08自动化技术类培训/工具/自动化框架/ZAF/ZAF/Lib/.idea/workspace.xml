@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="681e131e-6ab2-4752-8f0c-6474c3167a53" name="Default" comment="" />
+    <ignored path="Lib.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Lib" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="autoit.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/autoit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.21246007">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/builtin.py" />
+        <option value="$PROJECT_DIR$/selenium3.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="88" />
+    <option name="y" value="25" />
+    <option name="width" value="1243" />
+    <option name="height" value="785" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7 (D:\Python27\python.exe) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7 (D:\Python27\python.exe) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7 (D:\Python27\python.exe) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7 (D:\Python27\python.exe) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python27" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7 (D:\Python27\python.exe) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python27" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="WebDriverWait&#9;null&#9;null" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Lib" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Lib" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Lib" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Lib" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Lib" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Lib" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="681e131e-6ab2-4752-8f0c-6474c3167a53" name="Default" comment="" />
+      <created>1464154388714</created>
+      <option name="number" value="Default" />
+      <updated>1464154388714</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="88" y="25" width="1243" height="785" extended-state="1" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24979253" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../Selenium2Library/keywords/_browsermanagement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="537" column="61" selection-start-line="537" selection-start-column="61" selection-end-line="537" selection-end-column="61" />
+          <folding>
+            <marker date="1440510904000" expanded="false" signature="0:339" placeholder="import ..." />
+            <marker date="1440510904000" expanded="true" signature="1177:27391" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="1202:1413" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="1478:1842" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="1487:1766" placeholder="&quot;&quot;&quot;Closes all open browsers and resets the browser cache....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="1872:2097" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="2242:5393" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="2251:4587" placeholder="&quot;&quot;&quot;Opens a new browser instance to given URL....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="5477:8741" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="5486:7914" placeholder="&quot;&quot;&quot;Creates an instance of a WebDriver....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="8788:10371" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="8797:9981" placeholder="&quot;&quot;&quot;Switches between active browsers using index or alias....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="10433:10526" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="10565:10739" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="10772:11195" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="11229:11399" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="11439:11537" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="11569:11818" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="11578:11716" placeholder="&quot;&quot;&quot;Returns current window size as `width` then `height`....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="11865:12261" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="11874:12191" placeholder="&quot;&quot;&quot;Sets the `width` and `height` of the current window to the specified values....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="12297:12543" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="12306:12434" placeholder="&quot;&quot;&quot;Returns current window position as `x` then `y`....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="12585:12970" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="12594:12905" placeholder="&quot;&quot;&quot;Sets the position `x` and `y` of the current window to the specified values....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="13008:13373" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="13017:13204" placeholder="&quot;&quot;&quot;Sets frame identified by `locator` as current frame....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="13417:15497" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="13426:15267" placeholder="&quot;&quot;&quot;Selects the window matching locator and return previous window handle....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="15526:15644" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="15675:15790" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="15866:15967" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="15994:16126" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="16152:16248" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="16288:16593" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="16643:16987" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="17016:17146" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="17190:17526" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="17199:17425" placeholder="&quot;&quot;&quot;Logs and returns the entire html source of the current page or frame....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="17552:17690" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="17729:18033" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="18083:18200" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="18227:18386" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="18414:18501" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="18572:18774" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="18581:18710" placeholder="&quot;&quot;&quot;Gets the delay in seconds that is waited after each Selenium command....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="18811:19009" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="18820:18943" placeholder="&quot;&quot;&quot;Gets the timeout in seconds that is used by various keywords....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="19052:19253" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="19061:19181" placeholder="&quot;&quot;&quot;Gets the wait in seconds that is waited by Selenium....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="19297:19891" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="19306:19657" placeholder="&quot;&quot;&quot;Sets the delay in seconds that is waited after each Selenium command....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="19937:20928" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="19946:20664" placeholder="&quot;&quot;&quot;Sets the timeout in seconds used by various keywords....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="20980:21782" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="20989:21509" placeholder="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="21834:22376" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="21843:22236" placeholder="&quot;&quot;&quot;Sets current browser's implicit wait in seconds....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="22424:22548" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="22609:22749" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="22873:23320" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="23391:23789" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="23860:24010" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="24085:24229" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="24303:24445" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="24523:24673" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="24750:24896" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="24979:25131" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="25207:25352" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="25427:25571" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="25646:25790" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="25889:26211" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="26329:26896" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="26960:27391" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="26969:27084" placeholder="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builtin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42492014">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../selenium-2.48.0-py2.7.egg/selenium/webdriver/support/wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0015974">
+          <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Selenium2Library/keywords/_browsermanagement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.030351438">
+          <caret line="537" column="61" selection-start-line="537" selection-start-column="61" selection-end-line="537" selection-end-column="61" />
+          <folding>
+            <marker date="1440510904000" expanded="false" signature="0:339" placeholder="import ..." />
+            <marker date="1440510904000" expanded="true" signature="1177:27391" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="1202:1413" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="1478:1842" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="1487:1766" placeholder="&quot;&quot;&quot;Closes all open browsers and resets the browser cache....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="1872:2097" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="2242:5393" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="2251:4587" placeholder="&quot;&quot;&quot;Opens a new browser instance to given URL....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="5477:8741" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="5486:7914" placeholder="&quot;&quot;&quot;Creates an instance of a WebDriver....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="8788:10371" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="8797:9981" placeholder="&quot;&quot;&quot;Switches between active browsers using index or alias....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="10433:10526" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="10565:10739" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="10772:11195" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="11229:11399" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="11439:11537" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="11569:11818" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="11578:11716" placeholder="&quot;&quot;&quot;Returns current window size as `width` then `height`....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="11865:12261" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="11874:12191" placeholder="&quot;&quot;&quot;Sets the `width` and `height` of the current window to the specified values....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="12297:12543" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="12306:12434" placeholder="&quot;&quot;&quot;Returns current window position as `x` then `y`....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="12585:12970" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="12594:12905" placeholder="&quot;&quot;&quot;Sets the position `x` and `y` of the current window to the specified values....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="13008:13373" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="13017:13204" placeholder="&quot;&quot;&quot;Sets frame identified by `locator` as current frame....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="13417:15497" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="13426:15267" placeholder="&quot;&quot;&quot;Selects the window matching locator and return previous window handle....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="15526:15644" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="15675:15790" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="15866:15967" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="15994:16126" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="16152:16248" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="16288:16593" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="16643:16987" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="17016:17146" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="17190:17526" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="17199:17425" placeholder="&quot;&quot;&quot;Logs and returns the entire html source of the current page or frame....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="17552:17690" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="17729:18033" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="18083:18200" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="18227:18386" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="18414:18501" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="18572:18774" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="18581:18710" placeholder="&quot;&quot;&quot;Gets the delay in seconds that is waited after each Selenium command....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="18811:19009" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="18820:18943" placeholder="&quot;&quot;&quot;Gets the timeout in seconds that is used by various keywords....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="19052:19253" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="19061:19181" placeholder="&quot;&quot;&quot;Gets the wait in seconds that is waited by Selenium....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="19297:19891" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="19306:19657" placeholder="&quot;&quot;&quot;Sets the delay in seconds that is waited after each Selenium command....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="19937:20928" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="19946:20664" placeholder="&quot;&quot;&quot;Sets the timeout in seconds used by various keywords....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="20980:21782" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="20989:21509" placeholder="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="21834:22376" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="21843:22236" placeholder="&quot;&quot;&quot;Sets current browser's implicit wait in seconds....&quot;&quot;&quot;" />
+            <marker date="1440510904000" expanded="true" signature="22424:22548" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="22609:22749" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="22873:23320" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="23391:23789" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="23860:24010" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="24085:24229" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="24303:24445" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="24523:24673" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="24750:24896" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="24979:25131" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="25207:25352" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="25427:25571" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="25646:25790" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="25889:26211" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="26329:26896" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="26960:27391" placeholder="..." />
+            <marker date="1440510904000" expanded="true" signature="26969:27084" placeholder="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39698493">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+          <folding>
+            <marker date="1464224801063" expanded="false" signature="17:74" placeholder="import ..." />
+            <marker date="1464224801063" expanded="true" signature="94:8105" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="301:436" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="582:724" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="766:963" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="993:1070" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="1117:1170" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="1197:1230" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="1272:1320" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="1366:1418" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="1457:1533" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="1579:1631" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="1692:1759" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="1820:1887" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="1948:2015" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="2056:2094" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="2149:2210" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="2250:2298" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="2346:2400" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="2455:2601" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="2653:2805" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="2850:2923" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="2963:3017" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="3048:3087" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="3112:3148" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="3182:3251" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="3286:3334" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="3383:3445" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="3494:3556" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="3596:3649" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="3676:3718" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="3759:3832" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="3866:3915" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="3968:4050" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="4100:4276" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="4318:4372" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="4418:4520" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="4544:4588" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="4663:4769" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="4838:4942" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="5005:5063" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="5130:5192" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="5273:5351" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="5436:5518" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="5566:5737" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="5791:5958" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="5800:5889" placeholder="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1464224801063" expanded="true" signature="6007:6214" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="6016:6091" placeholder="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1464224801063" expanded="true" signature="6258:6310" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="6339:6383" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="6409:6450" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="6505:6574" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="6630:6700" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="6752:6812" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="6863:6922" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="6969:7024" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="7069:7129" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="7182:7242" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="7292:7358" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="7387:7424" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="7460:7502" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="7542:7588" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="7619:7658" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="7730:7798" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="7822:7854" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="7896:8034" placeholder="..." />
+            <marker date="1464224801063" expanded="true" signature="8062:8105" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Selenium2Library/keywords/_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="398" column="80" selection-start-line="398" selection-start-column="75" selection-end-line="398" selection-end-column="80" />
+          <folding>
+            <marker date="1440595286000" expanded="false" signature="0:349" placeholder="import ..." />
+            <marker date="1440595286000" expanded="true" signature="422:463" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="499:533" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="572:34152" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="597:644" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="714:914" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="723:859" placeholder="&quot;&quot;&quot;Returns the first WebElement matching the given locator....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="955:1152" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="964:1096" placeholder="&quot;&quot;&quot;Returns list of WebElement objects matching locator....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="1245:1664" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="1254:1392" placeholder="&quot;&quot;&quot;Verifies that current frame contains `text`....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="1737:2165" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="1746:1884" placeholder="&quot;&quot;&quot;Verifies that current frame contains `text`....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="2235:3066" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="2244:2657" placeholder="&quot;&quot;&quot;Verifies element identified by `locator` contains text `expected`....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="3140:3822" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="3149:3431" placeholder="&quot;&quot;&quot;Verifies element identified by `locator` does not contain text `expected`....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="3891:4449" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="3900:4169" placeholder="&quot;&quot;&quot;Verifies frame identified by `locator` contains `text`....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="4508:5170" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="4517:4900" placeholder="&quot;&quot;&quot;Verifies that current page contains `text`....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="5252:5698" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="5261:5622" placeholder="&quot;&quot;&quot;Verifies element identified by `locator` is found on the current page....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="5805:6649" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="5814:6095" placeholder="&quot;&quot;&quot;Verifies that the page contains the given number of elements located by the given `locator`....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="6712:7095" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="6721:6865" placeholder="&quot;&quot;&quot;Verifies the current page does not contain `text`....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="7181:7640" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="7190:7560" placeholder="&quot;&quot;&quot;Verifies element identified by `locator` is not found on the current page....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="7716:8309" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="7725:8081" placeholder="&quot;&quot;&quot;Assigns a temporary identifier to element specified by `locator`....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="8361:8688" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="8370:8577" placeholder="&quot;&quot;&quot;Verifies that element identified with `locator` is disabled....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="8739:9070" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="8748:8954" placeholder="&quot;&quot;&quot;Verifies that element identified with `locator` is enabled....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="9133:10019" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="9142:9695" placeholder="&quot;&quot;&quot;Verifies that the element identified by `locator` is visible....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="10086:10763" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="10095:10439" placeholder="&quot;&quot;&quot;Verifies that the element identified by `locator` is NOT visible....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="10833:11758" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="10842:11294" placeholder="&quot;&quot;&quot;Verifies element identified by `locator` exactly contains text `expected`....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="11815:12303" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="11824:12012" placeholder="&quot;&quot;&quot;Return value of element attribute....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="12352:12832" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="12361:12622" placeholder="&quot;&quot;&quot;Returns horizontal position of element identified by `locator`....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="12867:13059" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="12876:13019" placeholder="&quot;&quot;&quot;Returns the value attribute of element identified by `locator`....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="13093:13279" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="13102:13240" placeholder="&quot;&quot;&quot;Returns the text value of element identified by `locator`....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="13323:13562" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="13332:13480" placeholder="&quot;&quot;&quot;Clears the text value of text entry element identified by `locator`....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="13609:14083" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="13618:13873" placeholder="&quot;&quot;&quot;Returns vertical position of element identified by `locator`....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="14156:14461" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="14165:14350" placeholder="&quot;&quot;&quot;Click element identified by `locator`....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="14533:15338" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="14542:14874" placeholder="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="15384:15783" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="15393:15585" placeholder="&quot;&quot;&quot;Double click element identified by `locator`....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="15814:16014" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="16060:16612" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="16069:16409" placeholder="&quot;&quot;&quot;Drags element identified with `source` which is a locator....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="16679:17174" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="16688:17008" placeholder="&quot;&quot;&quot;Drags element identified with `source` which is a locator....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="17210:17928" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="17219:17614" placeholder="&quot;&quot;&quot;Simulates pressing the left mouse button on the element specified by `locator`....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="17963:18647" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="17972:18187" placeholder="&quot;&quot;&quot;Simulates moving mouse away from the element specified by `locator`....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="18683:19219" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="18692:18904" placeholder="&quot;&quot;&quot;Simulates hovering mouse over the element specified by `locator`....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="19253:19794" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="19262:19489" placeholder="&quot;&quot;&quot;Simulates releasing the left mouse button on the element specified by `locator`....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="19837:20043" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="20084:20786" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="20093:20334" placeholder="&quot;&quot;&quot;Simulates `event` on element identified by `locator`....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="20826:21429" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="20835:21207" placeholder="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="21486:21821" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="21495:21684" placeholder="&quot;&quot;&quot;Clicks a link identified by locator....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="21851:22178" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="21860:22015" placeholder="&quot;&quot;&quot;Returns a list containing ids of all links found in current page....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="22222:22569" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="22231:22423" placeholder="&quot;&quot;&quot;Simulates a mouse down event on a link....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="22648:23062" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="22657:22984" placeholder="&quot;&quot;&quot;Verifies link identified by `locator` is found from current page....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="23145:23556" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="23154:23474" placeholder="&quot;&quot;&quot;Verifies image identified by `locator` is not found from current page....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="23615:24107" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="23624:23800" placeholder="&quot;&quot;&quot;Clicks an image found by `locator`....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="24152:24490" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="24161:24343" placeholder="&quot;&quot;&quot;Simulates a mouse down event on an image....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="24570:24974" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="24579:24895" placeholder="&quot;&quot;&quot;Verifies image identified by `locator` is found from current page....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="25058:25466" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="25067:25383" placeholder="&quot;&quot;&quot;Verifies image identified by `locator` is found from current page....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="25535:26066" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="25544:25968" placeholder="&quot;&quot;&quot;Returns number of elements matching `xpath`...&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="26167:27187" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="26176:26642" placeholder="&quot;&quot;&quot;Verifies that the page contains the given number of elements located by the given `xpath`....&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="27294:28402" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="27303:28279" placeholder="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="28458:28733" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="28467:28678" placeholder="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1440595286000" expanded="true" signature="28819:29456" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="29503:29821" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="29856:29998" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="30044:30191" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="30228:30636" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="30675:30805" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="30842:30995" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="31048:31676" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="31737:31952" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="32012:32387" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="32442:32521" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="32558:33113" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="33191:33623" placeholder="..." />
+            <marker date="1440595286000" expanded="true" signature="33705:34152" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21246007">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

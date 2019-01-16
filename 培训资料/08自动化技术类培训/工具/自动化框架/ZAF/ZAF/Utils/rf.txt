@@ -1,0 +1,15 @@
+*** Settings ***
+Test Setup        open browser    ${login_url}    ${browser}
+Test Teardown     close browser
+Library           ZAF.Project.SZHJX.Login
+Variables         C:/Python27/Lib/site-packages/ZAF/Project/SZHJX/Conf.py
+Variables         C:/Python27/Lib/site-packages/ZAF/Project/SZHJX/TestData.py
+Variables         ./TestData.py
+
+*** Test Cases ***
+test_Login_Pass
+    login batch    ${users}    ${passwords}    ${login_checks}
+test_Register
+    exec sql for szhjx    ${setup_db_for_reg_user_sql}
+    register cancel    ${reg_user}    ${reg_passwd}    ${reg_repasswd}    ${reg_role2}    ${reg_zz2}    ${reg_cardid}    ${reg_name}    ${reg_contact}    ${reg_email}    ${reg_problem}    ${reg_answer}
+    register pass    ${reg_user}    ${reg_passwd}    ${reg_repasswd}    ${reg_role1}    ${reg_zz1}    ${reg_cardid}    ${reg_name}    ${reg_contact}    ${reg_email}    ${reg_problem}    ${reg_answer}    ${reg_check_txt}    ${check_db_for_reg_user_sql}

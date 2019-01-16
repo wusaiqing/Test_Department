@@ -1,0 +1,7 @@
+    def test_Login_Pass(self):
+        login.login_batch(users, passwords, login_checks)
+
+    def test_Register(self):
+        login.exec_sql_for_szhjx(setup_db_for_reg_user_sql)
+        login.register_cancel(reg_user, reg_passwd, reg_repasswd, reg_role2, reg_zz2, reg_cardid, reg_name, reg_contact, reg_email, reg_problem, reg_answer)
+        login.register_pass(reg_user, reg_passwd, reg_repasswd, reg_role1, reg_zz1, reg_cardid, reg_name, reg_contact, reg_email, reg_problem, reg_answer, reg_check_txt, check_db_for_reg_user_sql)
