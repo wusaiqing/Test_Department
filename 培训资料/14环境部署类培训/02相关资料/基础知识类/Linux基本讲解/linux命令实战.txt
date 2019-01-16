@@ -1,0 +1,522 @@
+1.系统管理命令
+man （还可以man文件）
+帮助文档
+man mysql
+
+-------------------------------------------------------------
+adduser、useradd、userdel、usermod
+账户管理
+groupadd mysql
+
+useradd -M -g mysql -s /sbin/nologin -d /usr/local/mysql mysql
+
+useradd fander
+userdel fander
+cat /etc/passwd
+cat /etc/group
+ll /home
+
+#将zabbix添加到mysql组里
+usermod -a -G mysql zabbix
+
+--------------------------------------------------------------
+date
+#格式化输出时间
+date +"%Y-%m-%d"
+date +"%Y-%m-%d %H:%M:%S"
+#修改时间
+date -s 20170118（不要这样修改）
+date -s "20170118 15:51:00"或date -s "15:52:00"
+--------------------------------------------------------------
+
+exit
+#退出shell
+exit 0
+exit 1
+exit 2
+--------------------------------------------------------------
+
+free
+内存空闲
+free -m
+free -g
+free -l
+free -mt
+--------------------------------------------------------------
+id
+用户id
+su fander
+id
+id root
+id fander
+---------------------------------------------------------------
+kill、killall
+杀进程
+kill 接pid
+killall 接进程名
+
+kill -9 与 kill的区别
+---------------------------------------------------------------
+last、lastb、lastlog
+查看用户登录信息
+how listing of last logged in users
+
+/var/log/wtmp也是一个二进制文件，记录每个用户的登录次数和持续时间等信息。
+last -f /var/log/wtmp
+http://192.168.106.119:55555/doku.php?id=%E4%BF%8A%E8%81%AA%E5%88%86%E4%BA%AB-%E7%AE%80%E5%8D%95%E6%9C%89%E8%B6%A3%E5%AE%9E%E6%88%98linux%E5%91%BD%E4%BB%A4
+----------------------------------------------------------------
+history
+命令输入历史记录
+!
+!!
+http://192.168.106.119:55555/doku.php?id=%E4%BF%8A%E8%81%AA%E5%88%86%E4%BA%AB-%E7%AE%80%E5%8D%95%E6%9C%89%E8%B6%A3%E5%AE%9E%E6%88%98linux%E5%91%BD%E4%BB%A4
+----------------------------------------------------------------
+ps
+report a snapshot of the current processe
+ps -ef
+ps -aux
+ps -A
+ps -ef| grep zabbix
+ps -ef| grep mysqld
+----------------------------------------------------------------
+重启
+reboot
+shutdown -r now
+shutdown -r 10
+init 6
+
+ cat /etc/inittab 
+----------------------------------------------------------------
+关机
+shutdown、halt、poweroff、init
+shutdown -h 10
+halt就是调用shutdown -h
+init 0
+poweroff
+-----------------------------------------------------------------
+su
+切换用户
+su与su -
+su命令和su -命令最大的本质区别就是：前者只是切换了root身份，但Shell环境仍然是普通用户的Shell
+http://blog.csdn.net/shandianling/article/details/8971704
+-----------------------------------------------------------------
+sudo
+execute a command as another user
+允许系统管理员让普通用户执行一些或者全部的root命令的一个工具
+-----------------------------------------------------------------
+top
+类似任务管理器
+top +f +p 看swap使用情况
+-----------------------------------------------------------------
+uname
+查看kernel、查看服务器是x86还是x64架构
+uname -a
+uname -r
+-----------------------------------------------------------------
+
+
+2.系统设置命令
+alias、unalias
+别名
+-----------------------------------------------------------------
+chkconfig
+chkconfig --list 
+chkconfig --list | grep mysql
+chkconfig --list | grep zabbix
+-----------------------------------------------------------------
+chroot 
+（http://www.linuxidc.com/Linux/2014-05/102130.htm）
+-----------------------------------------------------------------
+crontab
+计划任务
+ps -ef | grep crond
+crontab -e
+crontab -l
+
+cat /var/spool/cron/root （用户级）
+cat /etc/crontab （系统级）
+
+https://zhidao.baidu.com/question/1946278177198010348.html
+
+-----------------------------------------------------------------
+clock、hwclock
+系统时间 、硬件时间(CMOS)
+修改时间date、clock、hwclock三步曲
+/usr/sbin/ntpdate cn.pool.ntp.org ; hwclock -w 
+其他命令(tzselect http://jingyan.baidu.com/article/636f38bb268a82d6b84610bd.html)
+开机 硬件时间->系统时间
+关机 系统时间->硬件时间
+-----------------------------------------------------------------
+dmesg
+print or control the kernel ring buffer
+检查操作系统有没有认到什么硬件，什么什么型号
+cat /var/log/dmesg
+-----------------------------------------------------------------
+export、set/unset、env 
+输出环境变量
+
+修改环境变量
+export HOME="/data"
+
+[root@localhost ~]# env | wc -l
+23
+[root@localhost ~]# set | wc -l
+59
+[root@localhost ~]# export | wc -l
+22
+
+/etc/profile
+
+------------------------------------------------------------------
+passwd
+修改密码
+passwd
+passwd root
+passwd fander
+------------------------------------------------------------------
+centos 系统包管理工具
+rpm -ivh xxx.rpm 
+rpm -qa
+rpm -e xxx.rpm 
+rpm -e --nodeps
+------------------------------------------------------------------
+setup
+图形化设置工具
+
+最小化安装没有这工具
+-------------------------------------------------------------------
+
+ulimit
+ulimit -a
+ulimit -n  (默认1024)
+ulimit -n 65536
+vim /etc/security/limits.conf 
+底部加入这两句
+* soft nofile 65535 
+* hard nofile 65535
+--------------------------------------------------------------------
+3.linux文档编辑命令
+grep、egrep
+文件里搜索
+sed、awk、grep是三大文本处理命令！
+print lines matching a pattern
+
+grep mysqld /etc/my.cnf 
+cat /etc/my.cnf | grep mysqld
+egrep = grep -E
+http://blog.csdn.net/newthinker_wei/article/details/8219293
+
+--------------------------------------------------------------------
+sed
+sed、awk、grep是三大文本处理命令！
+sed -i 's/3306/3307/g' /etc/my.cnf
+sed -i '1d' /test.txt
+#搜索匹配行，并在其下插入数据
+sed -i '/T04/a\000123' /test.txt
+
+--------------------------------------------------------------------
+
+后面的不说了，给出一个综合例子
+
+IP
+cat access.log | grep class | egrep -v "Googlebot|Baiduspider|Yahoo|bingbot|Soso|Sogou|twiceler|Yandex|alexa|Feedsky|Yeti|Baidu-Transcoder|BaiduCustomer|Baidu-Thumbnail|iaskspider|YodaoBot|msnbot|360Spider|YisouSpider|wotbox|dotbot|applebot|wget|curl|mj12bot|ahrefsbot|RU_Bot|CommonCrawler|Spider-ads|bot" | awk '{print $1}' | sort | uniq | wc -l
+108
+
+UV
+cat access.log | grep class | egrep -v "Googlebot|Baiduspider|Yahoo|bingbot|Soso|Sogou|twiceler|Yandex|alexa|Feedsky|Yeti|Baidu-Transcoder|BaiduCustomer|Baidu-Thumbnail|iaskspider|YodaoBot|msnbot|360Spider|YisouSpider|wotbox|dotbot|applebot|wget|curl|mj12bot|ahrefsbot|RU_Bot|CommonCrawler|Spider-ads|bot" | awk '{print $NF}' | grep JSESSION | sort | uniq | wc -l
+
+---------------------------------------------------------------------
+
+4.linux压缩备份命令
+tar
+#压缩
+tar -zcvf /fander.tar.gz /fander
+#解压
+tar -zxvf /fander.tar.gz -C /test
+
+---------------------------------------------------------------------
+unzip
+解压
+unzip fander.zip
+
+----------------------------------------------------------------------
+
+5.linux文件管理命令
+diff
+文件对比
+http://192.168.106.119:55555/doku.php?id=%E4%BF%8A%E8%81%AA%E5%88%86%E4%BA%AB-%E7%AE%80%E5%8D%95%E6%9C%89%E8%B6%A3%E5%AE%9E%E6%88%98linux%E5%91%BD%E4%BB%A4
+----------------------------------------------------------------------
+
+file
+查看文件格式
+file test.txt
+file /bin/ls
+----------------------------------------------------------------------
+find
+最强大的查找命令
+cd /backup
+find . -name *.tar.gz -type f -mtime +14 -exec rm -f {} \;
+
+find / -name mysqld
+-----------------------------------------------------------------------
+
+ln
+有软链接和硬链接两种，常用的是软链接(加-s)
+
+软链接， /usr/local/mysql类似于快捷方式
+ln -s /opt/mysql/mysql-5.7.17-linux-glibc2.5-x86_64 /usr/local/mysql
+
+硬链接，我很少用，一般用于防误删吧
+硬链接实际上是为文件建一个别名，链接文件和原文件实际上是同一个文件。
+
+-------------------------------------------------------------------------
+lsattr、chattr
+文件的特殊属性
+应用实例：
+1、用chattr命令防止系统中某个关键文件被修改
+
+# chattr +i /etc/fstab 
+
+然后试一下rm mv rename等命令操作于该文件，都是得到Operation not permitted 的结果
+
+
+2、让某个文件只能往里面追加内容，不能删除，一些日志文件适用于这种操作
+# chattr +a /data1/user_act.log
+
+---------------------------------------------------------------------------
+mc
+这个需要安装，编辑器
+mc -e /test.txt
+---------------------------------------------------------------------------
+mv
+移动、重命名
+mv /test.txt /fander
+mv /test.txt /fander/test_new.txt
+
+---------------------------------------------------------------------------
+paste
+横向整合，纵向整合直接用cat就可以。
+默认分隔符是 /t (TAB)
+paste -d, 1.txt 2.txt
+
+---------------------------------------------------------------------------
+
+rm
+危险命令，用之前请小心
+rm -rf /test.txt
+
+---------------------------------------------------------------------------
+tee
+输出并重定向
+
+---------------------------------------------------------------------------
+touch
+创建文件
+touch 123.txt
+--------------------------------------------------------------------------
+whereis
+whereis mysqld
+对比which mysqld
+
+类似命令 which、whereis、locate、find
+---------------------------------------------------------------------------
+which
+一般找命令用这个就对了
+which mysqld
+---------------------------------------------------------------------------
+cat
+cat /data/mysql/mysql3306/error.log | less
+cat 1.txt 2.txt >3.txt
+cat -At 1.txt
+----------------------------------------------------------------------------
+chgrp、chown
+改目录所属者和所属组
+chown mysql:mysql /data/mysql/ -R
+----------------------------------------------------------------------------
+chmod
+改读、写、执行权限
+#给脚本添加执行权限
+chmod +x /script/chongzhixuebi.sh 
+#给脚本添加全部权限
+chmod 777 /script/chongzhixuebi.sh
+----------------------------------------------------------------------------
+cp
+复制
+\cp 1.txt 2.txt
+cp /data/mysql/mysql3306/ /backup -R
+----------------------------------------------------------------------------
+cut
+文本处理命令，可以用更强大的awk替代，但也挺好用，我有时也用。
+echo "$RANDOM$(date +%N%t)"|md5sum|cut -c 15-22
+ifconfig  eth3 | grep "inet addr" | cut -c21-33
+ifconfig  eth3 | grep "inet addr" | cut -d: -f 2 | awk -F" " '{print $1}'
+
+----------------------------------------------------------------------------
+6.linux文件传输命令
+ftp 10.228.1.145
+登录ftp
+
+ftp里可以执行以下命令
+dir #列有什么文件
+get #下载文件
+put #上传文件
+bye #退出
+
+----------------------------------------------------------------------------
+7.linux磁盘管理命令
+
+cd
+cd ~
+cd -
+cd .
+cd ..
+cd script
+cd /script
+----------------------------------------------------------------------------
+df
+硬盘空间
+disk free
+#查看硬盘使用情况
+df -h
+
+#查看inode使用情况
+#有时候小文件多，会出现inode满了，但硬盘空间没有满的问题
+df -i
+
+----------------------------------------------------------------------------
+ls、dir
+#常用参数是下面这些
+ls -lahtri
+----------------------------------------------------------------------------
+du
+查看目录总大小
+du -sh /data
+----------------------------------------------------------------------------
+mkdir
+建目录
+mkdir test
+mkdir -p /hello/world
+----------------------------------------------------------------------------
+pwd
+print working directory
+----------------------------------------------------------------------------
+stat
+查看文件的Access Time、Modify Time、Change Time
+stat chongzhixuebi.sh
+----------------------------------------------------------------------------
+mount、umount
+#挂载 U盘
+#查看硬盘盘符状况
+fdisk -l （一定要，因为/dev/sdb1是按挂载顺序给出的。不是说你的U盘永远是/dev/sdb1 ！）
+mount /dev/sdb1 /mnt
+#卸载 U盘
+umount /mnt或 mount /dev/sdb1 
+
+#挂载硬盘
+1.vmware新增一个硬盘
+2.查看硬盘盘符
+fdisk -l 
+发现一个新硬盘，请注意没有分区和分区的硬盘的区别！
+3.分区，依次输入
+fdisk /dev/sdb (分区)
+n， p， 1， 回车，回车， wq
+4.
+fdisk -l 
+mkfs.ext4 /dev/sdb1 (格式化文件系统)
+5.挂载
+mount /dev/sdb1 /mnt
+df -h
+这只是临时挂载，要持久化，请写进/etc/fstab，怎么写fstab，请man fstab查看帮助。
+
+----------------------------------------------------------------------------
+8.linux磁盘维护命令
+dd
+备份克隆硬盘，做镜像等等。
+
+我很少用，有时用来测试硬盘读写性能，如下:
+#time dd if=/dev/zero bs=1024 count=1000000 of=/tmp/1Gb.file 
+
+1024000000 bytes (1.0 GB) copied, 9.46522 s, 108 MB/s
+real    0m9.503s
+user    0m0.316s
+sys     0m8.485s 
+
+读
+#time dd if=/tmp/1Gb.file bs=64k |dd of=/dev/null 
+
+1024000000 bytes (1.0 GB) copied, 9.46522 s, 108 MB/s
+real    0m9.503s
+user    0m0.316s
+sys     0m8.485s
+http://baike.baidu.com/link?url=dvyza6XVxRagR86RDt_Gi0_Lz7OaGYltpFZEDP92Iy4ud1FZ0bhASjwKEE20AMqcIvXV9s5ALdc8YHfyonj205kDiXHnD0rdoeNUMTD7YPS
+
+-------------------------------------------------------------------------------
+fdisk
+fdisk -l
+fdisk /dev/sdb
+-------------------------------------------------------------------------------
+rsync
+异步同步
+rsync -a -v  --delete /data/* /backup2/
+rsync -a -v -z /data/* root@10.228.1.145:/backup2/
+-------------------------------------------------------------------------------
+telnet
+-------------------------------------------------------------------------------
+ifconfig
+查看IP
+ifconfig
+查看指定网卡IP
+ifconfig eth0
+
+修改指定网卡IP地址
+ifconfig eth0 192.168.1.1
+
+添加多IP
+ifconfig eth0:0 192.168.1.2
+ifconfig eth0:1 192.168.1.3
+-------------------------------------------------------------------------------
+ifup、ifdown 
+开启、关闭网卡
+ifup eth0
+ifdown eth0
+-------------------------------------------------------------------------------
+netstat
+同Windows，常用参数见下面
+netstat -ntlp
+netstat -ntlpa
+-------------------------------------------------------------------------------
+ping
+ping -c 4 baidu.com
+ping baidu.com
+-------------------------------------------------------------------------------
+route
+-------------------------------------------------------------------------------
+hostname
+#修改计算机名
+hostname fander
+hostname
+#持久化修改
+vim /etc/sysconfig/network
+-------------------------------------------------------------------------------
+arp
+arp -a
+ 
+-------------------------------------------------------------------------------
+10.邮件
+mail -s "backup db total $TOTAL_DB, $FAILCOUNT DBs backup failed " 510386283@qq.com c001784@gtafe.com < /tmp/mail.txt
+-------------------------------------------------------------------------------
+11.linux其他命令
+source
+source /etc/profile
+. /etc/profile
+-------------------------------------------------------------------------------
+startx
+开启 X Windows
+vim /etc/inittab
+改成3
+startx
+-------------------------------------------------------------------------------
+vnc、rz、sz
+rz、sz命令我现在常用，请yum安装
+yum install lrzsz -y
+
